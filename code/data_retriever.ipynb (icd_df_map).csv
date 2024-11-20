@@ -1,0 +1,4953 @@
+diagnosis_code,diagnosis_desc,Frequency
+---,"Accident, industr premise / place",54
+---,Accidents,1
+---,Home accident,317
+A02.0,GE salmonella B,9
+A02.0,GE salmonella C,23
+A02.0,GE salmonella D,38
+A02.0,GE salmonella E,16
+A02.0,Salmonella GE,22
+A02.1,Salmonella sepsis,1
+A02.1,Salmonella septicemia,13
+A02.9,Salmonella infection,3
+A04.5,Campylobacter intestinal infection,3
+A04.7,"Intest infect, clostrid difficile",270
+A04.7,Pseudomembranous colitis,41
+A04.8,H. pylori GI tract infection,2
+A04.8,"Intestinal infection, clostridium",14
+A04.8,Intestine infect gram neg bacteria,3
+A04.9,Bacterial enteritis,50
+A05.3,Bowel inf vibrio parahemolyticus,7
+A08.0,Enteritis due to rotavirus,26
+A08.1,Enteritis due to norwalk virus,39
+A08.4,Enteritis due to virus,3
+A08.4,Viral gastritis,6
+A08.4,Viral gastroenteritis,305
+A09.0,Bloody diarrhea,38
+A09.0,Diarrhea presumed infectious,5
+A09.0,Enteritis/ GE presumed infectious,51
+A09.0,GE presumed infectious origin,3266
+A09.0,"Infectious colitis, enteritis & GE",2
+A09.0,Infectious diarrhea,14
+A09.0,Infectious gastroenteritis,294
+A09.0,Infective colitis,2
+A09.9,Colitis,342
+A09.9,Diarrhea,767
+A09.9,Enteritis,30
+A09.9,Gastroenteritis,2952
+A09.9,Ileitis,14
+A15.0,TB lung cavitation by micro exam,42
+A15.3,"TB lung cavitation, confirmed",15
+A15.9,Pulmonary TB by culture,102
+A15.9,Pulmonary TB by histology,17
+A15.9,Pulmonary TB by micro exam,114
+A16.2,Pulmonary tuberculosis,71
+A16.5,TB Pleura,42
+A16.9,Pulmonary TB confirmed,205
+A16.9,Tuberculosis,42
+A17.0,TB meningitis,3
+A18.0,TB bone and joints,3
+A18.0,TB joint by histology,2
+A18.0,TB of knee,2
+A18.1,Cystitis TB,2
+A18.1,GU tract TB,2
+A18.1,TB kidney by culture,3
+A18.1,TB urinary organ by culture,2
+A18.1,Tuberculous kidney,1
+A18.2,TB cervical lymph node in neck,10
+A18.2,TB lymph node,40
+A18.3,TB abdomen,14
+A18.3,TB ileitis,3
+A18.4,TB neck abscess,44
+A18.4,TB skin & soft tissue w +ve AFB,13
+A18.8,TB of organ,1
+A19.1,"Acute miliary TB, multi sites",2
+A19.9,Miliary TB,5
+A24.4,Melioidosis,27
+A30.9,Leprosy,2
+A31.0,Lung mycobacterium infection,34
+A31.1,Cutaneous mycobacterial infection,24
+A31.9,Atypical mycobacterial infection,62
+A37.9,Pneumonia in whooping cough,5
+A40.1,"Streptococcal sepsis, group B",4
+A40.3,Strepto pneumococcal septicemia,7
+A40.9,Streptococcal sepsis,13
+A40.9,Streptococcal septicemia,60
+A41.0,Staph aureus septicemia,30
+A41.1,Coagulase -ve staphy septicemia,34
+A41.2,Staphylococcal septicemia,60
+A41.4,Anaerobic septicemia,31
+A41.5,Acinetobacter septicemia,15
+A41.5,E. coli septicemia,855
+A41.5,Enterobacter septicemia,12
+A41.5,Gram negative sepsis,15
+A41.5,Gram negative septicemia,140
+A41.5,Klebsiella pneumoniae septicemia,70
+A41.5,Klebsiella septicemia,136
+A41.5,Pseudomonas septicemia,14
+A41.5,Sepsis due to Moraxella infection,9
+A41.5,Serratia septicemia,13
+A41.9,Clinical sepsis,114
+A41.9,Intra-abdominal sepsis,2
+A41.9,Sepsis,513
+A41.9,Septicemia,178
+A42.0,Pulmonary actinomycosis,8
+A42.7,Actinomycotic septicemia,2
+A42.9,Actinomycotic infection,10
+A46,Erysipelas,71
+A48.1,Legionnaires' Disease,2
+A48.8,Enterobacter infection,32
+A49.0,Staphylo aureus infection,96
+A49.0,Staphylococcus infection,34
+A49.1,Strepto pneumoniae infection,11
+A49.1,Streptococcal infection,40
+A49.1,Streptococcus group B infection,67
+A49.1,Streptococcus group C infection,2
+A49.1,Streptococcus group D infection,1
+A49.1,Streptococcus group G infection,12
+A49.1,Streptococcus milleri group infect,10
+A49.1,Streptococcus mitis group infect,14
+A49.2,Hemophilus influenza infection,107
+A49.3,Mycoplasma infection,23
+A49.8,Acinetobacter infection,50
+A49.8,Anaerobes infection,7
+A49.8,Citrobacter infection,8
+A49.8,E. coli infection,1261
+A49.8,Friedlander bacillus infection,218
+A49.8,Gram positive bacterial infection,40
+A49.8,Gram-negative bacterial infection,146
+A49.8,Helicobacter pylori infection,382
+A49.8,Hemophilus infection,16
+A49.8,Infection due to enterococcus,186
+A49.8,Moraxella infection,5
+A49.8,Proteus infection,35
+A49.8,Proteus mirabilis infection,42
+A49.8,Proteus morganii infection,7
+A49.8,Proteus species infection,20
+A49.8,Pseudomonas infection,576
+A49.9,"Arthritis, bacterial infection",6
+A49.9,Bacteremia,178
+A49.9,Bacterial infection,39
+A51.4,Secondary syphilis,2
+A52.3,Neurosyphilis,18
+A52.9,Late syphilis,13
+A53.0,Latent syphilis,3
+A53.9,Syphilis,60
+A60.0,Genital herpes,3
+A60.0,"Genital herpes, female",10
+A60.9,Anogenital herpesviral infection,1
+A63.0,Anal wart,23
+A63.0,Condyloma of cervix,1
+A63.0,"Condylomata acuminatum, female",1
+A63.0,Genital warts,7
+A64,Venereal disease,8
+A70,Chlamydia psittaci infection,11
+A75.3,Scrub typhus,11
+A86,Viral encephalitis,1
+A87.9,Viral meningitis,11
+B00.0,Eczema herpeticum,23
+B00.1,Herpes labialis,9
+B00.2,Herpetic gingivostomatitis,10
+B00.4,Herpes simplex encephalitis,7
+B00.5,Corneal herpes simplex,23
+B00.5,Herpes simplex dendritic keratitis,17
+B00.5,Herpes simplex disciform keratitis,3
+B00.5,Herpes simplex w eye complication,55
+B00.8,Herpetic whitlow,2
+B00.9,Herpes simplex infection,7
+B01.8,Chickenpox with complication,6
+B01.9,Varicella,13
+B02.1,Herpes zoster meningitis,1
+B02.2,Herpes zoster auricularis,20
+B02.2,Postherpetic neuralgia,368
+B02.2,Postherpetic trigeminal neuralgia,3
+B02.2,Ramsay Hunt syndrome,8
+B02.3,Herpes zoster dermatitis eyelid,18
+B02.3,Herpes zoster keratoconjunctivitis,2
+B02.3,Herpes zoster ophthalmicus,133
+B02.3,Herpes zoster w eye complication,76
+B02.7,Disseminated zoster,3
+B02.8,Herpes zoster with complication,10
+B02.9,Acute herpes zoster,694
+B02.9,Herpes zoster infection,1635
+B07,Cheek wart,3
+B07,Pinna wart,5
+B07,Plantar wart,7
+B07,Urethral wart,19
+B07,Viral wart,34
+B07,Viral warts,4
+B07,Wart of leg,1
+B08.5,Herpangina,2
+B09,Viral exanthem,24
+B15.9,Viral hepatitis A,19
+B16.9,Acute viral hepatitis B infection,275
+B17.1,Acute hepatitis C infection,15
+B17.2,Hepatitis E infection,36
+B17.8,Viral hepatitis,3
+B17.9,Acute viral hepatitis,2
+B18.1,Chron active type B vir hepatitis,36
+B18.1,Chron persist type B vir hepatitis,34
+B18.1,Chronic hep B,4059
+B18.2,Chronic active hepatitis C,7
+B18.2,Chronic hepatitis C infection,318
+B18.2,Viral hepatitis C,95
+B19.9,Viral hepatitis,49
+B24,Acquire immunodeficiency syndro,12
+B24,HIV infection,42
+B25.0,Pneumonia in cytome inclusion dis,13
+B25.9,CMV Infection,157
+B27.9,Infectious mononucleosis,7
+B30.9,Viral conjunctivitis,13
+B33.8,Human metapneumovirus infection,25
+B34.0,Infection by adenovirus,3
+B34.1,Enterovirus infection,49
+B34.8,Human papilloma virus infection,301
+B34.8,Parainfluenza infection,42
+B34.8,Resp syncytial virus infection,70
+B34.8,Rhinovirus infection,68
+B34.8,Viral infection,2852
+B34.9,Influenza like illness,269
+B34.9,Viral disease,10
+B34.9,Viral infection,55
+B35.0,Capitis tinea,15
+B35.1,Dermatophytosis of nail,16
+B35.1,Onychomycosis,64
+B35.1,Tinea of nail,16
+B35.2,Dermatophytosis of hand,1
+B35.2,Tinea of hand,1
+B35.3,Tinea of foot,131
+B35.4,Tinea of body,98
+B35.6,Tinea cruris,8
+B35.6,Tinea of groin and perianal area,51
+B35.9,Dermatophytosis,38
+B35.9,Tinea,20
+B37.0,Oral thrush,12
+B37.1,Candidal pneumonia,4
+B37.1,Candidiasis of lung,57
+B37.2,Candidal otitis externa,17
+B37.3,Candidiasis of vagina,1
+B37.3,Candidiasis of vulva & vagina,16
+B37.4,Candidiasis urogenital tract,2
+B37.7,Candidemia,7
+B37.8,Candidiasis of esophagus,13
+B37.9,Candidiasis,13
+B44.9,Aspergillosis,3
+B44.9,Pneumonia in aspergillosis,12
+B45.0,Pulmonary cryptococcosis,11
+B47.9,Mycetoma,8
+B48.8,Dematiacious fungi infection,5
+B49,Mycosis,8
+B59,Pneumocystis carinii infection,15
+B59,Pneumocystis pneumonia,2
+B66.1,Clonorchiasis,2
+B83.9,Helminth infection,1
+B86,Crusted scabies,4
+B86,Scabies,96
+B89,Infectious & parasitic diseases,77
+B90.1,"Old TB, affecting GU system",4
+B90.2,Old TB affect bone & jt,8
+B90.9,Late effect of respiratory TB,253
+B90.9,Late effects of tuberculosis,24
+B91,Late effect acute polio,7
+B99,Infect w resist to mult spec drugs,291
+B99,Infection resistant to penicillins,17
+B99,Infection w multi drug resistance,1
+B99,Infectious conjunctivitis,4
+B99,Infectious disease,14
+C00.1,Cancer lower lip vermilion border,38
+C01,Cancer of tongue - base,26
+C02.0,"Cancer tongue, dorsal surface",70
+C02.1,Cancer tip+ lateral border tongue,75
+C02.2,Cancer of tongue - ventral,14
+C02.8,Cancer of tongue,4
+C02.9,Cancer of tongue,49
+C03.0,Cancer upper gum,1
+C03.1,Cancer of lower gum,51
+C05.0,Cancer of hard palate,1
+C05.1,Cancer of soft palate,3
+C06.0,Cancer of cheek mucosa,45
+C06.2,Cancer of retromolar area,19
+C06.8,Cancer of mouth,1
+C07,Cancer of parotid gland,30
+C08.0,Cancer submandibular gland,12
+C09.9,Cancer of tonsil,10
+C10.8,CA oropharynx,16
+C10.9,CA oropharynx,3
+C11.9,Cancer of nasopharynx,323
+C12,CA pyriform sinus,19
+C13.0,"CA hypopharynx, postcricoid",5
+C13.2,CA posterior hypopharyngeal wall,2
+C15.0,Cancer esophagus - cervical,12
+C15.1,Cancer esophagus - thoracic,71
+C15.8,Cancer of oesophagus,2
+C15.9,Cancer of esophagus,10
+C16.0,CA cardio-esophageal junction,18
+C16.0,Cancer of stomach - cardia,45
+C16.1,Cancer of stomach - fundus,3
+C16.2,Cancer of stomach - body,54
+C16.3,Cancer of pyloric antrum,108
+C16.4,Cancer of stomach - pylorus,18
+C16.5,Cancer stomach lesser curve,39
+C16.6,Cancer stomach greater curve,29
+C16.8,Cancer of stomach,1
+C16.9,Cancer of stomach,120
+C17.0,Cancer of duodenum,18
+C17.2,Cancer of ileum,28
+C18.0,Cancer of cecum,182
+C18.1,Cancer appendix vermiformis,8
+C18.2,Cancer of ascending colon,334
+C18.3,Cancer hepatic flexure of colon,160
+C18.4,Cancer of transverse colon,155
+C18.5,Cancer splenic flexure of colon,38
+C18.6,Cancer of descending colon,136
+C18.7,Cancer of sigmoid colon,541
+C18.8,"Cancer colon, continguous",5
+C18.9,Cancer of colon,89
+C19,Cancer rectosigmoid junction,172
+C20,Cancer of rectum,729
+C21.1,Cancer of anal canal,55
+C22.1,Cancer intrahepatic bile duct,39
+C22.1,Cholangiocarcinoma,56
+C22.9,Cancer liver,25
+C22.9,"Cancer of liver, primary",2717
+C23,Cancer of gallbladder,16
+C24.0,Cancer extrahepatic bile ducts,5
+C24.1,Cancer of ampulla of Vater,26
+C25.0,Cancer of pancreas - head,92
+C25.1,Cancer of pancreas - body,5
+C25.2,Cancer of pancreas - tail,34
+C25.9,Cancer of pancreas,15
+C26.9,Cancer digest organ& peritoneum,5
+C26.9,Cancer of digestive organ,28
+C30.0,Cancer of nasal cavity,2
+C31.0,Cancer of maxillary sinus,2
+C32.0,"CA larynx - glottis, Lt",17
+C32.0,"CA larynx - glottis, Rt",26
+C32.0,"CA larynx - glottis, bilateral",4
+C32.0,Ca larynx - glottis,3
+C32.0,Malignant neo glottis,55
+C32.1,"CA larynx - supraglottis, left",15
+C32.1,"CA larynx - supraglottis, right",16
+C32.1,CA larynx supraglottis bilateral,7
+C32.1,Cancer of larynx - supraglottis,37
+C32.2,Cancer of larynx - subglottis,1
+C32.9,Cancer of larynx,2
+C33,Cancer of trachea,2
+C34.0,Cancer of main bronchus,6
+C34.1,"CA bronchus - upper lobe, left",2
+C34.1,"Cancer upper lobe, bronchus/ lung",924
+C34.2,"Cancer middle lobe, bronchus/ lung",85
+C34.3,"Cancer lower lobe, bronchus/ lung",338
+C34.8,"Trachea, bronchus & lung carcinoid",2
+C34.9,Cancer of bronchus and lung,258
+C34.9,Cancer of lung,55
+C37,Cancer of thymus,7
+C38.1,Mal neo ant mediastinum,4
+C38.3,Cancer of mediastinum,2
+C40.0,Mal neo long bones arm,4
+C40.2,Mal neo long bones leg,14
+C41.2,Cancer vertebra not sacrum+ coccyx,1
+C43.3,"Skin melanoma, face",7
+C43.5,"Skin melanoma - trunk, not scrotum",6
+C43.5,"Skin melanoma, chest wall",1
+C43.7,"Skin melanoma LL, not hip",3
+C43.7,"Skin melanoma, foot",20
+C43.9,Skin melanoma,18
+C44.0,Cancer of skin - lip,20
+C44.1,Cancer of skin - eyelid,3
+C44.1,Malig neo skin eyelid,39
+C44.2,CA skin ear+ ext audit canal,62
+C44.3,BCC face,1
+C44.3,Cancer of skin - face,205
+C44.4,Cancer of scalp and skin of neck,82
+C44.5,CA perianal skin,14
+C44.5,Malig neo skin trunk not scrotum,35
+C44.6,Skin cancer of upper limb,21
+C44.7,Cancer skin lower limb,104
+C44.8,Cancer of skin,1
+C44.9,Cancer of skin,8
+C44.9,"Extramammary Paget's disease, skin",3
+C48.0,Cancer of retroperitoneum,7
+C48.2,Cancer of peritoneum,6
+C48.2,Carcinoma of peritoneum,7
+C49.0,Mal neo soft/ conn tissue H&N,50
+C49.1,Cancer connect+ soft tissue UL,49
+C49.2,Cancer connect+ soft tissue LL,36
+C49.3,Cancer connect/ soft tissue thorax,3
+C49.5,Cancer connect/ soft tissue pelvis,8
+C49.9,Cancer connective+ soft tissue,36
+C50.0,CA nipple+ areola female breast,13
+C50.0,Mal neo breast - nipple,1
+C50.0,Paget's disease of nipple,1
+C50.1,Mal neo female breast- central,54
+C50.2,CA female breast upper-inner quad,62
+C50.3,CA female breast lower-inner quad,122
+C50.4,CA female breast upper-outer,355
+C50.5,"Cancer breast, female lower-outer",84
+C50.8,Malign neopl breast,6
+C50.9,"CA breast - female, left",6
+C50.9,Cancer male breast,30
+C50.9,Cancer of female breast,1079
+C50.9,"Cancer of male breast, left",1
+C50.9,"Cancer of male breast, right",9
+C51.0,Mal neo labia majora,5
+C51.2,Malign neopl clitoris,7
+C52,Malign neopl vagina,3
+C53.0,CA endocervix,57
+C53.1,CA exocervix,51
+C53.9,Cancer of cervix uteri,102
+C54.9,Cancer of body of uterus,67
+C54.9,Carcinoma of corpus uteri,1
+C54.9,Malig neo corpus uteri not isthmus,172
+C56,Malign neopl ovary,45
+C57.0,CA fallopian tube,1
+C57.4,Cancer of uterine adnexa,4
+C57.9,CA female genital organ,1
+C60.1,Malig neo glans penis,27
+C60.2,Malig neo penis body,9
+C60.9,Carcinoma of penis,7
+C61,CA prostate,452
+C61,Cancer of prostate,1742
+C64,"CA kidney, bilateral",9
+C64,"Cancer of kidney, left",207
+C64,"Cancer of kidney, right",82
+C64,Carcinoma of kidney,42
+C64,Malig neopl kidney,21
+C64,Renal cell carcinoma,171
+C65,"CA Kidney - Renal pelvis, left",22
+C65,"Cancer of renal pelvis, right",10
+C65,Carcinoma of renal pelvis,10
+C66,"Ca Ureter, Lt",15
+C66,"Cancer of ureter, right",3
+C67.0,Cancer urinary bladder - trigone,16
+C67.1,CA urinary bladder - dome,17
+C67.2,CA urinary bladder lateral wall,133
+C67.3,CA urinary bladder anterior wall,12
+C67.4,Cancer urinary bladder poster wall,15
+C67.5,Cancer urinary bladder neck,8
+C67.6,Cancer of ureteric orifice,8
+C67.8,"Ca urinary bladder, other site",86
+C67.9,Ca urinary bladder,136
+C67.9,Cancer of urinary bladder,167
+C68.0,Cancer of prostatic urethra,2
+C68.0,Cancer of urethra,17
+C68.0,Carcinoma of urethra,1
+C68.8,Cancer of kidney and ureter,15
+C69.0,Mal neo conjunctiva,6
+C71.1,Malig neo frontal lobe,5
+C71.2,Malig brain tumor - temporal lobe,1
+C71.3,Mal neo parietal lobe,1
+C73,Malign tumour thyroid,422
+C73,Papillary ca thyroid,1
+C74.0,"Mal neoplasm, adrenal cortex",2
+C74.9,Cancer of adrenal gland,4
+C74.9,"Pheochromocytoma, malignant",3
+C76.0,Mal neo head / face / neck,4
+C76.2,Malig neo abdomen,4
+C76.3,Pelvic recurrence,1
+C77.0,Cervical LN metastasis,85
+C77.0,Metastatic LN - head & neck,45
+C77.5,Met LN intrapelvic,5
+C77.8,Metastasis to LN multiple sites,1
+C77.9,LN metastasis,2
+C77.9,Secondary to distant LN,572
+C77.9,Secondary to regional LN,221
+C78.0,Lung metastasis,39
+C78.0,Pulmonary secondary,593
+C78.0,Secondary ca lung,2
+C78.2,Malignant pleural effusion,77
+C78.2,Metastasis to pleura,424
+C78.4,Second malig tumor small bowel,4
+C78.6,Malignant Ascites,40
+C78.6,Met peritoneum,1
+C78.6,Metastasis to peritoneum,292
+C78.7,Liver metastasis,47
+C78.7,Metastasis to liver,762
+C78.7,Secondary ca liver,12
+C79.0,Metastasis to kidney,3
+C79.1,Metas carcinoma urinary bladder,1
+C79.2,Metastasis to skin,7
+C79.3,Brain metastasis,299
+C79.4,Second malign tumor nervous system,4
+C79.5,Bone metastasis,964
+C79.5,Metastasis skull/vertebrae,1
+C79.5,Metastasis to vertebrae,14
+C79.5,Secondary malig neo bone,233
+C79.7,Metastasis to adrenal,171
+C79.8,Mestastasis to soft tissue,24
+C79.8,Metastasis to specified site,73
+C79.8,Secondary malignant tumour,3
+C79.9,Carcinomatosis,17
+C79.9,Metastatic adenocarcinoma,23
+C80.0,"Cancer, primary unknown",17
+C80.0,Metast carcinoma unknown primary,33
+C80.9,Cancer,19
+C80.9,Chordoma,31
+C80.9,Disseminated cancer,1
+C80.9,Invasive transition cell carcinoma,2
+C80.9,Metastasis to multiple sites,15
+C80.9,Squamous cell carcinoma,12
+C81.1,"Hodgkin disease, nodular sclerosis",45
+C81.9,"Hodgkin disease, multi sites",2
+C81.9,Hodgkin's lymphoma,106
+C82.9,Nodular lymphoma,52
+C82.9,"Nodular lymphoma, abdom",2
+C82.9,"Nodular lymphoma, head",3
+C82.9,"Nodular lymphoma, inguinal",7
+C83.7,Burkitt's lymphoma,18
+C84.0,Mycosis fungoides,4
+C84.8,Cutaneous T-cell lymphoma,1
+C85.1,B-cell lymphoma,9
+C85.9,"Lymphoma, multi sites",26
+C85.9,Lymphosarcoma,267
+C85.9,Lymphosarcoma and reticulosarcoma,19
+C85.9,"Lymphosarcoma, abdominal",18
+C85.9,"Lymphosarcoma, axilla",79
+C85.9,"Lymphosarcoma, head",3
+C85.9,"Lymphosarcoma, multiple",22
+C85.9,Malig lymphoma axilla+ UL LN,44
+C85.9,Malig lymphoma extranod/ solid org,504
+C85.9,Malig lymphoma head+ neck LN,6
+C88.0,Waldenstrom's macroglobulinaemia,101
+C88.4,MALT-lymphoma,20
+C90.0,Multiple myeloma,2115
+C90.0,Multiple myeloma in remission,17
+C90.0,Myeloma,73
+C90.0,Myeloma kidney,3
+C90.1,Plasma cell leukemia,1
+C90.2,Plasmacytoma,35
+C91.0,Ac lymph leuk in remissn,66
+C91.0,Acute lymphoid leukemia,21
+C91.1,CLL in remission,7
+C91.1,Chronic lymphocytic leukemia,134
+C92.0,AML,214
+C92.0,AML in complete remission,21
+C92.1,CML,330
+C92.1,CML in complete remission,372
+C93.1,Chronic myelomonocytic leukemia,22
+C94.6,Myelodysplastic/proliferative dis,14
+C95.7,Leukemia,5
+C95.9,Leukemia,68
+C95.9,Leukemia in remission,1
+C96.6,Langerhan cell histiocytosis,2
+D01.9,Ca in situ digestive organ,6
+D02.0,Ca in situ larynx,19
+D02.2,Ca in situ bronchus/lung,10
+D04.3,Ca in situ skin face,8
+D04.5,Ca in situ skin trunk not scrotum,9
+D04.6,Ca in situ skin arm,2
+D05.9,Carcinoma in situ of breast,80
+D06.9,CIN III (Ca in situ cervix),23
+D06.9,CIN III w severe dysplasia,5
+D06.9,Ca in situ cervix uteri,32
+D07.1,Paget's disease of vulva,34
+D07.1,VIN III (Ca in situ vulva),17
+D07.2,VAIN III (Ca in situ vagina),9
+D07.3,Ca in situ female genital organ,10
+D09.0,Ca in situ bladder,6
+D09.1,Ca in situ urinary,16
+D10.1,Papilloma of tongue,3
+D10.5,Benign tumor oropharynx,14
+D11.0,Parotid Warthin's tumor,46
+D11.0,Parotid adenoma,14
+D11.9,Ben neo major salivary,3
+D11.9,"Pleomorphic adenoma, saliva glands",1
+D12.0,Benign neoplasm cecum,14
+D12.2,Adenoma of ascending colon,15
+D12.5,"Sigmoid polyp, adenoma",30
+D12.6,Benign neoplasm of bowel,28
+D12.6,"Colonic polyposis, adenoma",86
+D12.8,Adenomatous polyp of rectum,6
+D13,Benign neoplasm digestive system,1
+D13.0,Benign neo esophagus,11
+D13.0,Esophageal leiomyoma,26
+D13.1,Benign neoplasm stomach,6
+D13.1,Gastric stromal tumor,50
+D13.1,Leiomyoma of Stomach,3
+D13.2,Benign neoplasm of duodenum,6
+D13.2,Benign neoplasm small bowel,1
+D13.2,Duodenal adenoma,15
+D13.3,Small bowel stromal tumor benign,2
+D13.4,Benign Neoplasm - Liver,3
+D13.5,Benign tumor ampulla of Vater,13
+D13.5,Gallbladder adenomyomatosis,6
+D13.6,Benign neoplasm of pancreas,6
+D13.6,Benign neoplasm pancreas,4
+D13.6,Pancreatic cystadenoma,1
+D14.0,"Benign neo - mid ear, nasal, sinus",4
+D14.1,Papilloma of larynx,4
+D14.3,Benign Neoplasm - Lung,9
+D14.3,Benign tumor of bronchus and lung,3
+D15.0,Benign neoplasm thymus,2
+D15.0,Thymoma,4
+D15.1,Cardiac myxoma,11
+D15.2,Benign neo mediastinum,1
+D16.1,Enchondroma of hand bone,1
+D16.2,Benign tumor long bone lower limb,15
+D16.3,Benign tumor short bone lower limb,4
+D16.4,"Odontoge tumor, benign - upper jaw",9
+D16.7,"Benign neo rib, sternum, clavicle",1
+D16.7,Benign tumor bone & joint,10
+D16.9,Osteoma,1
+D17,Lipoma,12
+D17.0,Lipoma skin face,10
+D17.2,"Lipoma, arm",7
+D17.3,Lipoma skin / subcutaneous tissue,182
+D17.5,Jejunal lipoma,6
+D17.5,Lipoma intra-abdominal,26
+D17.5,Renal angiomyolipoma,90
+D17.6,Lipoma spermatic cord,12
+D17.9,Intramuscular lipoma,16
+D17.9,Lipoma,34
+D18,Hemangioma/lymphangioma,2
+D18.0,Hemangioma,68
+D18.0,Hemangioma Skin & Subcu,18
+D18.0,Hemangioma intracranial,13
+D18.0,Hemangioma of spinal column,3
+D18.0,Hemangioma retina,15
+D18.0,Liver hemangioma,110
+D21.1,Ben tumor conn+ soft tis upp limb,3
+D21.2,Ben neo soft tissue lower limb,2
+D21.2,Fibroma lower limb,10
+D21.6,"Fibroma, body",1
+D21.9,Benign tumor connect/ soft tissue,21
+D21.9,Granular cell tumor,2
+D21.9,Subungual fibroma,2
+D22.3,Facial mole,1
+D22.3,Pigmented mole face,3
+D22.5,Nevus chest,16
+D22.9,Mole,12
+D22.9,Nevus,49
+D22.9,Pigmented mole,34
+D23.1,Benign eyelid tumor,112
+D23.1,Benign tumor eyelid+ canthus,17
+D23.1,Papilloma lower eyelid,13
+D23.2,Benign neo skin ear,2
+D23.3,Benign neo skin face,20
+D23.4,Scalp papilloma,3
+D23.5,Papilloma over groin,5
+D23.7,Benign tumor skin of leg,1
+D23.9,Skin papilloma,55
+D25.0,Submuco leiomyoma-uterus,16
+D25.1,Intramural leiomyoma uterus,134
+D25.2,Subserous leiomyoma of uterus,78
+D25.9,Leiomyoma of uterus,96
+D25.9,Uterine fibroid polyp,26
+D27,Benign neoplasm ovary,5
+D27,Dermoid cyst of ovary,10
+D29.0,Benign neoplasm penis,18
+D29.1,Benign neoplasm prostate,1
+D30.0,AML kidney,16
+D31.0,Benign neo conjunctiva,17
+D31.5,Ben neo lacrimal gland,27
+D31.6,Benign tumor of orbit,42
+D32.0,Benign cerebral meningioma,34
+D32.1,Ben neo spinal meninges,37
+D33.3,Benign neo cranial nerve,27
+D33.4,Benign neo spinal cord,3
+D34,Benign neoplasm thyroid,45
+D35.0,Adrenal Adenoma,106
+D35.0,Benign adrenal incidentoma,152
+D35.0,Benign neoplasm adrenal,3
+D35.0,"Pheochromocytoma, benign, adrenal",2
+D35.0,"Pheochromocytoma, benign-L adrenal",5
+D35.0,"Pheochromocytoma, benign-R adrenal",90
+D35.1,Benign neo parathyroid,46
+D35.1,Parathyroid adenoma,113
+D35.2,Benign tumor pituitary,6
+D35.2,Benign tumor pituitary gland,15
+D35.2,Pituitary microadenoma,30
+D35.2,Prolactinoma,27
+D36.1,Benign tumor of peripheral nerve,8
+D36.1,Neurilemmoma,10
+D36.1,Neurofibroma,1
+D36.1,Neuroma,1
+D36.9,Papilloma,83
+D37.0,Parotid tumor,117
+D37.0,Submandibular gland tumor,30
+D37.1,"GIST, stomach",127
+D37.2,"GIST, duodenum",36
+D37.2,"GIST, small bowel",4
+D37.2,Small bowel tumor,3
+D37.5,Rectal tumor,30
+D37.6,Liver tumor,189
+D37.7,Pancr intraduct papil mucin neo,30
+D37.7,Tumor of endocrine pancreas,2
+D37.7,Unc behav neo intestine,21
+D38.0,Vocal cord tumor,34
+D38.1,Unc behav neo lung,23
+D38.2,"Unc beh tumur, pleura thym mediast",6
+D38.6,Uncertain behav tumor respirat org,7
+D39.1,Ovarian tumor,48
+D39.1,Unc behav neo ovary,4
+D40.0,Unc behav neo prostate,5
+D40.1,Testicular tumor,3
+D41.0,Kidney tumor,332
+D41.2,Ureteral tumor,31
+D41.3,Urethral tumor,7
+D41.4,Bladder neoplasm,12
+D41.4,Papillary growth bladder,12
+D41.9,Genitourinary neoplasm,3
+D42.9,Unc behav neo meninges,151
+D43.2,Brain tumor,3
+D43.2,Unc beh neo brain / spinal,69
+D43.9,Unc beh neo nerv sys,31
+D44.0,Thyroid follicular tumor,2
+D44.1,Adrenal tumor,81
+D44.3,Unc behav neo pituitary,88
+D44.7,Glomus tympanicum tumor,12
+D44.7,Paraganglioma,32
+D44.9,Endocrine/ nerve system tumor,4
+D44.9,Uncer neo endocrine,21
+D45,PRV,31
+D45,"Polycythaemia, Primary",52
+D45,Polycythemia vera,130
+D46.1,RARS,17
+D46.6,"MDS, abnormal del 5q chromosome",1
+D46.9,Myelodysplastic syndrome,642
+D47.1,Myeloproliferative disease,258
+D47.2,Benign monoclonal gammopathy,11
+D47.2,Light chain disease,2
+D47.2,Monoclon gammopa undeter signif,28
+D47.2,Monoclonal paraproteinemia,51
+D47.2,POEMS syndrome,36
+D47.3,Essential thrombocythemia,93
+D47.3,Thrombocythemia,84
+D47.4,Myelofibrosis,277
+D47.7,Castleman's disease,51
+D47.9,Lymphoproliferative disease,160
+D47.9,Plasma cell tumour,1
+D48.1,Giant cell tumor tendon,20
+D48.1,Neoplasm of soft tissue,8
+D48.1,Synovial chondromatosis,13
+D48.1,Uncertain behav tumor soft tissue,3
+D48.3,Retroperitoneal tumor,11
+D48.4,Peritoneal tumor,2
+D48.5,Bone/skin neoplasm,11
+D48.5,Unc behav neo skin,3
+D48.6,Breast tumor,6
+D48.6,"Phylloides tumor, breast",2
+D48.7,Chest wall tumor,3
+D48.7,Neoplasm of eye,3
+D48.7,Pelvic tumor,15
+D50.0,"Iron defic anemia, chr blood loss",744
+D50.8,Iron def anemia dietary,5
+D50.8,Microcytic anemia,42
+D50.9,Iron deficiency anemia,2379
+D51.0,Pernicious anemia,237
+D51.0,Vit B12 def anemia intrinsic fact,4
+D51.8,"B12 defic anemia, post-gastrectomy",16
+D51.8,Vitamin B12 deficiency anemia,239
+D51.9,Anemia megaloblastic B12,120
+D52.0,Anemia megaloblastic fol,1
+D52.0,Dietary folate deficiency anemia,7
+D52.9,Folate-deficiency anemia,256
+D52.9,Macrocytic anemia,113
+D53.1,Anemia megaloblastic cause unkno,1
+D53.1,Megaloblastic anemia,4
+D53.9,Deficiency anemia,4
+D55.0,Anemia G6PD deficiency,2
+D55.0,G6PD deficiency,5
+D56.0,Alpha thalassemia trait,463
+D56.0,Hb H constant spring thalassemia,37
+D56.0,Hemoglobin H disease,234
+D56.0,Hemoglobin-Bart's disease,9
+D56.0,"Thalassemia, alpha",38
+D56.1,Thalassemia major beta,97
+D56.1,"Thalassemia, beta",83
+D56.1,"Thalassemia, beta intermedia",6
+D56.3,Thalassaemia trait,212
+D56.3,Thalassemia trait beta,336
+D56.4,Hereditar persist fetal hemoglobin,5
+D56.8,Hb E thalassaemia,12
+D56.9,Thalassemias,39
+D57.3,Sickle-cell trait,4
+D58.9,Hemolytic anemia,41
+D58.9,Hered hemolytic anem,16
+D59.1,Autoimmune hemolytic anemia,81
+D59.1,Cold antibody hemolytic anemia,31
+D59.1,Idiopath autoimm hemolytic anemia,3
+D59.3,Atypical hemolytic uremic syndrome,8
+D59.3,Hemolytic-uremic syndrom,18
+D59.5,PNH,46
+D59.6,Acute intravascular hemolysis,3
+D59.9,Acquired hemolytic anemia,30
+D60.0,Chronic acquired pure RBC aplasia,10
+D60.9,Acquired pure red cell aplasia,15
+D60.9,Red cell aplasia,28
+D61.3,Idiopathic aplastic anemia,16
+D61.9,Aplastic anemia,336
+D61.9,Pancytopenia,587
+D61.9,Severe aplastic anemia,77
+D62,Acute posthemorrhage anemia,72
+D64.8,Anemia due to chronic illness,1229
+D64.9,"Anaemia, unknown cause",55
+D64.9,Anemia,6717
+D65,Disseminate intravasc coagulation,31
+D66,Hemophilia A,1
+D68.0,von Willebrand disease,22
+D68.2,Congen deficiency of clot factors,4
+D68.3,Circulating Anticoagulan,8
+D68.4,"Coagulopathy, acquired",6
+D68.5,Protein C deficiency,5
+D68.5,Protein S deficiency,80
+D68.6,Anti-phospholipid syndrome,157
+D68.6,Primary antiphospholipid syndrome,82
+D68.8,Acquired hemophilia,12
+D68.9,"APTT, prolonged",10
+D68.9,Bleeding tendency,116
+D68.9,Coagulation defect,35
+D68.9,Prolonged coagulation time,1
+D69.0,Henoch-Schonlein purpura,62
+D69.1,Platelet dysfunction,1
+D69.1,Qualitative platelet defects,19
+D69.2,Nonthrombocytopenic purpura,36
+D69.2,Senile purpura,3
+D69.3,ITP,375
+D69.4,Primary thrombocytopenia,1
+D69.4,Thrombocytopenic purpura,13
+D69.5,"Immune thrombocytopenia, secondary",16
+D69.5,Second thrombocytopenia,2
+D69.5,Thrombocytop splenic,16
+D69.6,Thrombocytopenia,787
+D69.6,"Thrombocytopenia, Immune",4
+D70,Agranulocytosis,4
+D70,Leucopenia,47
+D70,Neutropenia,104
+D72.1,Eosinophilia,3
+D72.8,Leukocytosis,88
+D72.8,Lymphocytopenia,2
+D72.8,Lymphocytosis,42
+D72.8,Monocytosis,18
+D72.8,Plasmacytosis,3
+D72.9,WBC disease,59
+D73.1,Hypersplenism,1
+D73.2,Chr congest splenomegaly,2
+D73.5,Splenic infarction,1
+D74.9,Methemoglobinemia,9
+D75.1,Erythrocytosis,70
+D75.1,Secondary polycythemia,68
+D75.8,Primary thrombocytosis,34
+D75.8,Secondary thrombocytosis,22
+D75.9,Cytopenia,42
+D75.9,Disease blood + blood-form organ,101
+D75.9,Disease of blood,17
+D76.3,Chronic histiocytosis X,1
+D89.0,Polyclon hypergammaglobu,11
+D89.1,Paraproteinemia,185
+D89.9,IgG4 related systemic disease,84
+D89.9,Immunosuppression,1
+E03.1,Congenital hypothyroidsm,1
+E03.1,Thyroid hormone resistance syndrom,7
+E03.2,Iatrogenic hypothyroidism,1
+E03.8,Secondary Hypothyroidism,6
+E03.9,Hypothyroidism,1624
+E03.9,Subclinical hypothyroidism,72
+E04,Simple goitre,6
+E04.0,Diffuse goiter,9
+E04.0,Diffuse simple goiter,1
+E04.1,Colloid goiter,1
+E04.1,Cyst of thyroid,71
+E04.1,Follicular lesion of thyroid,18
+E04.1,Nontoxic uninodular goiter,253
+E04.1,Thyroid cyst,45
+E04.1,Thyroid nodule,58
+E04.2,Multinodular goiter,69
+E04.2,Nontoxic multinodular goiter,127
+E04.9,Goiter,194
+E04.9,Substernal goiter,28
+E05,Thyrotoxicosis,5
+E05.0,Graves' Disease,7
+E05.0,Thyrotoxic exophthalmos,7
+E05.0,Toxic diffuse goiter,489
+E05.2,Toxic multinodular goiter,43
+E05.9,Hyperthyroidism,297
+E05.9,Subclinical hyperthyroidism,3
+E05.9,Thyrotoxicosis,979
+E06.1,Subacute thyroiditis,14
+E06.3,Chr lymphocyt thyroidit,113
+E06.3,Hashimoto's thyroiditis,10
+E06.9,Thyroiditis,16
+E07.8,Non thyroidal illness,13
+E07.9,Dysthyroid eye disorder,38
+E07.9,Thyroid Mass,74
+E07.9,Thyroid disease,32
+E10.1,IDDM with ketoacidosis,7
+E10.1,Uncontrol type I DM ketoacidosis,3
+E10.6,Type I DM with hyperglycemia,18
+E10.6,Type I DM with hypoglycemia,43
+E10.6,Uncontrol type I DM hyperglycemia,4
+E10.6,Uncontrol type I DM w hypoglycemia,1
+E10.9,Type I DM,208
+E10.9,Uncontrolled type I DM,15
+E11.0,Type II DM with hypoglycaemic coma,7
+E11.0,Type II DM with ketoacidotic coma,6
+E11.0,Uncontrol type II DM hyperosm coma,6
+E11.0,Uncontrol type II DM ketoacid coma,8
+E11.1,Type II DM with ketoacidosis,78
+E11.1,Uncontrol type II DM ketoacidosis,42
+E11.3,NIDDM ophthalmic manifes,2
+E11.3,NIDDM with opthalmic Cx,23
+E11.3,Type II DM with maculopathy,4
+E11.3,Type II DM+ pre-prolif retinopathy,2
+E11.6,NIDDM w specified manifest,1
+E11.6,NIDDM with hyperglycaemia,1292
+E11.6,NIDDM with hyperosmolarity,4
+E11.6,NIDDM with hypoglycemia,1829
+E11.6,Uncontro type II DM hyperglycaemia,2972
+E11.6,Uncontrol type II DM hyperosmolar,58
+E11.6,Uncontrol type II DM hypoglycemia,27
+E11.8,Type II DM with complication,12
+E11.8,Uncontrol type II DM complication,55
+E11.9,Type II DM,27182
+E14,Diabetes mellitus,12
+E14.1,Diabetic ketoacidosis,7
+E14.3,Prolif diab retinopathy,18247
+E14.6,DM with hyperglycemia,52
+E14.6,DM with hypoglycemia,175
+E14.6,Uncontrol DM with hyperosmolarity,2
+E14.6,Uncontroll DM with hyperglycaemia,34
+E14.8,DM with complication,1
+E14.9,Diabetes mellitus,1284
+E14.9,Neuropathy in diabetes,845
+E16.1,"Hypoglycemia, reactive",182
+E16.1,Non-DM related hypoglycemia,18
+E16.2,Hypoglycemia,2628
+E20.0,"Hypoparathyroidism, Idio",8
+E20.9,Hypoparathyroidism,54
+E21.0,Primary hyperparathyroidism,290
+E21.1,Secondary hyperparathyroidism,14
+E21.3,Hyperparathyroidism,128
+E21.5,Parathyroid disorder,17
+E22.0,Acromegaly,149
+E22.1,Hyperprolactinaemia,13
+E22.2,SIADH,277
+E23.0,Hypogonadotropic hypogonadism,43
+E23.0,Hypopituitarism,6
+E23.0,Panhypopituitarism,134
+E23.0,Pituitary Apoplexy,21
+E23.0,Sheehan's syndrome,31
+E23.2,Cranial diabetes insipidus,8
+E23.2,Cranial diabetes insipidus post OT,17
+E23.2,Diabetes insipidus,21
+E23.6,Empty Sella Syndrome,129
+E23.6,Empty sella syn by Rathke cle cyst,6
+E23.6,Rathke's pouch cyst,53
+E23.7,Disorder of pituitary gland,4
+E23.7,Pituitary disorder,95
+E24.0,Cushing's disease,26
+E24.2,Iatrogenic Cushing's syndrome,460
+E24.9,Cushing's syndrome,314
+E25.0,Congenital adrenal hyperplasia,28
+E26.0,Conn's syndrome,94
+E26.0,Primary aldosteronism,347
+E26.1,Secondary hyperaldosteronism,2
+E26.9,Hyperaldosteronism,15
+E27.1,Addison's Disease,52
+E27.2,Addisonian Crisis,22
+E27.4,Adrenal hypofunction,35
+E27.4,Corticoadrenal insufficiency,420
+E27.4,Secondary adrenal insufficiency,57
+E27.8,Adrenocortical hyperplasia,5
+E27.8,Nodular adrenal cortex,18
+E27.9,Adrenal disorder,8
+E28.3,"Ovarian Failure, Premature",40
+E28.3,Premature Menopause,7
+E29.1,"Primary hypogonadism, male",11
+E32.8,Thymus cyst,8
+E34.0,Carcinoid syndrome,19
+E34.9,Endocrine disorder,171
+E51.2,Wernicke's encephalopathy,36
+E51.9,Thiamine deficiency,1
+E53.8,Comb deg cord,11
+E53.8,Vitamin B12 deficiency,1053
+E53.9,Vitamin B deficiency,103
+E53.9,Vitamin B-complex deficiencies,34
+E55.9,"Hypercalcemia, vit D related",9
+E55.9,Vitamin D Deficiency,28
+E56.9,Vitamin deficiency,62
+E61.1,Iron deficiency,115
+E66.2,Pickwickian Syndrome,26
+E66.8,Morbid obesity,243
+E66.9,Obesity,2517
+E66.9,Overweight,192
+E72.0,Fanconi syndrom-hyperaminoaciduria,66
+E72.2,Hyperammonemia,1
+E72.5,Hyperglycinemia,17
+E72.5,Nonketotic hyperglycinemia,1
+E75.2,Fabry's disease,21
+E75.5,Xanthomatosis,2
+E78.0,Hypercholesterolemia,37
+E78.0,Pure hypercholesterolemia,782
+E78.1,Pure hyperglyceridemia,63
+E78.2,Mixed hyperlipidemia,194
+E78.5,Familial hyperlipidemia,48
+E78.5,Hyperlipidemia,17324
+E78.9,Lipid metabolic disorder,89
+E79.0,Hyperuricaemia,29
+E80.4,Gilbert syndrome,20
+E83.1,Hemochromatosis,10
+E83.1,Secondary hemosiderosis,4
+E83.4,Hypomagnesaemia,90
+E83.5,"Humoral hypercalcaemia, malignancy",3
+E83.5,Hypercalcemia,519
+E83.5,Hypercalciuria,11
+E83.5,Hypocalcemia not newborn,246
+E83.5,Nephrocalcinosis,45
+E85.9,Amyloidosis,123
+E86,Dehydration,755
+E86,"Dehydration, mild",122
+E86,"Dehydration, moderate",49
+E86,"Dehydration, severe",37
+E86,Hypovolemia,3
+E87.0,Hypernatremia,45
+E87.1,Hyponatremia,2075
+E87.1,Hyposmolality,12
+E87.2,Acidosis,4
+E87.2,Lactic acidosis,20
+E87.2,Metabolic acidosis,173
+E87.2,Respiratory acidosis,1
+E87.3,Metabolic alkalosis,5
+E87.5,Hyperkalemia,4105
+E87.5,Hyperpotassaemia,1
+E87.6,Hypokalemia,1315
+E87.7,Fluid overload,3952
+E87.8,Electrolyte / fluid disorders,10
+E87.8,Electrolyte disorder,41
+E88.0,Hypoalbuminemia,45
+E88.8,Metabolic syndrome,2
+E88.9,Metabolic disease of bone,2
+E88.9,Metabolic myopathy,1
+E88.9,Peripheral neuropathy due metablic,2
+E89.0,"Hypothyroidism, post I131",229
+E89.0,Postablative hypothyroidism,7
+E89.0,Postsurgical hypothyroid,275
+E89.2,Post surgery hypoparathyroidism,41
+E89.2,Post-thyroidect hypoparathyroidism,102
+F01.0,Vascular dementia of acute onset,1163
+F01.00,Acute vascular dementia no add sym,63
+F01.01,Acute vascular dementia delusional,87
+F01.02,Acute vascular dementia hallucinat,49
+F01.03,Acute vascul dementia depressive,4
+F01.04,Acute vascular dementia mix sympto,213
+F01.1,Multiinfarct dementia,474
+F01.10,Multi infarct dementia no add sym,36
+F01.11,Multi infarct dementia delusional,53
+F01.12,Multi infarct dementia hallucinat,11
+F01.13,Multi infarct dementia depressive,27
+F01.14,Multi infarct dementia mix symps,32
+F01.2,Subcortical vascular dementia,326
+F01.21,Subcort vascu dementia delusional,2
+F01.3,Mix cortical subcort vas dementia,22
+F01.9,Post infarct dementia,10
+F01.9,Vasc dementia+ depress+ behav dist,3
+F01.9,Vascu dementia w behavior disturb,8
+F01.9,Vascular dementia,1906
+F01.9,"Vascular dementia, uncomplicated",3
+F01.90,Vascular dementia no add sym,18
+F01.91,Vascular dementia predo delusion,37
+F01.92,Vascular dementia hallucination,43
+F01.93,Vascu dementia predom depress,64
+F01.94,Vascular dementia+ mixed symptoms,183
+F03,Dementia,4246
+F03,Presenile dementia,9
+F03,Presenile dementia w delirium,2
+F03,Senile dementia,339
+F03,Senile dementia w delirium,4
+F03,Senile dementia w delusion feature,13
+F03,Senile dementia w depress feature,1
+F03.00,Dementia no add symptoms,19
+F03.01,Dementia with delusional symptom,13
+F03.02,Dementia w hallucinatory symptom,21
+F03.03,Dementia with depressive symptom,17
+F03.04,Dementia with mixed symptoms,154
+F04,Org amnesic not alcohol+ psy sub,5
+F04,Post trauma amnesia >14 days,1
+F05.0,Delir not superimpose on dementia,64
+F05.1,Delirium superimposed on dementia,109
+F05.9,Acute delirium,85
+F05.9,Delirium,528
+F05.9,"Delirium, psychotic",60
+F05.9,Subacute delirium,2
+F06.0,Organic hallucinosis,284
+F06.2,Organic delusional disorder,219
+F06.3,Organic mood disorder,570
+F06.32,Organic depressive disorder,39
+F06.4,Transi anxiety by med cond+ panic,11
+F06.7,Cognitive disorder,85
+F06.7,Mild cognitive disorder,530
+F06.70,Mild cognit not asso physic disor,36
+F06.71,Mild cognit dis w physical disor,59
+F06.9,Mental dis due to brain disease,2
+F06.9,Organic brain syndrome,12
+F07.0,Organic personality disorder,69
+F07.2,Post concussional syndrome,68
+F07.9,Organ person/ behav brain disea,71
+F09,Organic psychosis,31
+F09,Organic/ symptomatic mental dis,85
+F10.0,Acute alcoholic intoxication,135
+F10.03,Alcohol intoxication delirium,1
+F10.1,Alcohol abuse,81
+F10.1,Alcohol abuse continuous use,20
+F10.1,Ment+ beh dis harmful use alcohol,11
+F10.2,Alcohol dependence syndrome,552
+F10.2,Alcoholism,23
+F10.2,M&B alcohol dependence synd,1
+F10.20,Alchohol dep syndr now abstinent,32
+F10.20,M&B alcho dep syndr now abstinent,27
+F10.21,Alchoh dep abstinen protect enviro,20
+F10.21,M&B alcho dep abstin prote envir,4
+F10.25,Alcohol depend continuous drinker,21
+F10.4,Alcohol withdrawal delirium,17
+F10.40,Alcohol withdra delirium no convul,7
+F10.5,Alcoholic jealousy,1
+F10.5,Alcoholic psychotic disorder,47
+F10.6,Alcohol amnestic syndrome,12
+F10.7,Resid late-onset psycho by alcohol,20
+F10.73,Residu+ late-onset dement by alcoh,17
+F10.9,Alcohol related disorder,8
+F10.9,Mental+ behavior disor by alcohol,1
+F11.1,Opioid abuse,49
+F11.2,Opioid dependence syndrome,148
+F12.2,Cannabinoid dependence syndrome,41
+F13.1,Harm use of sedative / hypnotic,64
+F13.2,M&B sedat/ hypno dependenc synd,1
+F13.2,Sedat/ hypno dependence syndrom,38
+F13.2,Sedati/ hypno/ anxio dependence,505
+F13.20,Seda/ hypno depen curren abstinent,9
+F13.24,Seda/ hypno depend cur using subst,14
+F13.25,Seda/ hypno depend continuous use,19
+F13.26,M&B seda/ hypno depend episodic,6
+F15.1,Stimulant harmful use mental disor,26
+F15.7,Stimula res late-onset psycho dis,45
+F16.2,Hallucinogen depend syndrome,9
+F17.1,Tobacco use disorder,220
+F17.9,Tobacco induce mental/ behav dis,16
+F19.1,Ketamine abuse,13
+F19.1,Multi drug & psycho subst harm use,18
+F19.2,"Combine drug depend, non-opioid",88
+F19.2,Drug dependence,1
+F19.5,Drugs induced psychotic disorder,8
+F19.5,Substan induce psychotic disorder,9
+F19.7,Multi drug res+ late-onset psycho,5
+F19.9,Multi drug mental/ behav disorder,4
+F20.0,Paranoid schizo in remission,8
+F20.0,Paranoid schizophrenia,3194
+F20.00,Paranoid schizophrenia continuous,80
+F20.02,Parano schizo episo+ stable defici,47
+F20.03,Paranoid schizo episodic remittent,29
+F20.04,Paranoid schizo incomplete remiss,32
+F20.05,Paranoid schizo complete remiss,31
+F20.09,Parano schiz cour uncer short obse,41
+F20.1,Hebephrenic schizophrenia,54
+F20.19,Hebeph schiz cour uncer short obse,19
+F20.3,Undifferentiated schizophrenia,96
+F20.4,Post-schizophrenic depression,29
+F20.5,Residual schizophrenia,358
+F20.6,Simple schizophrenia,16
+F20.9,Schizophrenia,1594
+F20.9,Schizophrenia in remission,5
+F20.9,"Schizophrenia, chronic",13
+F21,Schizotypal disorder,13
+F22.0,Delusion jealous,1
+F22.0,Delusion somatic,15
+F22.0,Delusional disorder,1257
+F22.0,Delusions,18
+F22.9,Persistent delusional disorder,31
+F23.0,"Ac polymorp psych, no schizophren",11
+F23.00,Acute polymo psy no schizo/ stress,1
+F23.1,Ac polymorp psycho w schizophrenia,78
+F23.2,Acute schizophrenia,7
+F23.2,Acute schizophrenia-like psychotic,52
+F23.9,Acute and transient psychotic,1
+F24,Induced delusional disorder,101
+F25.0,"Schizoaffective disorder, manic",273
+F25.00,Manic schizoaffect concur sym only,33
+F25.1,"Schizoaffective disor, depressive",6
+F25.2,"Schizoaffective disorder, mixed",24
+F25.9,Schizoaffective disorder,237
+F25.9,Schizoaffective schizo in remiss,2
+F29,Nonorganic psychosis,15
+F29,Psychosis,348
+F30.0,Hypomania,3
+F30.1,Mania without psychotic symptoms,51
+F30.2,Mania with psychotic symptoms,18
+F30.9,Manic episode,13
+F31.0,Bipolar disorder current hypomanic,242
+F31.1,Bipolar I mania,3
+F31.1,Bipolar I mania moderate,5
+F31.1,"Bipolar affective disorder, manic",17
+F31.1,Bipolar current manic no psych sym,245
+F31.2,Bipolar current manic w psycho sym,369
+F31.20,Bipolar dis cur manic+ mood-congru,63
+F31.3,Bipolar I depressed moderate,21
+F31.3,Bipolar current mild/ mod depress,198
+F31.3,Bipolar disor cur moderate depress,2
+F31.3,Bipolar disor current mild depress,12
+F31.30,Bipolar cur mild depress no somati,6
+F31.30,Bipolar cur moder depress no somat,2
+F31.5,Bipolar cur severe depress+ psych,9
+F31.6,Bipolar I recent mixed,15
+F31.6,Bipolar disorder current mixed,236
+F31.7,Bipolar current in remission,454
+F31.9,Bipolar I disorder,20
+F31.9,Bipolar affective disorder,437
+F32.0,Mild depressive episode,1840
+F32.0,Single major depress episo mild,4
+F32.00,Mild depress episo no somatic synd,131
+F32.01,Mild depress episo w somatic synd,12
+F32.1,Moderate depressive episode,5280
+F32.1,Single major depress moderate,14
+F32.10,Moderate depress episo no soma syn,185
+F32.11,Moderate depress episo w soma synd,67
+F32.2,Severe depressive without psycho,650
+F32.2,Single major depress full remiss,3
+F32.2,Single major depression severe,25
+F32.3,Depressive psychosis,5
+F32.3,Severe depressive with psycho,328
+F32.30,Severe depress w mood congr psycho,2
+F32.9,Depression,1182
+F32.9,Depressive disorder,2
+F32.9,Depressive episode,949
+F33.0,"Recur depressive, current mild",317
+F33.0,Recurrent major depression mild,1
+F33.00,Recur depress curr mild no som syn,25
+F33.1,"Recur depressive, current moderate",1103
+F33.10,Recur depres curr moder no som syn,40
+F33.11,Recur depres curr moder w soma syn,36
+F33.2,Recur depress cur severe no psych,94
+F33.3,Recur depress curre severe psych,101
+F33.30,Recur depres severe+ mood cong,22
+F33.4,"Recu depressive, current in remiss",386
+F33.9,Recurrent depressive disorder,385
+F34.1,Dysthymia,105
+F34.1,Dysthymic disorder early onset,910
+F34.1,Dysthymic disorder late onset,34
+F34.9,Persistent mood disorder,27
+F38.0,Single mood disorder,36
+F39,Affective psychosis,10
+F39,Disturbance in mood,26
+F39,Mood disorder,27
+F40.0,Agoraphobia w panic attacks,8
+F40.0,Agoraphobia with panic,98
+F40.00,Agoraphobia w/o panic disorder,100
+F40.2,Specific phobia,17
+F40.9,Phobia,19
+F40.9,Phobic anxiety disorder,10
+F41.0,Panic attack,16
+F41.0,Panic disorder,414
+F41.1,Anxiety neurosis,78
+F41.1,Anxiety state,90
+F41.1,Generalized anxiety disorder,2393
+F41.2,Mix anxiety & depressive,1787
+F41.3,Mixed anxiety disorder,30
+F41.9,Anxiety,79
+F41.9,Anxiety disorder,684
+F42.1,OCD predominant compulsive acts,34
+F42.2,OCD mix obsession thought+ act,17
+F42.9,Obsessive-compulsive disorder,33
+F43.0,Acute stress reaction,64
+F43.0,Predominant emotion disturbance,372
+F43.00,"Acute stress reaction, mild",2
+F43.01,"Acute stress reaction, moderate",8
+F43.1,Chronic posttrauma stress disorder,115
+F43.1,Post trauma stress disorder,29
+F43.2,Adjust dis w anxiety+ depress mood,42
+F43.2,Adjust react w physical symptom,2
+F43.2,Adjustment disor w depress mood,71
+F43.2,Adjustment disorder,3113
+F43.2,Adjustment disorder anxiety,15
+F43.2,Adjustment reaction,99
+F43.20,Brief depressive adjust reaction,36
+F43.21,AD w prolong depress reaction,20
+F43.23,Adjust disor predom emoti disturb,39
+F43.9,Reaction to severe stress,1
+F44.5,Conversion disorder with seizure,4
+F44.5,Dissociative convulsion,21
+F45.0,Somatization disorder,92
+F45.1,Undifferentiate somatoform disord,73
+F45.2,Hypochondriasis,14
+F45.3,"Hyperventilation, psychological",4
+F45.3,Somatoform autonomic dysfunction,64
+F45.4,Persistent somatoform pain disord,25
+F45.4,Psychological chest pain,2
+F45.4,Psychological pain,1
+F45.8,Globus sensation,60
+F45.9,Somatoform disorder,14
+F50.0,Anorexia nervosa,31
+F50.5,Psychogenic vomiting,2
+F51.0,Nonorganic insomnia,486
+F51.0,Persistent insomnia,5
+F51.0,Primary insomnia,728
+F51.0,Transient insomnia,2
+F51.1,Primary hypersomnia,7
+F51.3,Sleepwalking,30
+F51.9,Nonorganic sleep disorder,84
+F52.2,Impotence,13
+F52.2,Male erectile disorder,146
+F52.4,Premature ejaculation,1
+F52.5,Nonorganic vaginismus,44
+F52.8,Psychosexual dysfunction,3
+F54,Psychogenic polydipsia,15
+F54,Psychologic sympt affect med cond,12
+F60.0,Paranoid personality disorder,100
+F60.2,Dissocial personality disorder,18
+F60.3,Emotion unstable personality dis,147
+F60.30,Explosive personality disorder,4
+F60.31,Borderline personality disorder,34
+F60.9,Personality disorder,62
+F61.0,Mixed personality disorder,54
+F63.0,Pathological gambling,13
+F64.0,Transsexualism,2
+F70.0,Mild MR no/ mini behavior impair,224
+F70.1,Mild MR sig impair beh req att/ tx,159
+F70.8,Mild MR w impaired behavior,20
+F70.9,Mild mental retardation,32
+F71.0,Moder MR no/ min impair behavior,35
+F71.1,Mod MR sig impair behav atten/ tx,15
+F71.8,"Moderate MR, with impair behavior",18
+F71.9,Moderate mental retardation,6
+F72.0,Severe MR no/ mini impair behavior,9
+F72.8,Severe MR w impair behavior,7
+F72.9,Severe mental retardation,3
+F79.0,"MR, no/ min impair behavior",6
+F79.1,MR sig impair behavior req att/ tx,21
+F79.9,Mental retardation,49
+F84.0,Autism,8
+F93.9,Emotion disturb child/ adolescence,4
+F95.0,"Transient tic disorder, recurrent",5
+F95.9,Tics,73
+F98.4,Stereotyped movement disorder,4
+F98.8,Special symptoms or syndromes,3
+F99,Mental disorder,10
+F99,Mental/ behavioral problem,1
+G00.2,Streptococcal meningitis,1
+G00.9,Bacterial meningitis,24
+G00.9,Infective meningitis,28
+G02.0,Meningitis due to virus,13
+G03.9,Meningitis,11
+G04.8,Encephalitis,21
+G04.9,Encephalitis,3
+G04.9,Inflam cavernous sinus region,5
+G06.0,Brain abscess,3
+G06.1,Spinal abscess,7
+G08,Intracranial venous sinus thrombos,13
+G09,Late eff cns abscess,9
+G11.1,Spinocerebellar Ataxia,1
+G11.9,Cerebellar ataxia,64
+G12.2,Amyotrophic sclerosis,2
+G12.2,Anterior horn cell disease,3
+G12.2,MND,3
+G12.2,Progressive bulbar palsy,1
+G12.2,Pseudobulbar palsy,9
+G20,Paralysis agitans,158
+G20,Parkinson disease athero/ idiopath,41
+G20,Parkinson plus syndrome,6
+G20,Parkinson's disease,1203
+G20,Parkinsonian syndrome,138
+G21.0,Neuroleptic malignant syndrome,4
+G21.1,Akathisia,2
+G21.1,Drug induced Parkinsonism,7
+G21.2,2ndary Parkinsonism by non-drug,1
+G21.4,Vascular parkinsonism,11
+G21.9,Secondary Parkinsonism,38
+G24.0,Tardive dyskinesia,21
+G24.4,Orofacial dyskinesia,8
+G24.5,Blepharospasm,171
+G24.8,Focal Dystonia,22
+G24.9,Dystonia,9
+G25.0,Essential tremor,157
+G25.1,Med induced posture tremor,1
+G25.1,"Tremor, Physiological",2
+G25.2,"Tremor, intention",1
+G25.3,Myoclonus,10
+G25.5,Chorea,17
+G25.5,Choreoathetosis,1
+G25.5,Hemiballism and choreoathetosis,3
+G25.5,Hemiballismus,8
+G25.8,Restless leg syndrome,8
+G25.9,Extrapyramidal and movement dis,23
+G25.9,Movement Disorder,17
+G30.0,Alzheimer disease with early onset,2
+G30.1,Alzheimer disease with late onset,182
+G30.9,Alzheimer dementia hallucinatory,25
+G30.9,Alzheimer dementia mix symptoms,78
+G30.9,Alzheimer's disease,5137
+G31.9,Cerebellar Degeneration,6
+G31.9,Cerebral degeneration,11
+G35,Multiple sclerosis,48
+G36.0,Neuromyelitis optica,23
+G36.9,Acute disseminated demyelination,2
+G37.8,Acute inflam demyelin neuropathy,1
+G40.1,Focal epilepsy,6
+G40.1,Partial epilepsy,19
+G40.2,Partial epilepsy+impaired consciou,39
+G40.2,Temporal lobe epilepsy,22
+G40.3,Gen nonconvulsi epilepsy,1
+G40.3,Generalized convulsive epilepsy,4
+G40.3,Grand mal-not intractable,61
+G40.9,Epilepsy,424
+G40.9,"Epilepsy, intractable epilepsy",1
+G43.0,Common migraine,63
+G43.9,Migraine,108
+G44.0,Cluster headache,6
+G44.2,Tension headache,39
+G44.8,Cervicogenic headache,8
+G44.8,Mixed headache,2
+G45.0,Vertebral artery syndrome,26
+G45.3,Amaurosis fugax,74
+G45.4,Transient global amnesia,13
+G45.9,Transient cerebral ischemia,1156
+G47.0,Insomnia,435
+G47.3,Breathing related sleep disorder,20
+G47.3,Obstruct sleep apnea syndrome,4131
+G47.3,Sleep apnea,136
+G47.8,Parasomnia type sleep disorder,13
+G47.9,Sleep disorder,27
+G47.9,Sleep disturbance,81
+G50.0,Trigeminal neuralgia,176
+G50.1,Atypical face pain,1
+G50.8,Frey's syndrome,3
+G50.8,SUNCT syndrome,25
+G51.0,7th nerve palsy,49
+G51.0,Bell's palsy,742
+G51.3,Hemifacial Spasm,180
+G51.4,Facial myokymia,5
+G51.9,Facial nerve disorder,22
+G52.3,Hypoglossal pain,10
+G52.7,Multi cranial nerve palsy,13
+G52.9,Disorder of cranial nerve,48
+G54.0,Thoracic outlet syndrome,4
+G54.2,Cervical root lesions,3
+G54.4,Lumbosacral root lesions,45
+G54.6,Phantom leg pain,2
+G54.6,Phantom limb syndrome with pain,2
+G54.9,Nerve root and plexus disorder,6
+G56.0,Carpal tunnel syndrome,1340
+G56.1,Lesion of median nerve,4
+G56.2,Cubital tunnel syndrome,94
+G56.2,Tardy ulnar nerve palsy,79
+G56.2,Ulnar nerve lesion,201
+G56.3,Radial Nerve Palsy,10
+G56.4,Complex regional pain upper limb,19
+G57.0,Piriformis syndrome,1
+G57.3,Common peroneal nerve palsy,14
+G57.8,Femoral neuralgia,1
+G58.7,Mononeuritis multiplex,78
+G58.8,Occipital neuralgia,7
+G58.9,Mononeuritis,110
+G60.0,Charcot-Marie-Tooth disease,15
+G61.0,Guillain Barre syndrome,1
+G61.0,Miller Fisher syndrome,2
+G62.0,Neuropathy due to drugs,8
+G62.2,Inflammatory and toxic neuropathy,1
+G62.9,Neuralgia of peripheral nerves,5
+G62.9,Neuropathy,48
+G62.9,Peripheral neuralgia origin unknow,1
+G62.9,Peripheral neuropathy,113
+G62.9,Polyneuropathy,10
+G63.8,Polyneuropathy in other disease,41
+G70.0,Myasthenia gravis,231
+G70.0,Ocular myasthenia gravis,103
+G71.3,Juv myop enceph lact acido+ stroke,25
+G71.3,Mitochondrial disease,12
+G71.8,Amyotrophy,14
+G72.0,Drug-induced myopathy,5
+G72.2,Toxic myopathy,24
+G72.3,Hypokalemic periodic paralysis,9
+G72.9,Myopathy,11
+G81,Hemiplegia and hemiparesis,8
+G81.1,Spastic Hemiplegia,50
+G81.1,"Spastic hemi, dominant",16
+G81.1,"Spastic hemi, nondominant",20
+G81.9,Hemiplegia,1470
+G81.9,"Hemiplegia, dominant",3
+G82.2,Chronic paraplegia,2
+G83.4,Acontractile bladder,95
+G83.4,Cauda equina synd w neurog bladder,7
+G83.4,Cauda equina syndrome,11
+G90.3,Multiple system atrophy,11
+G90.4,Autonomic dysreflexia,7
+G90.9,Disorder of auto nervous system,31
+G90.9,"Neuropathy, autonomic",20
+G91.0,Communicat hydrocephalus,11
+G91.1,Obstructiv hydrocephalus,23
+G91.2,Normal Pressure Hydrocep,31
+G91.9,Hydrocephalus,41
+G93.0,Arachnoid cyst,8
+G93.1,Anoxic brain damage,13
+G93.4,Encephalopathy,52
+G93.4,Leucoencephalopathy,43
+G93.6,"Subdural effusion, non traumatic",11
+G93.8,Brain conditions,92
+G93.9,Brain disorder,208
+G95.2,Cord Compression,60
+G95.9,Disease of spinal cord,17
+G95.9,Myelopathy,2
+G96.8,Central nervous system infection,2
+G96.8,Perineurial cyst,1
+G98,Disorder of nervous system,14
+G99.1,Autonomic neuropathy in other dis,88
+H00.0,Abscess of eyelid,16
+H00.0,Hordeolum externum,99
+H00.0,Preseptal orbital cellulitis,121
+H00.1,Chalazion,410
+H01.0,Blepharitis,999
+H01.0,Squamous blepharitis,6
+H01.1,Contact dermatitis eyelid,3
+H01.1,Eczem dermatitis eyelid,3
+H01.9,Inflammation of eyelid,2
+H02.0,Cicatricial entropion,31
+H02.0,Entropion,526
+H02.0,Senile entropion,350
+H02.0,Trichiasis of eyelid,1174
+H02.1,Cicatricial ectropion,118
+H02.1,Ectropion,80
+H02.1,Senile ectropion,42
+H02.2,Lagophthalmos,1
+H02.2,Paralytic lagophthalmos,6
+H02.4,Eyebrow ptosis,20
+H02.4,Paralytic ptosis,3
+H02.4,Ptosis of eyelid,371
+H02.5,Eyelid retraction,6
+H02.6,Xanthelasma,11
+H02.7,Hyperpigmentation lid,9
+H02.8,Cysts of eyelids,48
+H02.8,Dermatochalasis,66
+H02.8,Dermatochalasis of eyelid,188
+H02.8,Edema of eyelid,7
+H02.8,"Old foreign body, eyelid",13
+H02.8,Sebaceous Cyst Eyelid,27
+H02.9,Disorder of eyelid,130
+H04.0,Chronic enlargment lacri,2
+H04.0,Dacryoadenitis,5
+H04.1,Disorder of lacrimal gland,3
+H04.1,Dry eye syndrome,202
+H04.1,Lacrimal gland dislocat,4
+H04.1,Tear film insufficiency,172
+H04.2,Epiphora,33
+H04.2,Epiphora d/t excess lacr,3
+H04.2,Epiphora d/t insuf drain,88
+H04.3,Acute canaliculitis,4
+H04.3,Acute dacryocystitis,25
+H04.3,Dacryocystitis,26
+H04.4,Chronic canaliculitis,54
+H04.4,Chronic dacryocystitis,6
+H04.5,Acquired nasolacrimal stenosis,125
+H04.5,Lacriml punctum eversion,1
+H04.5,Lacriml punctum stenosis,76
+H05.0,Orbital cellulitis,19
+H05.1,Pseudotumor of orbit,37
+H05.2,Exophthalmos,24
+H05.2,Retroorbital Haematoma,30
+H05.9,Disorder of orbit,79
+H10.1,Allergic conjunctivitis,34
+H10.3,"Conjunctivitis, acute",62
+H10.4,Chronic allergic conjunctivitis,11
+H10.4,Chronic conjunctivitis,12
+H10.4,Granuloma of conjunctiva,11
+H10.5,Blepharoconjunctivitis,24
+H10.9,Conjunctivitis,815
+H11.0,Double pterygium,35
+H11.0,Periph station pterygium,3
+H11.0,Pterygium,989
+H11.0,Recurrent pterygium,100
+H11.1,Conjunctival concretions,20
+H11.1,Conjunctival deposits,10
+H11.1,Pinguecula,3
+H11.3,Conjunctival hemorrhage,159
+H11.3,Subconjunctival hemorrhage,1042
+H11.4,Conjunctival cysts,6
+H11.4,Hyperemia of conjunctiva,4
+H11.8,Conjunctivochalasis,38
+H11.9,Disorder of conjunctiva,78
+H15.0,Scleritis,110
+H15.1,Diffuse episcleritis,26
+H15.1,Sectoral episcleritis,29
+H16.0,Central corneal ulcer,24
+H16.0,Corneal ulcer,324
+H16.0,Perforated corneal ulcer,50
+H16.0,Ring corneal ulcer,4
+H16.1,Filamentary keratitis,28
+H16.1,Photokeratitis,41
+H16.1,Punctate keratitis,6
+H16.1,Superficial keratitis,10
+H16.3,Corneal abscess,3
+H16.9,Keratitis,97
+H17.1,"Central opacity, cornea",13
+H17.8,Periph opacity of cornea,7
+H17.9,Corneal opacity,18
+H17.9,Corneal scar,298
+H18.0,Ant corneal pigmentation,19
+H18.1,Bullous keratopathy,233
+H18.2,Corneal edema,94
+H18.2,Secondary corneal edema,1
+H18.3,Rupture Descemet membran,21
+H18.4,Band-shaped keratopathy,48
+H18.4,Salzmann's nodular dystrophy,8
+H18.5,Endothel cornea dystrphy,18
+H18.5,Fuchs' corneal dystrophy,23
+H18.5,Granular cornea dystrphy,13
+H18.7,Descemetocele,8
+H18.8,Persist corneal epithelial defect,251
+H18.8,Phthisical cornea,1
+H18.8,Recurrent cornea erosion,10
+H18.9,Corneal disorder,58
+H20.0,Acute iridocyclitis,16
+H20.0,Recurrent iridocyclitis,1
+H20.1,"Iridocyclitis, chronic",10
+H20.2,Lens-induced iridocyclit,8
+H20.8,Vogt-koyanagi syndrome,138
+H20.9,Iridocyclitis,13
+H20.9,Uveitis,482
+H21.0,Hyphema,95
+H21.1,Rubeosis iridis,93
+H21.4,Pupillary membranes,9
+H21.5,Adhesion of iris,5
+H21.5,Anterior synechiae iris,16
+H21.5,Iridodialysis,4
+H21.5,Posterior synechiae iris,164
+H21.9,Disorder of iris and ciliary body,48
+H25.0,Cortical senile cataract,104
+H25.0,Incipient senile cataract,51
+H25.0,Post subcap senile catar,226
+H25.1,Senile nuclear cataract,312
+H25.2,Hypermature cataract,51
+H25.8,Senile cataract,2
+H25.9,Senile cataract,39395
+H26.0,Cortical cataract,14
+H26.0,Nuclear cataract,96
+H26.2,Cataract in inflam dis,28
+H26.2,Cataracta complicata,39
+H26.4,After-cataract,889
+H26.4,"After-cataract, not obscure vision",4
+H26.4,"After-cataract, obscuring vision",5956
+H26.4,Soemmerring ring,4
+H26.8,Cataract,9
+H26.8,Nuclear cataract,46
+H26.8,Posteri subcapsular polar cataract,158
+H26.8,Pseudoexfoliation of lens capsule,12
+H26.9,Cataract,5508
+H26.9,Mature cataract,1702
+H26.9,Nonsenile cataract,175
+H27.0,Aphakia,157
+H27.1,Post dislocation of lens,62
+H27.1,Subluxation of lens,180
+H27.9,Disorder of lens,20
+H28.2,Cataract asso with other syndromes,6
+H30.1,Gen disse choroidi+chorioretinitis,9
+H30.9,Chorioretinitis,7
+H30.9,Retinitis,12
+H31.0,Chorioretinal scar,25
+H31.0,Macular scars of retina,297
+H31.3,Choroidal hemorrhage,3
+H31.4,Choroidal detachment,7
+H31.4,Hemorr choroid detachmnt,2
+H31.4,Serous choroid detachmnt,11
+H31.8,Polypoidal choroidal vasculopathy,308
+H33.0,Old partial retinal detachment,22
+H33.0,Old total retinal detachment,16
+H33.0,"Part retinal detach, multi defect",8
+H33.0,"RD, rhegmatogenous",142
+H33.0,Retinal detachment with defect,46
+H33.1,Retinoschisis,15
+H33.2,Serous retina detachment,107
+H33.3,Horseshoe tear of retina,191
+H33.3,Retinal break,242
+H33.3,Retinal defect,567
+H33.3,Round hole of retina,182
+H33.4,Retinal traction detach,217
+H33.5,"Part retinal detach, single defect",37
+H33.5,Retinal detachment,7
+H33.5,"Retinal detachment, partial",108
+H33.5,"Retinal detachment, total",13
+H34.1,Cent retina artery occlu,201
+H34.2,Retinal arterial branch occlusion,49
+H34.2,Retinal artery occlusion,1
+H34.2,Retinal artery thrombosis,6
+H34.2,Retinal ischemia,13
+H34.8,Branch retinal vein occlusion,1543
+H34.8,Cent retinal vein occlus,971
+H34.8,Retinal vein occlusion,159
+H34.9,Retinal vascular occlusion,41
+H35,Retinal disorder,1
+H35.0,Background retinopathy,6
+H35.0,Exudative retinopathy,849
+H35.0,Hypertensive retinopathy,104
+H35.0,Retinal microaneurysms,12
+H35.0,Retinal neovascularization,52
+H35.0,Retinal telangiectasia,77
+H35.0,Retinal vascular changes,35
+H35.0,Retinal vasculitis,10
+H35.0,Retinopathy,47
+H35.2,Ant prolierative vitreoretinopathy,16
+H35.2,Nondiabetic prolifer retinopathy,70
+H35.2,Post proliferate vitreoretinopathy,22
+H35.2,Proliferative retinopathy,1786
+H35.3,Degenerative drusen of retina,137
+H35.3,Exudative senile macular degen,1841
+H35.3,Macular cyst or hole,125
+H35.3,Macular degeneration,233
+H35.3,Macular degeneration of retina,218
+H35.3,Macular puckering,538
+H35.3,Maculopathy,100
+H35.3,Nonexudative senile macular degen,215
+H35.3,SMD,2739
+H35.4,Lattice retina degeneration,213
+H35.4,Peripheral retina degeneration,85
+H35.4,Secondary pigment retina degen,3
+H35.5,Retinitis pigmentosa,29
+H35.5,retinal dystrophy,14
+H35.6,Retinal hemorrhage,86
+H35.7,Central serous retinopathy,170
+H35.7,Hem detach pigmnt epith,1
+H35.7,Serous detach pigm epith,86
+H35.8,Cystoid macular edema,427
+H35.8,Retina exudates + deposits,14
+H35.8,Retinal edema,7
+H35.9,Retinal disorder,132
+H36.0,Background DM retinopathy,11155
+H40.0,Anat narrow angle border glaucoma,1269
+H40.0,Glaucoma suspect,478
+H40.0,Ocular hypertension,103
+H40.1,Low tension glaucoma,181
+H40.1,Open angle glaucoma,435
+H40.1,Primary open angle glaucoma,660
+H40.2,Acute angle-closure glaucoma,227
+H40.2,Chronic angle closure glaucoma,269
+H40.2,Intermit angle-closure glaucoma,9
+H40.2,Primary angle-closure glaucoma,76
+H40.4,Glaucoma w ocular inflammation,182
+H40.5,Glauc w pupillary block,41
+H40.5,Glaucoma asso with ocular disorder,15
+H40.5,Glaucoma w vascular dis,625
+H40.5,Lens induced glaucoma,57
+H40.5,Neovascular glaucoma,30
+H40.5,Phacolytic glaucoma,11
+H40.8,Normal tension glaucoma,121
+H40.9,Glaucoma,3112
+H43.0,Vitreous prolapse,10
+H43.1,Vitreous hemorrhage,908
+H43.3,Vitreous floaters,1466
+H43.3,Vitreous membranes,15
+H43.3,Vitreous opacity,6
+H43.8,Posterior vitreous detachment,239
+H43.8,Vitreous degeneration,3
+H43.9,Disorder of vitreous body,19
+H44.0,Acute endophthalmitis,6
+H44.0,Endophthalmitis,4
+H44.0,Infection of eye,2
+H44.2,Degenerat progressive high myopia,100
+H44.2,Pathological myopia,6
+H44.4,Flat anterior chamber of eye,19
+H44.4,Hypotony due to fistula,2
+H44.5,Blind hypertensive eye,6
+H44.8,Prolapsed orbital fat,19
+H44.9,Disorder of globe,5
+H46,Optic neuritis,21
+H47.0,Anterior ischemic optic neuropathy,63
+H47.0,Compressive optic neuropathy,5
+H47.0,Ischaemic optic neuropathy,37
+H47.1,Edema of optic disc,23
+H47.1,Papilledema w incr intracran press,10
+H47.2,Cupping of optic disc,113
+H47.2,Optic atrophy,107
+H47.4,Optic chiasm dis w pituitary dis,2
+H49.0,3rd cranial nerve weakness,12
+H49.0,Partial oculomotor nerve palsy,48
+H49.0,Total oculomotor nerve palsy,113
+H49.1,Trochlear nerve palsy,23
+H49.2,Sixth nerve palsy,191
+H49.9,Painful ophthalmoplegia,9
+H50.1,Alternating exotropia,2
+H50.1,Exotropia,51
+H50.1,Monocular exotropia,17
+H50.2,Hypotropia,36
+H50.9,Strabismus,10
+H51.0,Palsy of conjugate gaze,4
+H51.2,Internucl ophthalmopleg,39
+H52.0,Hypermetropia,56
+H52.1,Myopia,104
+H52.2,Astigmatism,183
+H52.2,Regular astigmatism,121
+H52.3,Anisometropia,5
+H52.4,Presbyopia,148
+H52.7,Refraction and accommodation,68
+H52.7,Refractive error,61
+H53.0,Refractive amblyopia,69
+H53.1,Subjective visual disturbance,1
+H53.1,Sudden visual loss,70
+H53.1,Transient visual loss,3
+H53.1,Visual discomfort,14
+H53.2,Diplopia,208
+H53.4,Bitemporal hemianopia,26
+H53.4,Central scotoma,8
+H53.4,Hemianopia,45
+H53.4,Homonymous hemianopsia,27
+H53.4,Localized visual field defect,3
+H53.4,Quadrantanopia,8
+H53.4,Sector/ arcuate visu field defect,1
+H53.4,Visual field defect,32
+H53.8,Blurring of vision,829
+H53.9,Visual disturbance,111
+H54.0,Blindness,121
+H54.0,Blindness of both eyes,21
+H54.0,"Eye impair, 1 profound, 1 total",1
+H54.1,Severe impairment - both eyes,1
+H54.4,"Blindness, one eye",203
+H54.4,"Eye 1 profound impair, 1 unknown",2
+H54.4,"Eye impair, 1 blind, 1 low vision",34
+H54.4,"Eye impair, 1 severe, 1 blind",1
+H54.4,"Eye, 1 near-total impair, 1 normal",1
+H54.5,"Eye impair, 1 profound, 1 unk",1
+H54.5,"Low vision, 2 eyes",76
+H54.6,"Low vision, one eye",135
+H54.9,Visual impairment,6
+H54.9,Visual loss,132
+H54.9,"Visual loss, 2 eyes",2
+H54.9,"Visual loss, one eye",48
+H55,Nystagmus,9
+H57,Disorders of eye,4
+H57.0,Abnormal pupillary function,1
+H57.0,"Persistent miosis, not by miotics",164
+H57.0,Pupillary abnormalities,53
+H57.1,Eye pain,638
+H57.1,Pain around eye,36
+H57.1,Pain in or around eye,241
+H57.8,Discharge of eye,17
+H57.8,Dry eye,99
+H57.8,Mass of eye,6
+H57.8,Redness of eye,189
+H57.8,Redness/ discharge of eye,45
+H57.8,Swelling of eye,9
+H57.8,Swelling or mass of eye,22
+H57.9,Eye disorder,100
+H57.9,Eye problems,612
+H57.9,Ill-defined disorders of eye,107
+H60.0,Abscess of external ear,4
+H60.0,Preauricular sinus abscess,3
+H60.3,Acute infection of external ear,2
+H60.3,Acute infection of pinna,5
+H60.3,Otitis externa infective,70
+H60.4,Cholesteatoma extern ear,7
+H60.5,Acute otitis externa,254
+H60.8,Chronic otitis externa,19
+H61.0,Ac perichondritis pinna,1
+H61.0,Perichondritis of pinna,12
+H61.1,Disorder of pinna,9
+H61.1,Hematoma of auricle,8
+H61.2,Impacted cerumen,256
+H61.2,Wax in ear canal,75
+H61.9,Disorder of external ear,13
+H65.2,Chronic serous otitis media,171
+H65.4,Chronic nonsuppurative OM,3
+H65.9,Serous otitis media,40
+H66.0,Acute suppurative otitis media,10
+H66.3,Chronic suppurative otitis media,244
+H66.9,Acute otitis media,57
+H66.9,Chronic otitis media,3
+H66.9,Otitis,6
+H66.9,Otitis media,188
+H70.0,"Mastoiditis, Acute",4
+H70.9,Mastoiditis,1
+H71,Cholesteatoma,83
+H71,Cholesteatoma middle ear,15
+H71,Cholesteatoma of attic,2
+H72.9,Perforate tympanic membrane,50
+H73.0,Acute myringitis,6
+H73.1,Chronic myringitis,3
+H74.8,Foreign body middle ear,3
+H80.9,Otosclerosis,6
+H81.0,Meniere's disease,143
+H81.1,BPPV,117
+H81.2,Vestibular neuronitis,82
+H81.3,Peripheral vertigo,863
+H83.0,Labyrinthitis,13
+H83.0,Viral labyrinthitis,1
+H90.1,"Conduct hear loss left, normal rt",3
+H90.1,"Conduct hearing loss, unilateral",11
+H90.2,Conductive hearing loss,1
+H90.4,"Sensorineural hearing loss, unilat",19
+H90.5,"Deafness, Sensorineural",2
+H90.5,Sensorineural hearing loss,378
+H90.5,Sensory hearing loss,8
+H90.8,Mixed conduc+ senso hearing loss,2
+H91.1,Presbycusis,27
+H91.2,Sudden hearing loss,133
+H91.2,Sudden sensorineural hearing loss,91
+H91.3,Deaf mutism,12
+H91.9,Deafness of both ears,106
+H91.9,Deafness of one ear,14
+H91.9,Hearing impairment of both ears,6
+H91.9,Hearing impairment of one ear,32
+H91.9,Hearing loss,376
+H91.9,Problem with hearing,42
+H92.0,Otalgia,408
+H92.0,Referred pain of ear,1
+H92.1,Otorrhea,28
+H92.2,Ear bleeding,99
+H93.1,Tinnitus,331
+H93.8,Feeling of plugged ear,18
+H93.9,Disorder of ear,19
+H93.9,Ear problem,31
+I05.0,Mitral stenosis,73
+I05.0,Rheumatic mitral stenosis,165
+I05.1,Rheum mitral regurg,25
+I05.1,Rheumatic mitral insuff,41
+I05.2,Rheum mitral stenos+ regurgit,5
+I05.2,Rheum mitral stenosis+ insuffic,79
+I05.9,Chronic mitral valve disease,26
+I05.9,Rheumatic mitral valve disease,6
+I06.0,Rheumatic aortic valve stenosis,11
+I06.1,Rheum aortic valve incompetence,1
+I06.1,Rheum aortic valve insuff,76
+I06.2,Rheum AS and AI,19
+I06.2,Rheum AS and AR,3
+I06.2,Rheum aortic steno w insufficiency,27
+I06.9,Rheumatic aortic valve disease,1
+I07.0,Tricuspid valve stenosis,2
+I07.1,Rheumatic tricuspid insufficiency,38
+I07.1,Tricuspid valve regurgitation,98
+I07.9,Tricuspid valve disease,2
+I08.0,Rheumatic MR and AR,9
+I09.9,Chronic rheumatic heart disease,563
+I09.9,Rheumatic heart disease,63
+I10,Benign essential hypertension,58
+I10,Essential HT,46
+I10,Essential hypertension,54596
+I10,"HT, complicated",2104
+I10,"HT, uncomplicated",4355
+I10,Hypertension,1899
+I10,Malignant hypertension,450
+I10,White coat hypertension,89
+I11.0,Hyperten heart dis w CHF,1013
+I11.0,Mal hypert hrt dis w CHF,8
+I11.9,Hypertensive heart disease,546
+I11.9,Malign hypertensive heart disease,71
+I12.0,Hypert w renal failure,369
+I12.0,Mal renal HT with renal,1
+I12.9,Hypertensive nephrosclerosis,55
+I12.9,Hypertensive renal disease,3448
+I12.9,Mal renal hyper-no failr,124
+I12.9,Malignant HT w nephropathy,6
+I13.0,Hypten heart+ renal dis heart fail,319
+I13.0,"Malign heart & renal HT, CHF",47
+I13.1,Hypten heart+ renal dis renal fail,119
+I13.2,"Hypten heart and renal, both fail",74
+I13.2,Malig heart/ renal HT& both fail,8
+I13.9,Hyperten heart and renal disease,293
+I13.9,Mal hrt/ren hyp-no failr,18
+I15.0,Renovascular hypertension,48
+I15.1,Malig seconda HT by renal disorder,15
+I15.1,Secondary HT by renal disorder,268
+I15.9,Malignant secondary hypertension,3
+I15.9,Secondary hypertension,41
+I20.0,Angina decubitus,29
+I20.0,Intermediate coronary syndrome,584
+I20.0,Unstable angina,1
+I20.1,Prinzmetal angina,2
+I20.9,Angina pectoris,2197
+I20.9,Ischemic chest pain,6
+I20.9,Post MI angina,115
+I21,Acute myocardial infarct,3
+I21.0,"Anterior AMI, initial",122
+I21.0,"Anterolateral AMI, initial",45
+I21.0,"Anteroseptal AMI, initial",85
+I21.1,"Inferior AMI, initial",158
+I21.2,AMI initial care episode,40
+I21.2,"Lateral AMI, initial",8
+I21.2,"Posterior AMI, initial",17
+I21.4,Subendocardial AMI,146
+I21.4,Subendocardial AMI initial episode,1540
+I21.9,AMI initial episode of care,27
+I21.9,Acute myocardial infarction,10
+I21.9,Coronary artery thrombosis,6
+I23.5,"Rupture papillary muscle, post AMI",5
+I23.8,AMI sequelae,9
+I23.8,Mural thrombus - post MI,62
+I23.8,"Pericardial effusion, post MI",39
+I24.1,Post MI syndrome,25
+I24.8,Acute / subactue IHD,95
+I24.8,"Coro insfficiency, acute",9
+I24.8,Subactue IHD,79
+I24.9,Acute IHD,14
+I24.9,Acute coronary syndrome,467
+I25,Oth chr ischemic hrt dis,9
+I25.1,Arteriosclerotic heart disease,856
+I25.1,Coro atheros,11
+I25.1,Coronary atheros autolo vein graft,19
+I25.1,Coronary atheroscle artery graft,10
+I25.1,Coronary atheroscler native artery,3969
+I25.1,Coronary atherosclerosis,4973
+I25.1,Nonobstr atherosclerosis coron art,44
+I25.2,Old MI,1873
+I25.3,Ventricular aneurysm,14
+I25.4,Acquired coronary fistula to LA,3
+I25.4,Coronary vessel aneurysm,12
+I25.5,Ischaemic cardiomyopathy,275
+I25.9,Chronic IHD,15302
+I25.9,IHD,2767
+I25.9,"IHD, no angina",1290
+I26.0,Cor pulmonale acute,2
+I26.9,Acute pulmonary embolism,3
+I26.9,Pulmonary embolism,228
+I26.9,Pulmonary venous thrombosis,3
+I27.0,Idiopathic pulmonary artery HT,1
+I27.0,Primary pulmonary hypertension,57
+I27.0,Pulmonary HT >1/2 systemic,2
+I27.2,Pulmonary hypertension,165
+I27.2,Secondary pulmonary hypertension,88
+I27.9,Cor pulmonale,20
+I27.9,Cor pulmonale chronic,18
+I30.9,"Pericarditis, Acute",23
+I31.0,Adhesive pericarditis,14
+I31.1,Constrictive pericarditis,42
+I31.3,Pericardial effusion,125
+I31.9,Cardiac tamponade,11
+I31.9,Pericarditis,4
+I32.8,Ac pericardit in oth dis,17
+I33.0,"Endocarditis, bacterial",15
+I33.0,Infective endocarditis,67
+I33.0,Subacute bacterial endocarditis,4
+I34.0,Mitral valve regurgitation,307
+I34.0,Non-rheumatic mitral regurg,205
+I34.0,Nonrheumatic mitral insufficiency,115
+I34.1,Mitral valve prolapse,42
+I34.1,Nonrheumatic mitral valve prolapse,75
+I34.8,"MS w insufficiency, nonrheumatic",17
+I34.9,Nonrheumatic mitral valve disorder,113
+I35.0,Aortic valve stenosis,192
+I35.0,Nonrheumatic aortic valve stenosis,193
+I35.1,"Aortic insufficiency, nonrheumatic",5
+I35.1,Aortic valve regurgitation,120
+I35.1,Nonrheum aortic valve regurgitat,133
+I35.2,Nonrheum aortic stenosis w insuff,62
+I35.9,Acquired aortic valve abnormality,34
+I36.1,"Aquired TI, non-rheumatic",56
+I36.1,"Tricuspid insufficiency, nonrheuma",27
+I36.9,Nonrheum tricuspid valve disorder,7
+I37.0,Pulmonary valve stenosis,5
+I38,Endocarditis,5
+I42.0,Dilated cardiomyopathy,664
+I42.0,Primary dilated cardiomyopathy,27
+I42.1,Hypertr obstr cardiomyop,152
+I42.1,LVOT obst - septal hypertrophy,8
+I42.2,Hypertrophic cardiomyopathy,111
+I42.6,Alcoholic cardiomyopathy,30
+I42.8,LV myocardial non-compaction,5
+I42.9,Cardiomyopathy,18
+I42.9,Primary cardiomyopathy,20
+I42.9,Secondary cardiomyopathy,12
+I44.0,1st degree heart block,39
+I44.1,2nd degree AV block,4
+I44.1,2nd degree AVB,302
+I44.1,"2nd degree heart block, Mobitz I",180
+I44.1,"2nd degree heart block, Mobitz II",211
+I44.1,Advance Mobitz II 2nd deg AV block,25
+I44.1,Wenckebach heart block,33
+I44.2,Complete heart block,1416
+I44.3,Atrioventricular block,195
+I44.3,High grade atrioventricular block,92
+I44.7,Left bundle branch block,90
+I45.1,Rt bundle branch block,35
+I45.2,Bifascicular block,1
+I45.2,Rt BBB + Lt post fascicular block,17
+I45.3,Trifascicular block,22
+I45.5,Sinus arrest,50
+I45.6,WPW syndrome,56
+I45.9,Heart block,94
+I46.0,"Cardiac arrest, abort/success resu",28
+I46.9,Cardiac arrest,82
+I47.1,AV nodal re-entry tachycardia,9
+I47.1,Atrial tachycardia,9
+I47.1,Incessant atrial tachycardia,3
+I47.1,PSVT,150
+I47.1,Paroxysmal atrial tachycardia,19
+I47.1,Supraventricular tachycardia,378
+I47.1,Typ atriovent nod reentr tachycard,3
+I47.2,Idiopathic VT,15
+I47.2,Parox ventric tachycard,3
+I47.2,Polymorphic VT,5
+I47.2,Sustain monomorp ventric tachycard,14
+I47.2,Torsades des pointes,30
+I47.2,"VT, non-sustained",50
+I47.2,"VT, sustained",314
+I47.2,Ventricular tachycardia,263
+I47.9,Paroxysmal tachycardia,28
+I48,Atrial fibrillation,13914
+I48,Atrial flutter,942
+I48,Paroxysmal atrial fibrillation,1167
+I49,Cardiac dysrhythmias,1
+I49.0,VF,117
+I49.1,Atrial premature beats,21
+I49.3,Multifocal ventricular ectopics,2
+I49.3,Symptom premature ventric contract,14
+I49.3,Ventricu premature depolaris heart,2
+I49.3,Ventricular couplet,3
+I49.3,Ventricular premature beats,316
+I49.4,Premature beats,2
+I49.4,Supraventricular premature beats,6
+I49.5,SA node dysfunct,3
+I49.5,Sick sinus syndrome,2200
+I49.5,Tachy-brady arrhythmia,14
+I49.5,Tachycardia-bradycardia syndrome,93
+I49.8,Brugada syndrome,51
+I49.8,Ectopic atrial tachycardia,1
+I49.9,Cardiac arrhythmia,73
+I50,Heart failure,1
+I50.0,Congestive heart failure,13548
+I50.1,Acute pulm edema d/t heart failure,109
+I50.1,Left heart failure,5
+I50.9,Heart failure,1011
+I51,Ill-defined heart dis,4
+I51.3,Intracardiac thrombosis,24
+I51.3,LA thrombus,25
+I51.3,RA thrombus,2
+I51.4,Myocarditis,1
+I51.5,Myocardial disease,4
+I51.7,Cardiomegaly,46
+I51.7,Left ventricular hypertrophy,45
+I51.8,LV dysfunction,56
+I51.9,Heart disease,34
+I60.9,"SAH, non-traumatic",84
+I61.5,ICH-intraventricular nontraumatic,16
+I61.9,Hemorrhagic from cerebral infarct,120
+I61.9,"ICH, non-traumatic",423
+I62.0,Chronic subdural hematoma,440
+I62.0,"SDH, nontraumatic",56
+I62.0,Subdural hemorrhage,102
+I62.0,Subdural intracranial hematoma,159
+I62.1,Extradural hemorrhage,1
+I62.9,Intracranial h'mage non-traumatic,100
+I63.2,Carotid occlude/stenosis + infarct,236
+I63.2,Cerebral infarct-carotid occlusion,25
+I63.2,Multi cerebra art occlude + infarc,4
+I63.2,Occlude precerebral art + infarct,50
+I63.4,Cerebral embolism with infarct,237
+I63.5,Cerebral art occlusion + infarct,756
+I63.9,Cerebral infarct,1
+I64,Acute cerebrovascular disease,2048
+I64,CVA,166
+I65.0,Vertebral occlude/ sten no infarct,3
+I65.2,Carotid artery obstruction,13
+I65.2,Carotid artery occlusion,11
+I65.2,Carotid occluded/ steno no infarct,406
+I65.2,Stenosis of carotid artery,186
+I65.3,Multi precere occ/ sten no infarct,3
+I66.0,Occlude+ stenos middl cereb artery,17
+I66.9,Cerebral artery occlusion,2
+I66.9,Cerebral embolism,13
+I66.9,Cerebral thrombosis no infarct,62
+I67.1,Nonruptured cerebral aneurysm,151
+I67.2,Cerebral atherosclerosis,189
+I67.4,Hypertens encephalopathy,19
+I67.8,Temporal lobe necrosis,10
+I67.9,Cerebrovascular disease,1675
+I69.0,Sequelae of SAH,5
+I69.1,Hx of ICH,151
+I69.2,Sequelae of nontraumatic ICH,5
+I69.8,Hx of ischemic stroke,1242
+I69.8,Old CVA,7305
+I70.0,Aortic atherosclerosis,2
+I70.1,Renal artery atherosclerosis,1
+I70.1,Renal artery stenosis,193
+I70.2,Athr extrm w intrmt clad,65
+I70.21,Atherosclerosis limb w gangrene,9
+I70.9,Atherosclerosis of artery,106
+I70.9,"Atherosclerosis, General",4
+I71.0,"Aortic dissect aneur, thorac",6
+I71.0,"Aortic dissect aneur, thorac, rupt",13
+I71.0,Dissec abdominal aortic aneurysm,57
+I71.0,Dissect aneurysm thoracoabdo aorta,61
+I71.0,"Dissecting aneurysm, thoracic",164
+I71.0,Dissecting aortic aneurysm,191
+I71.1,Ruptured Thoracic Aneury,20
+I71.2,Arch aortic aneurysm,53
+I71.2,Ascending aortic aneurysm,21
+I71.2,Dissect thor/aortic pseudoaneurysm,187
+I71.2,Thoracic aortic aneurysm,75
+I71.3,Rupture abdominal aortic aneurysm,44
+I71.4,"Abdom aortic aneurysm, no rupture",35
+I71.4,Abdominal aortic aneurysm,975
+I71.4,"Aortic aneurysm, infra-renal",24
+I71.6,Thoracoabdominal aortic aneurysm,15
+I71.9,Aortic aneurysm,105
+I72.0,Aneurysm of carotid artery,18
+I72.1,"Pseudoaneurysm, upper extremity",26
+I72.2,Renal artery aneurysm,36
+I72.3,Iliac artery aneurysm,110
+I72.4,False femoral aneurysm,34
+I72.4,Femoral pseudoaneurysm,7
+I72.4,Popliteal artery aneurysm,4
+I72.5,Aneurysm & precereb artery dissect,19
+I72.8,Aneurysm of visceral artery,1
+I72.8,Splenic artery aneurysm,11
+I72.8,Subclavian aneurysm,11
+I72.9,Aneurysm,45
+I72.9,Pseudoaneurysm,37
+I73.0,Raynaud's disease,6
+I73.0,Raynaud's phenomenon,67
+I73.0,Raynaud's syndrome,31
+I73.1,Thromboangiit obliterans,4
+I73.9,Intermittent claudication,57
+I73.9,PVD of lower limb,307
+I73.9,Peripheral vascular disease,1043
+I74.0,"Aortic occlusion, abdomen",3
+I74.2,Brachial embolus,12
+I74.2,Upper limb embolism,51
+I74.3,"Arterial occlusion, femur",7
+I74.3,Femoral Artery Thrombosi,1
+I74.3,Femoral artery obstruction,179
+I74.3,Lower limb art thromboembolism,8
+I74.3,Lower limb embolism,9
+I74.3,Popliteal artery obstruction,134
+I74.3,Popliteal embolism,7
+I74.5,Iliac artery embolism,5
+I74.5,Iliac artery embolism / thrombosis,12
+I74.5,Iliac artery obstruction,209
+I74.5,Iliac artery occlusion,28
+I74.8,Subclavian artery occlusion,7
+I77.0,Arteriovenous fistula,10
+I77.0,"Arteriovenous fistula, acquired",1
+I77.1,Ischaemic arterial insufficiency,8
+I77.1,Stricture of artery,4
+I77.1,Subclavian artery stricture,4
+I77.4,Celiac art compress syn,3
+I77.6,Aortitis,2
+I77.6,Systemic vasculitis,32
+I77.6,Vasculitis,112
+I77.9,Disorder of arteries & arteriole,403
+I78.1,Telangiec macularis erupt perstans,1
+I78.1,Telangiectasia disorder,4
+I79.2,Angiopathy in other dis,258
+I80.0,Superficial phlebitis leg,14
+I80.2,DVT leg,191
+I80.2,DVT limbs,91
+I80.2,Deep vein thrombosis,489
+I80.8,Phlebitis/thrombophleb upper limb,2
+I80.8,"Superficial phlebitis, arm",1
+I80.9,Phlebitis,11
+I80.9,Thrombophlebitis,18
+I81,Portal vein thrombosis,29
+I82.0,Budd-Chiari syndrome,2
+I82.2,IVC thrombosis,4
+I82.3,Renal vein thrombosis,8
+I82.9,Embolism and thrombosis,1
+I82.9,Thrombosis,37
+I82.9,Venous thrombosis,15
+I83.0,Varicose ulcer,2
+I83.0,Varicose ulcer lower limb,31
+I83.0,"Venous ulcer, varicose",59
+I83.1,Leg varicosity w inflam,10
+I83.1,Varicose eczema,41
+I83.2,Varicos leg ulcer/inflam,3
+I83.9,Lower limb varicosity,15
+I83.9,Varicose veins,47
+I83.9,Varicose veins of leg,360
+I84,Haemorrhoids,6
+I84.0,Int thrombos hemorrhoid,28
+I84.1,Int hemorrhoid with complication,116
+I84.2,Int hemorrhoid w/o compl,5315
+I84.3,Ext thrombosed hemorrhoid,31
+I84.4,Ext hemorrhoid with complication,12
+I84.5,External hemorrhoid,381
+I84.6,Anal Skin Tag,7
+I84.6,Sentinel pile,1
+I84.8,Hemorrhoid with complication,1
+I84.9,Hemorrhoid,87
+I84.9,Pile,14
+I85.0,Esophageal varices hemorrhag,63
+I85.9,Esophageal varices,287
+I86.1,Varicocele,4
+I86.4,Bleeding gastric varices,10
+I86.4,Gastric varices,52
+I87.1,Superior vena cava obstruction,25
+I87.2,Chronic venous insufficiency,61
+I87.2,Peripheral venous insufficiency,22
+I88.9,Cervical lymphadenitis,31
+I88.9,Lymphadenitis,10
+I89.0,Chronic acquired lymphedema,2
+I89.0,Intestinal lymphangiectasis,2
+I89.0,Lymphedema,48
+I89.1,Lymphangitis,14
+I89.8,Acquired chylothorax,1
+I89.8,Lymphocele,16
+I95.1,Orthostatic hypotension,317
+I95.1,Postural hypotension,137
+I95.2,Hypotension due to drugs,209
+I95.9,Hypotension,876
+I97.1,Heart dis post cardiac surgery,1
+I97.2,Postmastect lymphedema,3
+I98.2,Esophag varices in other disease,38
+I99,Disorder of circulatory system,33
+I99,Ischemia,10
+J00,Acute nasopharyngitis,1
+J01.0,Ac maxillary sinusitis,14
+J01.9,Acute sinusitis,14
+J02.9,Acute pharyngitis,169
+J03.9,Acute tonsillitis,23
+J03.9,Tonsillitis,15
+J04.0,Laryngitis,27
+J04.1,Tracheitis,13
+J05.1,Acute epiglottitis,11
+J05.1,Epiglottitis,13
+J06,Ac uri mult sites,1
+J06.9,Acute URTI,391
+J06.9,URTI,11553
+J09,H1N1 - human swine flu,5
+J09,Influenza A human swine flu,101
+J10.1,Influenza A,794
+J10.1,Influenza A H3N2,28
+J10.1,Influenza B,160
+J11.0,Influenza with pneumonia,22
+J11.1,Flu with resp manifestations,1
+J11.1,Influenza,356
+J12.0,Adenoviral pneumonia,1
+J12.1,RSV pneumonia,16
+J12.2,Parinfluenza viral pneum,3
+J12.3,Human metapneumovirus pneumonia,24
+J12.8,Viral pneumonia,22
+J13,Pneumococcal pneumonia,50
+J14,Hemophilus pneumonia,187
+J15.0,Klebsiella pneumonia,134
+J15.1,Pseudomonas pneumonia,302
+J15.2,"Pneumonia, staphylococcus",52
+J15.3,Pneumonia strep. B,1
+J15.4,Streptococcal pneumonia,66
+J15.5,Pneumonia E coli,19
+J15.6,Pneumonia gram -ve bacteria,143
+J15.7,Mycoplasma pneumonia,14
+J16.8,Pneumonia due to organism,2
+J17.8,Pneumonia in infectious diseases,28
+J18.8,Bronchio obliter organis pneumonia,20
+J18.9,Atypical pneumonia,4
+J18.9,Pneumonia,7616
+J20.4,Acute bronchitis by parainfluenza,3
+J20.5,Acute bronchitis by RSV,26
+J20.6,Acute bronchitis by rhinovirus,5
+J20.9,Acute bronchitis,797
+J22,Ac bronchitis/ bronchiol,1
+J30.0,Vasomotor rhinitis,25
+J30.4,Allergic rhinitis,497
+J31.0,Chronic rhinitis,3
+J31.0,Rhinitis,227
+J31.2,Chronic pharyngitis,23
+J32.0,Chr maxillary sinusitis,35
+J32.0,Maxillary sinusitis,26
+J32.0,OAF,4
+J32.1,Chr frontal sinusitis,3
+J32.3,Chr sphenoidal sinusitis,61
+J32.3,Sphenoidal Sinusitis,3
+J32.9,Chronic sinusitis,97
+J33.0,Bilateral intranasal polyp,137
+J33.0,Polyp of nasal cavity,31
+J33.9,Nasal polyp,44
+J34.0,Abscess of Nasal Septum,10
+J34.1,Nasal sinus mucocele,4
+J34.2,Deviated nasal septum,33
+J34.3,Hypertrph nasal turbinat,61
+J34.8,Disease of nasal cavity,26
+J34.8,Disease of nasal cavity and sinus,16
+J34.8,Nose nodule - nasal cavity,48
+J35.1,Hypertrophy tonsils,5
+J35.8,Chr t and a dis,2
+J35.8,Tonsillar mass,10
+J36,Peritonsillar abscess,157
+J36,Quinsy,17
+J38.0,Partial paralysis left vocal cord,3
+J38.0,Vocal cord paralysis,186
+J38.0,Vocal paral unilat part,31
+J38.0,Vocal paral unilat total,58
+J38.1,Polyp of larynx,5
+J38.1,Polyp of vocal cord,70
+J38.1,Vocal cord / larynx polyp,69
+J38.2,Vocal cord nodules,27
+J38.3,Disease of vocal cords,42
+J38.3,Spastic dysphonia,6
+J38.3,Vocal cord cyst,21
+J38.3,Vocal cord leukoplakia,49
+J38.4,Edema of larynx,5
+J38.7,Disease of larynx,191
+J38.7,Epiglottic cyst,14
+J38.7,Granuloma larynx,1
+J38.7,Leukoplakia larynx,2
+J38.7,Vallecula cyst,19
+J39.0,Parapharyngeal abscess,6
+J39.2,Cyst of nasopharynx,10
+J39.2,Disease of pharynx,1
+J39.2,Disease of pharynx or nasopharynx,38
+J39.2,Edema nasopharynx,15
+J39.2,Nasopharyngeal mass,15
+J39.8,Disease of trachea,11
+J39.8,Trachea stenosis,12
+J39.9,Disease of nasopharynx,14
+J40,Bronchitis,1483
+J41.1,Mucopurul chr bronchitis,54
+J42,Chronic bronchitis,13
+J43.9,Emphysema of lung,1
+J43.9,Lung bulla,13
+J44.1,CO bronchitis acute exacerbation,6
+J44.8,Diffuse panbronchiolitis,5
+J44.8,Obstruct chr bronchitis,12
+J44.9,COPD,3007
+J44.9,Chronic airway obstruction,1201
+J45.0,Extrinsic asthma,36
+J45.9,Asthma,1664
+J47,Bronchiectasis,811
+J61,Asbestosis,6
+J64,Pneumoconiosis,19
+J67.9,Extrinsic allergic alveolitis,6
+J69.0,Aspiration pneumonia,26
+J69.0,Aspiration pneumonitis,8
+J69.0,Food/vomit pneumonitis,57
+J69.8,Pneumonitis by solid/ liquid,28
+J81,Acute lung edema,364
+J81,Pulmonary edema,30
+J84.1,Fibrosing alveolitis,21
+J84.1,Idiopathic fibrosing alveolitis,5
+J84.1,Interstitial lung disea w fibrosis,28
+J84.1,Pulmonary Fibrosis,54
+J84.8,Pulmonary lymphangioleiomyomatosis,10
+J84.9,Interstitial pneumonia,4
+J84.9,Interstitial pulmonary disease,60
+J85.1,Abscess of lung with pneumonia,4
+J85.2,Abscess of lung,9
+J86.0,Pleuroperitoneal fistula,5
+J86.0,Tracheoesophageal fistula,6
+J86.9,Empyema,55
+J86.9,Empyema thoracis,2
+J90,Bacterial pleural effusion,1
+J90,Parapneumonic effusion,114
+J90,Pleural effusion,1253
+J92.9,Pleural plaque without asbestos,5
+J93.9,Pneumothorax,223
+J94.2,Hemothorax,10
+J94.8,Hydrothorax,7
+J95.0,Tracheostomy complic,49
+J95.8,Iatrogenic pneumothorax,15
+J95.9,Respiratory disorder post-op,4
+J96.0,Acute respiratory failure,40
+J96.1,Chronic respiratory failure,1
+J96.9,Respiratory failure,175
+J96.9,Type I respiratory failure,42
+J96.9,Type II respiratory failure,198
+J98,Other diseases of lung,21
+J98.0,Bronchial stenosis,90
+J98.0,Bronchospasm,17
+J98.0,Disease of bronchus,11
+J98.1,Pulmonary collapse,48
+J98.2,Pneumomediastinum,1
+J98.4,Lung disease,598
+J98.4,Lung nodule,222
+J98.4,Restrictive lung disease,23
+J98.5,Mediastinitis,13
+J98.5,Mediastinum disease,7
+J98.6,Disorder of diaphragm,8
+J98.6,Paralysis of Diaphragm,4
+J98.8,Chest infection,10
+J98.8,Resp system disease,1
+J98.8,Respiratory infection,16
+J98.8,Upper airway obstruction,11
+K00.1,Supernumerary teeth,8
+K01.1,Impacted wisdom tooth,106
+K02.0,Caries limited to enamel,2
+K02.3,Arrested dental caries,53
+K02.9,Dental caries,998
+K03.0,Excess attrition-teeth,6
+K03.1,Abrasion of teeth,9
+K03.8,Dentine sensitivity,2
+K04.1,Necrosis of tooth pulp,2
+K04.4,Acute apical periodontitis,28
+K04.5,Apical granuloma,1
+K04.5,Chronic apical periodontitis,3
+K04.5,Periapical periodontitis,3
+K04.7,Dental abscess,298
+K04.8,Radicular cyst,24
+K05.0,Acute gingivitis,69
+K05.1,Chronic gingivitis,6
+K05.1,Gingivitis,426
+K05.2,Acute periodontitis,2
+K05.3,Chronic periodontitis,37
+K05.5,Periodontal disease,4
+K05.6,Gingival & periodontal disease,60
+K05.6,Periodontal disease,169
+K06.8,Alveolar ulcer,1
+K06.8,Gingival fibroepithelial polyp,7
+K06.8,Gum hemorrhage,946
+K06.9,Gingival disease,12
+K07.0,Alveolar maxillary hypoplasia,9
+K07.0,Maxillary hyperplasia,1
+K07.3,Tooth position anomaly,1
+K07.6,Recurrent dislocation of TMJ,30
+K07.6,TM joint-pain-dysfunction syndrome,14
+K07.6,TMD joint disorder,20
+K07.6,TMJ arthralgia,25
+K08.1,Acquired absence of teeth,23
+K08.1,Loss of teeth due to extraction,29
+K08.1,Teeth loss by local peridont disea,1
+K08.2,Atrophy alveolar ridge,11
+K08.3,Retained dental root,319
+K08.8,Loosening of tooth,77
+K08.8,Mobile tooth,116
+K08.8,Toothache,413
+K08.9,Dental disorders,15
+K08.9,Dental problem,429
+K08.9,Disease of teeth,3
+K09.2,Cysts of jaws,24
+K09.2,Jaw cyst of maxilla,10
+K09.8,Nasolabial Cyst,32
+K09.9,Cyst of oral region,10
+K10.2,"Jaw osteonecrosis, not by RT",36
+K10.2,Osteomyelitis of jaw,35
+K10.2,Osteoradionecrosis of jaw,53
+K10.2,Sequestrum of jaw bone,6
+K10.8,Jaw pain,13
+K10.8,Unilateral jaw pain,5
+K11.2,Acute sialoadenitis,12
+K11.2,Chronic sialadenitis,4
+K11.2,Parotid sialoadenitis,3
+K11.2,Parotitis,87
+K11.2,Sialoadenitis,74
+K11.3,Parotid gland abscess,2
+K11.3,Salivary gland abscess,1
+K11.5,Submandibular ductal stone,1
+K11.6,Ranula,2
+K11.6,Salivary gland mucocele,3
+K11.7,Salivary secretion dis,5
+K11.8,Salivary gland dis,2
+K11.8,Submandibular gland infection,28
+K11.9,Salivary glands disease,17
+K12.0,Aphthous ulcer skin/ mucou membr,2
+K12.0,Minor oral aphthous ulceration,8
+K12.0,Oral aphthae,81
+K12.1,Traumatic oral ulceration,15
+K12.1,Ulcer of mouth,87
+K12.2,Cellulitis/abscess mouth,14
+K12.2,Ludwig's Angina,43
+K12.2,Mouth abscess,4
+K12.3,Oral mucositis,26
+K12.3,Oral ulcerative mucositis,9
+K12.3,Stomatitis,5
+K13.0,Cheilitis,6
+K13.0,Lower lip ulcer,10
+K13.0,Retention cyst of lower lip,16
+K13.0,Retention cyst of upper lip,1
+K13.2,Erythroplakia of mouth,11
+K13.2,Leucoplakia of gingiva,2
+K13.2,Leukoplakia of oral mucosa,14
+K13.2,Leukoplakia oral mucosa+ tongue,6
+K13.2,"Leukoplakia, tongue",47
+K13.4,Granuloma of oral mucosa,6
+K13.6,Oral mucosa irritative hyperplasia,13
+K13.7,Buccal nodule,3
+K13.7,Disorder of oral mucous membrane,2
+K13.7,Oral lichen planus,11
+K13.7,Oral soft tissue disease,11
+K13.7,Soft palate nodule,23
+K13.7,Sore mouth,39
+K14.0,Glossitis,11
+K14.0,Tongue ulcer,155
+K14.6,Burning tongue pain,4
+K14.6,Glossodynia,37
+K14.8,Tongue biting,26
+K14.8,Tongue disorder,31
+K14.8,Tongue nodule,18
+K14.9,Disease of tongue,52
+K14.9,Tongue disorders,2
+K14.9,Tongue mass,56
+K20,Bleeding esophagitis,1
+K20,Esophagitis,297
+K21.0,Reflux bleeding esophagitis,1
+K21.0,Reflux esophagitis,159
+K21.9,Esophageal reflux,992
+K22.0,Achalasia,10
+K22.1,Esophageal ulcer with bleeding,1
+K22.1,Ulcer of esophagus,78
+K22.2,Corrosive esophageal stricture,18
+K22.2,Esophageal stricture,57
+K22.2,Esophageal stricture & stenosis,5
+K22.2,Mild esophageal stricture,32
+K22.3,Perforation esophagus & bleeding,3
+K22.3,Perforation of esophagus,16
+K22.4,Dyskinesia of esophagus,4
+K22.5,"Diverticulum of esophagus, acq",25
+K22.6,Gastroesoph laceration-hemorr synd,18
+K22.6,Mallory-Weiss syndrome,48
+K22.7,Barrett esophagus,212
+K22.8,Esophageal disorder,11
+K22.8,Esophageal hemorrhage,3
+K22.8,Esophageal polyp,48
+K22.9,Esophageal disorder,140
+K25.0,Acute stomach ulcer w hemorrhage,123
+K25.0,Dieulafoy's stomach lesion,3
+K25.1,Acute gastric ulcer w perforation,2
+K25.3,Acute gastric ulcer,457
+K25.4,Bleeding gastric erosion,27
+K25.4,Chronic gastic bleeding ulcer,182
+K25.4,GIB bleed GU,1
+K25.5,Chronic gastric ulcer + perforate,9
+K25.6,Chron gast ulcer+ bleed+ perfor,1
+K25.7,Chronic gastric ulcer,628
+K25.9,Gastric Erosion,872
+K25.9,Gastric ulcer,346
+K26,Duodenal ulcer,2
+K26.0,"Duodenal ulcer, acute w hemorrhage",71
+K26.1,Acute duodenal ulcer w perforation,27
+K26.3,Acute duodenal ulcer,391
+K26.4,Chr duoden ulcer h'age + obstr,5
+K26.4,Duodena ulcer chronic w hemorrhage,99
+K26.5,Chronic duoden ulcer+ perforation,34
+K26.5,Perforation of duodenum,14
+K26.7,Chronic duodenal ulcer,335
+K26.9,DU,2
+K26.9,Duodenal erosion,112
+K26.9,Duodenal ulcer,273
+K27,Peptic ulcer,1
+K27.0,Ac peptic ulcer w hemorr,65
+K27.3,Acute peptic ulcer,146
+K27.4,Chronic peptic ulcer w hemorrhage,84
+K27.5,Chronic peptic ulcer w perforation,9
+K27.7,Chronic peptic ulcer,88
+K27.9,Peptic ulcer,180
+K28.3,Ac marginal ulcer,6
+K28.4,Gastrojejunal ulcer w h'mage,1
+K28.7,Chronic gastrojejunal ulcer,40
+K28.9,Gastrojejunal ulcer,1
+K29.0,Acute gastritis w hemorrhage,26
+K29.1,Acute and chronic gastritis,16
+K29.1,Acute erosive gastritis,38
+K29.1,Acute gastritis,285
+K29.4,Atrophic gastritis,46
+K29.5,Chronic antral gastritis,85
+K29.5,Chronic gastritis,110
+K29.5,Chronic gastritis w hemorrhage,29
+K29.6,Gastric mucosal hypertrophy,31
+K29.6,Hypertroph gastric mucosa w hemorr,4
+K29.6,Reflux gastritis,3
+K29.7,Gastritis,5527
+K29.7,Gastritis with hemorrhage,18
+K29.8,Acute duodenitis,8
+K29.8,Duodenitis,182
+K29.8,Duodenitis w hemorrhage,3
+K29.9,Gastritis / gastroduodenitis,11
+K29.9,Gastroduodenitis,278
+K30,Dyspepsia,1591
+K31,Gastroduodenal disorder,1
+K31.1,Pyloric Stenosis,25
+K31.4,Gastric diverticulum,7
+K31.5,Duodenal obstruction,35
+K31.6,Duodenal Fistula,3
+K31.7,Duodenal polyp,132
+K31.7,Gastric Polyp,1140
+K31.7,Gastric polyposis,171
+K31.7,Hyperplast polyp stomach & duoden,3
+K31.7,Stomach polyp bleeding,31
+K31.8,Angiodysplasia - stomach & duoden,87
+K31.8,Angiodysplasia - upper GI,22
+K31.8,Angiodysplasia stomach bleeding,8
+K31.8,Angiodysplasia w hemorr - upper GI,4
+K31.8,GAVE with haemorrhage,1
+K31.8,Gastric antral vascular ectasia,27
+K31.8,Gastroduodenal dis,407
+K31.8,Gastroparesis,17
+K31.8,Portal hypertensive gastropathy,124
+K31.9,Stomach function disorder,8
+K35.2,Acute appendicitis+ gen peritoniti,113
+K35.3,Acute appendicitis+ local peritoni,2
+K35.3,Acute appendicitis+ perito abscess,184
+K35.8,Acute appendicitis,174
+K35.8,Suppurative appendicitis,2
+K37,Appendicitis,6
+K38.8,Mucocele of appendix,6
+K40.3,Recur unilat ing hernia w obstruct,19
+K40.3,Unilat inguinal hernia w obstruct,230
+K40.9,Inguinal hernia,87
+K40.9,Recurrent inguinal hernia,264
+K40.9,Unilateral inguinal hernia,1600
+K41.3,Unilat femoral hernia w obstruct,7
+K41.4,"Femoral Hernia, Gangrene",23
+K41.9,Unilateral femora hernia,13
+K42.0,Strangulated Umbilical H,8
+K42.9,Paraumbilical hernia,105
+K42.9,Umbilical hernia,56
+K43.0,Irreducible incisional hernia,40
+K43.0,Strangulated incisional hernia,3
+K43.0,Strangulated ventral hernia,4
+K43.9,Abdominal wall hernia,7
+K43.9,Epigastric Hernia,2
+K43.9,Incisional hernia,323
+K43.9,Parastomal Hernia,25
+K43.9,Recurrent incisional hernia,2
+K44.9,Diaphragmatic hernia,2
+K44.9,Hiatus Hernia,325
+K44.9,Sliding Hiatus Hernia,88
+K45,Other abdominal hernia,2
+K45.8,Lumbar Hernia,7
+K46.0,IO due to internal herniation,27
+K46.0,Irreducible hernia,14
+K46.9,Enterocele,32
+K46.9,Hernia,459
+K50.1,Crohn's disease of colon,9
+K50.9,Crohn's disease,169
+K51.0,Ulcerative enterocolitis,3
+K51.0,Ulcerative ileocolitis,2
+K51.2,Ulcerative proctitis,73
+K51.3,Ulcerative proctosigmoiditis,7
+K51.4,Pseudopolyposis of colon,5
+K51.9,Ulcerative colitis,312
+K52.8,Noninfect gastroenteritis& colitis,2
+K52.9,Chronic enteritis,4
+K52.9,"GE, noninfectious",711
+K52.9,Inflammatory bowel disease,13
+K55.0,Gangrene of ischaemic bowel,5
+K55.0,Gangrene of small bowel,1
+K55.0,Superi mesente vein thrombosis,15
+K55.2,Angiodysplasia of colon,14
+K55.2,Angiodysplasia of colon hemorrhage,1
+K55.2,Angiodysplasia of large bowel,138
+K55.8,Angiodysplasia of duodenum & bleed,16
+K55.8,Angiodysplasia of small bowel,67
+K55.8,Angiodysplasia smal bowel bleeding,3
+K55.9,Ischaemic bowel,11
+K55.9,Ischemic colitis,2
+K55.9,Ischemic colitis with bleeding,8
+K56,Intestinal obstruction,1
+K56.0,Paralytic ileus,43
+K56.1,Ileocecal intussusception,2
+K56.1,Intussusception of intestine,1
+K56.2,Volvulus of sigmoid colon,23
+K56.3,Gallstone ileus,61
+K56.4,Faecal Impaction,114
+K56.5,IO due to adhesion,116
+K56.5,IO due to small bowel adhesion,89
+K56.6,Bezoar obstruction,17
+K56.6,Colonic Stricture,22
+K56.6,Food bolus obstruct of intestine,9
+K56.6,Ileal Stricture,4
+K56.6,Intestinal obstruction,565
+K56.6,Intestinal stricture,6
+K56.6,Small Bowel Obstruction,24
+K56.6,Small bowel stricture,54
+K56.7,Ileus of bowel,40
+K57.1,Diverticulosis of small intestine,1
+K57.1,Duodenal diverticulum,127
+K57.1,Jejunal diverticulum,5
+K57.2,Diverticulosis colon w hemorrhage,18
+K57.2,Rupture sigmoid diverticulum,13
+K57.3,Cecal diverticulitis,25
+K57.3,Diverticula of colon,306
+K57.3,Diverticulitis of ascending colon,5
+K57.3,Diverticulitis of colon,24
+K57.3,Diverticulitis of descending colon,1
+K57.3,Diverticulosis of colon,2826
+K57.3,Sigmoid Diverticulitis,8
+K57.9,Diverticular disease,97
+K57.9,Diverticulitis,21
+K58.0,Irritable bowel with diarrhea,13
+K58.9,Irritable bowel syndrome,1
+K59,Funct digestive dis,2
+K59.0,Chronic constipation,23
+K59.0,Constipation,4107
+K59.2,Neurogenic bowel,3
+K59.4,Anal spasm,1
+K59.8,Protein lose enteropa-not malabso,67
+K59.8,Pseudo-obs of intestine,2
+K59.8,Pseudo-obstruction of colon,101
+K60.0,"Anal Fissure,Acute",15
+K60.2,Anal fissure,13
+K60.3,Anal fistula,8
+K60.3,"FIA, intersphincteric",2
+K60.3,"Fistula-in-ano, high",13
+K60.3,Perianal Sinus,4
+K61.0,Anal & rectal abscess,33
+K61.0,Perianal abscess,436
+K62.0,Anal & rectal polyp,3
+K62.0,Anal Polyp,112
+K62.0,Bleeding anal polyp,2
+K62.1,Bleeding rectal polyp,1
+K62.1,Rectal Polyp,473
+K62.3,Complete Rectal Prolapse,3
+K62.3,Rectal prolapse,112
+K62.4,Rectal stricture,4
+K62.5,Anal bleeding,7
+K62.5,Hemorrhage rectum anus,14
+K62.5,Per rectal bleeding,1194
+K62.5,Rectal bleeding,2412
+K62.6,Anal verge ulcer,14
+K62.6,Bleeding solitary rectal ulcer,1
+K62.6,Rectal & anal ulcer,1
+K62.6,Rectal erosion,1
+K62.6,Rectal ulcer,61
+K62.6,Rectal ulcer with bleeding,30
+K62.6,Ulcer of anus,23
+K62.7,Radiation proctitis,3
+K62.8,Anal or rectal pain,2
+K62.8,Anal pain,77
+K62.8,Proctitis,165
+K62.8,Rectal pain,4
+K62.8,Rectal perforation with bleeding,1
+K62.9,Disorder of rectum and anus,231
+K63,Intestinal disorders,17
+K63.1,Perforated sigmoid colon,27
+K63.1,Perforated transverse colon,2
+K63.1,Perforation of intestine,10
+K63.1,Small bowel perforation,5
+K63.3,Colonic ulcer,108
+K63.3,Intestinal ulcer,49
+K63.3,Multiple small bowel ulcer,28
+K63.3,Terminal ileum ulcer,65
+K63.5,Colon polyp,7464
+K63.5,Colonic polyp,2
+K63.5,Colonic polyp bleeding,26
+K63.5,Sigmoid colon polyp,718
+K63.8,Epiploic appendagitis,4
+K63.8,Hyperplastic polyp of intestine,1
+K63.8,Intestinal disorders,550
+K63.8,Melanosis coli,52
+K63.8,Polyp of small intestine,5
+K63.8,Villous atrophy of intestine,2
+K63.9,Cecal mass,11
+K63.9,Intestinal disorder,3
+K65,Peritonitis,7
+K65.0,Abdominal cavity abscess,5
+K65.0,Abdominopelvic Abscess,28
+K65.0,Intraabdominal abscess,24
+K65.0,Paracolic & pelvic abscess,19
+K65.0,Pneumococcal peritonitis,7
+K65.0,Retroperitoneal Abscess,3
+K65.0,Spontaneous bacterial peritonitis,78
+K65.0,Subphrenic abscess,28
+K65.9,Infection of retroperitoneal organ,2
+K65.9,Peritonitis,29
+K66.0,Adhesion of small bowel,25
+K66.0,Peritoneal adhesions,127
+K66.1,Hemoperitoneum nontrauma,4
+K66.1,"Hemoperitoneum, torn mesentery",22
+K66.1,Retroperitoneal hematoma-nontrauma,7
+K66.8,Mesenteric cyst,12
+K66.8,Pneumoperitoneum,15
+K67.8,Infectious peritonitis,12
+K70.0,Alcoholic fatty liver,6
+K70.1,Ac alcoholic hepatitis,20
+K70.3,Alcohol cirrhosis liver,209
+K70.3,"Alcoholic cirrhosis of liver, A",95
+K70.3,"Alcoholic cirrhosis of liver, B",37
+K70.3,"Alcoholic cirrhosis of liver, C",21
+K70.9,Alcohol liver damage,1
+K70.9,Alcoholic chronic liver disease,45
+K71.9,Liver toxicity,1
+K72.0,Acute hepatic failure,24
+K72.0,Acute necrosis of liver,170
+K72.1,Chronic hepatic failure,1
+K72.9,Hepatic encephalopathy,98
+K72.9,Impaired liver function,1259
+K73.2,Chronic active hepatitis,20
+K73.9,Chronic hepatitis,30
+K74.0,Liver fibrosis,20
+K74.3,Primary biliary cholangitis,352
+K74.5,Biliary cirrhosis,4
+K74.6,Cryptogenic cirrhosis,31
+K74.6,Liver cirrhosis,299
+K74.6,Macronodular cirrhosis,11
+K74.6,Non-alcoholic cirrhosis - A,685
+K74.6,Non-alcoholic cirrhosis - B,344
+K74.6,Non-alcoholic cirrhosis - C,147
+K75,Sequela of chr liver dis,2
+K75.0,Liver abscess,106
+K75.3,Intrahepatic granuloma,5
+K75.4,Autoimmune hepatitis,13
+K75.9,Hepatitis,206
+K76.0,Fatty liver,607
+K76.0,Non-alcoholic fatty liver,14
+K76.1,Cardiac cirrhosis,20
+K76.1,Congestive liver,29
+K76.6,Portal hypertension,130
+K76.7,Hepatorenal syndrome,47
+K76.8,Focal nodular hyperplasia of liver,6
+K76.8,Liver cyst,134
+K76.9,Chronic nonalcoholic liver disease,24
+K76.9,Liver disorder,412
+K80,Cholelithiasis,24
+K80.0,GB stone w acute cholecystitis,75
+K80.0,GB+ bile duct calc+ acute cholecys,1
+K80.1,Gallstone w cholecystitis,22
+K80.1,Gallstone w chronic cholecystitis,3
+K80.2,Calculus of gallbladder,1425
+K80.2,Cholelithiasis,190
+K80.2,Gallstone,28
+K80.2,Gallstone with obstruction,1
+K80.2,Stone GB+ bile duct w obstruction,10
+K80.4,CBD stone w acute cholecystitis,5
+K80.5,Biliary colic,47
+K80.5,Calculus of bile duct,4
+K80.5,Choledocholithiasis,1647
+K80.5,Choledocholithiasis w obst,86
+K81.0,Acute and chronic cholecystitis,34
+K81.0,Acute cholecystitis,376
+K81.0,Acute gangrenous cholecystitis,44
+K81.0,Acute suppurative cholecystitis,1
+K81.0,Empyema gallbladder,16
+K81.1,Chronic cholecystitis,113
+K81.9,Acalculous cholecystitis,4
+K81.9,Cholecystitis,100
+K82.1,Mucocele gallbladder,2
+K82.2,Perforated gallbladder,20
+K82.3,Cholecystoduodenal Fistu,5
+K82.8,Dis of gallbladder,1
+K82.8,Gallbladder polyp,65
+K82.8,Intramural calcific gallbladder,2
+K82.9,Disorder of gallbladder,12
+K83.0,Acute cholangitis,167
+K83.0,Autoimmune cholangitis,26
+K83.0,Cholangitis,596
+K83.0,Primary Cholangitis,10
+K83.0,Recurrent Cholangitis,9
+K83.0,Recurrent pyogenic cholangitis,123
+K83.1,"Biliary obstruction, malignancy",2
+K83.1,CBD stricture,136
+K83.1,Cholestasis,1
+K83.1,Intrahepatic ductal stricture,5
+K83.1,Obstruction of bile duct,7
+K83.1,Obstructive jaundice,84
+K83.1,Stricture bile duct,166
+K83.4,Spasm sphincter of Oddi,5
+K83.5,Choledochal Cyst,2
+K83.8,Bleeding CBD,8
+K83.8,"Dilate CBD, acquired",147
+K83.8,Disorders of biliary tract,81
+K83.9,Disorder of biliary tract,3
+K85.1,Biliary acute pancreatitis,55
+K85.2,Alcohol-induced acute pancreatitis,1
+K85.9,Acute necrotizing pancreatitis,2
+K85.9,Acute pancreatitis,206
+K85.9,Pancreatitis,241
+K86.0,Alcoholic chronic pancreatitis,14
+K86.1,Autoimmune pancreatitis,27
+K86.1,Chronic pancreatitis,72
+K86.2,Pancreat cyst/pseudocyst,4
+K86.2,Pancreatic Cyst,266
+K86.3,"Pseudocyst, pancreas",4
+K86.8,Lesion of pancreas,30
+K86.8,Pancreatic disease,76
+K86.9,Pancreatic disease,15
+K90.4,"Protein lose enteropathy, malabso",45
+K90.9,Intestinal malabsorption,1
+K91.0,Vomiting post-GI surgery,5
+K91.2,Postop intestine nonabsorption,2
+K91.2,Short gut syndrome,20
+K91.4,Colostomy malfunction,16
+K91.4,Colostomy stenosis,5
+K91.4,Prolapsed colostomy,5
+K92.0,Hematemesis,56
+K92.1,Blood in stool,3
+K92.1,Melena,237
+K92.2,Colon bleeding,38
+K92.2,Duodenal bleeding,13
+K92.2,GI hemorrhage,1552
+K92.2,Gastric bleeding,58
+K92.2,Small bowel bleeding,6
+K92.8,Perforation GI tract,5
+K92.9,Disease of mouth,2
+L00,Scalded skin syndrome,15
+L02.0,Abscess of face,1
+L02.0,Periorbital abscess,10
+L02.1,Carbuncle of neck,71
+L02.2,Carbuncle of abdominal wall,11
+L02.2,Carbuncle of back,49
+L02.2,Carbuncle of trunk,5
+L02.2,Furuncle of back,2
+L02.3,Buttock abscess,14
+L02.3,Carbuncle of buttock,19
+L02.4,Carbuncle of leg,14
+L02.4,Foot abscess,5
+L02.8,"Abscess of head, except face",1
+L02.9,Carbuncle,91
+L02.9,Carbuncle and furuncle,1
+L02.9,Furuncle,14
+L02.9,Skin abscess,89
+L03,Other cellulitis/abscess,1
+L03.0,Cellulitis & abscess of toes,402
+L03.0,Cellulitis and abscess of finger,308
+L03.0,Infected finger nail bed,2
+L03.0,Paronychia in finger,231
+L03.0,Paronychia in toe,44
+L03.1,Cellulitis & abscess of leg,3616
+L03.1,Cellulitis and abscess - arm,430
+L03.1,Cellulitis and abscess of ankle,4
+L03.1,"Cellulitis/abscess foot, not toes",1798
+L03.1,Cellulitis/abscess hand-not finger,567
+L03.2,Cellulitis of face,339
+L03.3,Cellulitis of buttock,349
+L03.3,Cellulitis of trunk,587
+L03.8,Cellulitis of neck,233
+L03.8,Cellulitis site,571
+L03.9,Cellulitis,1
+L03.9,"Lymphangitis, Acute",1
+L04.9,Acute lymphadenitis,4
+L08.9,Local skin infection,46
+L08.9,Skin infection of finger,32
+L08.9,Skin infection of toe,69
+L10.0,Pemphigus vulgaris,31
+L10.9,Pemphigus,9
+L12.0,Bullous pemphigoid,119
+L12.1,Ocular pemphigus,13
+L12.9,Pemphigoid,48
+L13.9,Bullous dermatoses,5
+L20.9,Atopic dermatitis,31
+L20.9,Atopic eczema,240
+L21.9,Seborrhoeic dermatitis,1
+L22,Nappy rash,12
+L23.3,Allergic dermatitis drug on skin,7
+L23.9,Allergic contact dermatitis,25
+L24.9,Irritant contact dermatitis,5
+L25.1,Topical med dermatitis,2
+L25.9,Contact dermatitis,96
+L25.9,Contact eczema,6
+L26,Exfoliative dermatitis,1
+L27.0,Drug dermatitis,1
+L27.0,Drug-induced skin rash,7
+L27.0,General skin eruption by drug& med,4
+L27.1,Fixed drug eruptions,2
+L28.1,Picker's nodules,1
+L28.2,Prurigo,30
+L29.0,Pruritus ani,1
+L29.2,Pruritus of vulva,7
+L29.8,"Pruritus of genitalia, female",8
+L29.8,"Pruritus of genitalia, male",1
+L29.8,Winter itch,7
+L29.9,Pruritus,115
+L30.9,Chronic dermatitis,6
+L30.9,Chronic eczema,10
+L30.9,Dermatitis,1034
+L30.9,Eczema,1118
+L40.5,Psoriatic arthropathy,266
+L40.9,Psoriasis,336
+L43.9,Lichen planus,5
+L44.0,Pityriasis rubra pilaris,3
+L50.0,Allergic urticaria,15
+L50.1,Idiopathic urticaria,14
+L50.9,Hives,8
+L50.9,Urticaria,484
+L51.9,Erythema multiforme,11
+L52,Erythema nodosum,18
+L53.9,Erythroderma,12
+L57.0,Actinic keratosis,8
+L57.1,Chronic actinic dermatitis by sun,11
+L59.8,Dermatitis due to radiation,2
+L60.0,Big toe ingrowing toe nail,80
+L60.0,"Ingrowing toe nail, not big toe",9
+L60.0,Ingrowing toenail,8
+L60.3,Nail dystrophy,6
+L60.8,Melanonychia,6
+L60.9,Disease of nail,12
+L63.9,Alopecia areata,3
+L70.9,Acne,12
+L71.9,Rosacea,10
+L72.1,Sebaceous cyst,887
+L72.1,Sebaceous cyst over neck,6
+L73.9,Acute folliculitis,5
+L73.9,Folliculitis,55
+L73.9,Hair disease,12
+L74.0,Prickly heat,15
+L80,Vitiligo,2
+L81.4,Melanosis,1
+L81.9,Dyschromia,2
+L81.9,Pigmented lesion,186
+L81.9,Pigmented lesion in face,8
+L82,Seborrheic keratosis,86
+L82,Seborrhoeic scalp wart,3
+L83,Acq acanthosis nigricans,1
+L84,Callosity,16
+L84,Corn,34
+L84,Corn and callosity,12
+L85.3,Xerosis cutis,4
+L85.8,Keratoacanthoma,3
+L85.9,Hyperkeratosis,7
+L88,Pyoderma gangrenosum,19
+L89.2,Stage III decubitus ulcer,4
+L89.3,Stage IV decubitus ulcer,4
+L89.9,"Bed sore, buttock",130
+L89.9,"Bed sore, foot",15
+L89.9,"Bed sore, heel",42
+L89.9,"Bed sore, leg",1
+L89.9,Bed sores,318
+L89.9,Decubitus ulcer,475
+L90.5,Painful scar,4
+L90.5,Scar & fibrosis of skin,1
+L90.5,Scar of skin,1
+L91,Oth skin hypertro/atroph,3
+L91.0,Hypertrophic scar,14
+L91.0,Keloid,1
+L91.0,Keloid scar,27
+L91.8,Skin tag,12
+L92.3,FB granuloma skin+ subcut tissue,18
+L92.8,Umbilical Granuloma,1
+L92.9,Abnormal granulation tissue,2
+L92.9,Granulomatou disorder skin+ subcut,10
+L93.0,Discoid lupus erythematosus,38
+L93.0,Lupus erythematosus,61
+L95.9,Vasculitis of skin,15
+L97,Ankle ulcer,109
+L97,Chron ulcer lower limb not bedsore,21
+L97,Chronic ulcer of lower limb,37
+L97,Foot ulcer,968
+L97,Heel ulcer,100
+L97,Leg ulcer,514
+L97,Neurogenic ulcer in leg,4
+L97,Non-bedsore ulcer of LL,16
+L97,Perforating ulcer of the foot,1
+L98.0,Granuloma pyogenicum,17
+L98.0,Pyogenic granuloma,37
+L98.0,"Pyogenic granuloma, skin & sub tis",37
+L98.4,Chronic skin ulcer,3
+L98.4,Facial ulcer,3
+L98.4,Foot sores,12
+L98.4,Ischemic ulcer,9
+L98.4,Lower limb ulcer,9
+L98.4,Skin Ulcer,150
+L98.8,Leukoplakia,43
+L98.8,Skin disorders,32
+L98.9,Disorder of skin,41
+L98.9,Disorder of subcutaneous tissue,14
+L98.9,Skin & subcut tissue disorder,83
+M00.91,Infective arthritis shoulder,4
+M00.91,"Pyogenic arthritis, shoulder",17
+M00.93,"Pyogenic arthritis, wrist",21
+M00.94,"Pyogenic arthritis, hand",7
+M00.96,"Pyogenic arthritis, knee",67
+M00.96,"Pyogenic arthritis, lower leg",11
+M00.97,"Pyogenic arthritis, ankle & foot",5
+M00.99,Infective arthritis,6
+M00.99,Pyogenic arthritis,10
+M01.39,Arthropathy with bacterial disease,2
+M01.66,"Mycotic arthritis, lo leg",1
+M05.19,Rheumatoid lung disease,6
+M05.99,"RA, seropositive",145
+M06.09,"RA, seronegative",6
+M06.19,Adult-onset Still's disease,8
+M06.49,Inflammatory polyarthropathy,12
+M06.90,"Polyarthritis, rheumatoid",17
+M06.99,Rheumatoid arthritis,1776
+M08.29,Juv chr arthritis w systemic sympt,2
+M08.99,Juvenile chronic arthritis,2
+M10.09,Gouty arthritis,4344
+M10.09,"Gouty arthritis, primary",32
+M10.09,Gouty arthropathy,459
+M10.09,Gouty tophi,367
+M10.39,Gouty nephropathy,9
+M10.49,"Gouty arthritis, secondary",9
+M10.99,Gout,11256
+M11.26,Chondrocalcin l/leg,1
+M11.27,Pyrophosph cryst-ankle,1
+M11.29,Chondrocalcinosis,51
+M11.29,Pseudogout,51
+M12.39,Palindromic rheumatism,37
+M13.00,Poly-arthrop/ -arthriti multi site,2
+M13.09,Polyarthropathy or polyarthritis,5
+M13.19,Monoarthritis,1
+M13.89,Seronegative arthritis,8
+M13.96,Arthritis of knee,5
+M13.97,Arthritis of ankle,3
+M13.99,Arthritis,236
+M14.6,Arthropathy w nerve dis,75
+M15.0,Primary generalized osteoarthrosis,3
+M15.9,Generalized osteoarthritis,26
+M16.1,Prim local osteoarthr pelvi+ thigh,24
+M16.1,"Primary local OA, pelvic region",3
+M16.7,Secondary osteoarthritis of hip,10
+M16.9,Osteoarthritis of hip,129
+M17.1,"OA knee, primary",2790
+M17.1,Prim local osteoarthro lower leg,14
+M17.5,Local 2nd osteoarthr lower leg,3
+M17.5,Secondary OA knee,105
+M17.9,OA knee,1778
+M19.02,Primary local osteoarthro up arm,6
+M19.04,Primary local osteoarthrosis hand,1
+M19.09,Primary localized osteoarthrosis,16
+M19.09,Primary osteoarthritis,254
+M19.19,"OA, post-traumatic",24
+M19.24,Local 2nd osteoarthrosis hand,6
+M19.27,Local 2nd osteoarthr ankle+ foot,8
+M19.29,"OA, secondary",22
+M19.89,"OA, dysplastic",4
+M19.91,Osteoarthrosis shoulder,6
+M19.94,Osteoarthrosis involving hand,7
+M19.97,Osteoarthritis of ankle,10
+M19.99,Osteoarthritis,237
+M20.0,Mallet finger,56
+M20.1,Acquired hallux valgus,60
+M20.1,Bunion,17
+M20.5,Claw toe,3
+M20.6,Acquired deformity of toe,19
+M21.37,Foot drop,58
+M21.47,Flat foot acquired,1
+M21.57,Acq equinovarus,2
+M21.67,Acquired ankle / foot deformity,3
+M21.67,Cavus deformity of foot,1
+M23.35,Derang post lat meniscus,1
+M23.39,"Articular cartilage disorder, knee",2
+M23.49,Loose body in knee,8
+M24.38,Non traumatic C1C2 subluxation,18
+M24.41,Chronic dislocation of shoulder,14
+M24.41,Recur disolcate shoulder,7
+M24.46,Chronic dislocation lower leg jt,1
+M24.47,Chronic dislocat-ankle,31
+M24.56,Contracture of knee joint,7
+M24.59,Contracture of Joint,10
+M24.75,Protrusio acetabuli,1
+M25.01,Hemarthrosis-shlder,1
+M25.06,"Haemarthrosis, lower leg",4
+M25.06,Knee haemarthrosis,13
+M25.09,Hemarthrosis,16
+M25.41,Joint effusion - shoulder,18
+M25.45,Hip effusion,3
+M25.46,Knee effusion,428
+M25.47,Swollen ankle,65
+M25.49,Joint effusion,6
+M25.50,Joint pain - multiple joints,95
+M25.51,Shoulder joint pain,195
+M25.51,Shoulder pain,1822
+M25.51,Upper limb joint pain,153
+M25.52,"Joint pain, upper arm",8
+M25.53,"Joint pain, forearm",2
+M25.53,Wrist pain,653
+M25.54,"Joint pain, hand",98
+M25.55,Hip joint pain,2099
+M25.55,"Joint pain, pelvis",85
+M25.55,"Joint pain, pelvis & thigh",65
+M25.55,Lower limb joint pain,67
+M25.55,Sacroiliac joint pain,33
+M25.56,"Joint pain, lo leg",176
+M25.56,Knee pain,4797
+M25.57,"Joint pain, ankle",69
+M25.57,Metatarsophalangeal joint pain,1
+M25.58,Com lumb spina rad facet jt pain,1
+M25.58,Temporomandibular joint pain,20
+M25.59,Joint pain,601
+M25.81,Symptom relating to shoulder joint,26
+M25.85,Joint symptom -pelvis,7
+M25.87,Joint symptom ankle & foot,12
+M25.89,Heterotopic ossification of joint,6
+M25.89,Symptoms referable to joint,36
+M25.91,Joint dis - shoulder,3
+M30.0,Polyarteritis nodosa,12
+M30.1,Churg-Strauss syndrome,22
+M31.0,Anti-GBM disease,15
+M31.0,Hypersensitivity angiitis,4
+M31.1,Thrombo thrombocytopenic purpura,7
+M31.1,Thrombotic microangiopathy,1
+M31.3,Wegener's granulomatosis,2
+M31.6,Giant cell arteritis,113
+M31.7,Microscopic polyangiitis,166
+M32.1,Lupus nephritis,1100
+M32.1,Syst lupus erythe w glomerulonephr,3
+M32.9,SLE,1374
+M33.1,Dermatomyositis,125
+M33.2,Polymyositis,101
+M34.8,Limited systemic sclerosis,14
+M34.9,Scleroderma,77
+M34.9,Systemic sclerosis,44
+M35.0,Sicca syndrome,21
+M35.0,Sjogren's syndrome,113
+M35.1,Mixed connective tissue disease,9
+M35.1,Overlap syndrome,7
+M35.2,Behcet's syndrome,50
+M35.3,Polymyalgia rheumatica,59
+M35.9,Diffuse connective tissue disease,28
+M35.9,Undifferentiated CTD,15
+M40.24,"Kyphosis, acquired",9
+M40.29,Kyphosis deformity of spine,1
+M41.29,Idiopathic kyphoscoliosis,9
+M41.29,Idiopathic scoliosis,13
+M41.99,Acquired kyphoscoliosis,1
+M41.99,Degenerative scoliosis,1
+M43.16,Lumbar spondylolisthesis,17
+M43.19,Acquired spondylolisthesis,10
+M43.19,Spondylolisthesis,28
+M43.19,Spondylolisthesis degen,75
+M43.41,Recurrent atlantoaxial subluxation,21
+M43.62,Torticollis,25
+M45.9,Ankylosing spondylitis,226
+M46.18,Sacroiliitis,31
+M46.28,Sacral abscess,3
+M46.29,Osteomyelitis of vertebral body,7
+M46.49,Intervertebral discitis,6
+M46.59,Infective spondylopathy,5
+M46.59,Non-TB septic spondylitis,9
+M46.99,Inflammatory spondylopathy,72
+M47.12,Cerv spondyl w myelopath,246
+M47.16,Spondylo compress lumbar sp cord,77
+M47.82,Cervic spondylosis no myelopathy,9
+M47.82,Cervical spondylosis,411
+M47.82,Spine cervical spondylos,42
+M47.86,Lumbar spondylosis,148
+M47.87,Lumbosacral spondylosis,41
+M47.99,Seronegative spondyloarthropathy,5
+M47.99,Spondylosis,20
+M48.02,Cervical spinal stenosis,1
+M48.04,Spinal stenosis-thoracic,2
+M48.06,Lumbar spinal stenosis,290
+M48.07,"Spinal stenosis, lumbosacral",6
+M48.09,Spinal stenosis,244
+M48.56,Lumbar vertebra collapse,104
+M48.56,Osteoporo collapse lumbar,13
+M48.59,Collapse of vertebra,97
+M48.82,Ossify post longit ligame neck reg,22
+M49.89,Kyphosis in oth dis,3
+M49.89,Scoliosis in oth dis,1
+M50.0,Cervical disc dis w myelopathy,16
+M51.0,Lumbar disc dis w myelopathy,14
+M51.2,Displace intervertebral disc,31
+M51.2,Lumbar disc displacement,3
+M51.2,Prolapse of intervertebral disc,9
+M51.9,Intervert disc dis with myelopathy,39
+M53.38,Coccydynia,31
+M53.82,"Cervical ligaments ossify, not PLL",14
+M53.82,Degeneration of cervical spine,1
+M53.87,Back syndrome w/o radiating pain,25
+M53.89,Spine ligament ossify non-cervical,19
+M53.89,Symptom relating to back,6
+M53.97,"Back disorder, lumbosacral",3
+M53.99,Back disorder,3
+M53.99,Spondyloarthropathy,1
+M54.12,Brachial neuritis or radiculitis,15
+M54.12,Cervical radicular pain,7
+M54.12,Cervical radiculopathy,231
+M54.12,Cervical spinal radicular pain,1
+M54.12,Cervical spondylotic radiculopathy,88
+M54.13,Upper thoracic spinal pain,6
+M54.14,Lumbosacral neuritis/radicu,12
+M54.15,Lower thoracic spinal pain,13
+M54.16,Lumbar radicular pain,1
+M54.16,Radiculopathy of lumbar region,4
+M54.17,Lower lumbar spinal pain,7
+M54.18,Sacral spinal pain,5
+M54.19,Lower limb radicular pain,2
+M54.19,Radicular leg pain,11
+M54.19,Radicular pain,13
+M54.19,Radiculopathy,119
+M54.19,Spinal low back pain,1
+M54.22,Neck pain,1889
+M54.38,Sciatica,563
+M54.56,Low back pain,7840
+M54.56,Lumbar spinal pain,5
+M54.59,Loin pain,1557
+M54.59,Mechanical low back pain,683
+M54.64,Thoracic spinal pain,5
+M54.99,Backache,2148
+M54.99,Spinal pain,6
+M60.05,Psoas abscess,40
+M60.09,Intramuscular abscess,9
+M60.99,Myositis,47
+M62.29,Compartment syndrome non-traumatic,11
+M62.29,"Lower limb ischaemia, acute",69
+M62.69,"Muscle strain, nontraumatic",5
+M62.86,Calf mass,1
+M62.89,"Intramuscular haematoma,nontrauma",25
+M62.89,Rhabdomyolysis,123
+M62.99,Disorder of musculoskeletal system,3
+M62.99,Muscle disorder,32
+M65.19,Infective tenosynovitis,30
+M65.34,"Trigger finger, acquired",546
+M65.43,De Quervain's disease,53
+M65.81,Shoulder synovitis,3
+M65.81,Supraspinatus tendinitis,2
+M65.83,Tenosynov hand/wrist,25
+M65.99,Chronic synovitis,2
+M65.99,Synovitis,7
+M65.99,Synovitis and tenosynovitis,5
+M65.99,Tenosynovitis,87
+M66.06,Rupture of popliteal cyst,9
+M66.23,Nontrau rupt extersor hand+ wrist,1
+M66.29,Spon rupture of extensor tendon,7
+M66.31,Biceps tendon rupture,4
+M66.45,Rupture quadricep tendon,6
+M66.46,Rupture Achilles tendon,96
+M66.59,Nontraum tendon rupture,38
+M67.1,Tight tendo Achilles,4
+M67.3,"Transient synovitis, hip",2
+M67.4,Digital mucus cyst,2
+M67.4,Ganglion,34
+M67.4,Ganglion of joint,1
+M67.4,Ganglion of tendon,5
+M67.4,Ganglion of wrist,11
+M67.9,Synovium/ tendon/ bursa disorder,1
+M70.22,Olecranon bursitis,44
+M70.32,Bursitis of elbow,2
+M70.46,Prepatellar bursitis,9
+M70.65,Trochanteric bursitis,12
+M70.75,Hip Bursitis,21
+M70.75,Ischial bursitis,9
+M71.26,Baker's cyst,7
+M71.26,Popliteal space synovial cyst,80
+M71.39,Bursal cyst,2
+M71.39,"Gangl+ cyst synov, tend+ bursa",42
+M71.99,Bursitis,27
+M72.04,Dupuytren's contracture,6
+M72.27,Plantar fascitis,149
+M72.69,Necrotizing fasciitis,8
+M75.0,Adhesive capsulitis shoulder,123
+M75.0,Frozen shoulder,8
+M75.1,Rotator cuff degenerative rupture,8
+M75.1,Rotator cuff rupture,1
+M75.1,Rotator cuff synd,66
+M75.1,Rotator cuff syndrome,1
+M75.2,Biceps tendonitis,8
+M75.3,Calcify tendonitis shoulder,2
+M75.4,Shoulder impingement syndrome,116
+M75.8,Rotator cuff tendonitis,4
+M75.8,Tendinitis of shoulder,2
+M76.36,Iliotibial band syndrome,10
+M76.56,Patellar tendonitis,4
+M76.67,Achilles tendonitis,37
+M76.86,Tibialis tendonitis,5
+M77.02,Golfer's elbow,3
+M77.12,Tennis elbow,45
+M77.37,Calcaneal spur,43
+M77.47,Metatarsalgia,1
+M77.94,Tendonitis of finger,4
+M77.99,Tendinitis,10
+M79,Dis synov/tend/bursa,1
+M79,Soft tissue dis,9
+M79.09,Rheumatism,8
+M79.18,Myalgia,1
+M79.19,Muscle pain,151
+M79.19,Musculoskeletal pain,90
+M79.19,Myofascial pain syndrome,22
+M79.20,Central pain >2 major sites,2
+M79.20,Central pain not >2 major sites,3
+M79.29,Neuralgia and neuritis,5
+M79.29,Neuralgia/ neuritis,27
+M79.34,Panniculitis of hand,3
+M79.36,Panniculitis of lower leg,13
+M79.39,Panniculitis,1
+M79.59,Old FB in soft tissue,1
+M79.60,Lower limb pain,929
+M79.60,Painful arm and moving finger,32
+M79.60,Upper limb pain,387
+M79.62,Arm pain,248
+M79.63,Forearm pain,36
+M79.64,Chronic aching finger pain,13
+M79.64,Hand pain,364
+M79.65,Buttock and leg pain,16
+M79.65,Buttock and posterior thigh pain,4
+M79.65,Buttock pain,346
+M79.65,Lateral thigh and buttock pain,105
+M79.65,Leg pain,972
+M79.65,Rest leg pain,1
+M79.65,Thigh pain,445
+M79.67,Ankle pain,1085
+M79.67,Foot pain,1926
+M79.67,Plantar region of foot pain,4
+M79.69,"Chronic region pain syndrome, LL",1
+M79.69,"Chronic region pain syndrome, UL",3
+M79.69,Pain in limb,383
+M79.79,Fibromyalgia,26
+M79.89,Swelling of limb,561
+M79.99,Soft tissue disorder,1
+M81.09,Postmenopausal osteoporosis,14
+M81.59,Idiopathic osteoporosis,23
+M81.89,Senile osteoporosis,28
+M81.99,Osteoporosis,2070
+M83.99,Osteomalacia,42
+M84.19,Nonunion of fracture,30
+M84.36,Stress fracture lower leg,18
+M84.37,Stress # foot bone,1
+M84.45,Pathologic # femur,6
+M84.45,Pathological # NOF,4
+M84.48,Pathologic # specified site,12
+M84.48,Pathologic # vertebrae,26
+M84.49,Pathologic #,16
+M85.09,Fibrous dysplasia of bone,1
+M85.69,Bone cyst,3
+M85.89,Osteopenia,34
+M86.07,Acute hema osteomyelit ankle& foot,19
+M86.14,Ac osteomyelitis-hand,15
+M86.16,Ac osteomyelitis lower leg,5
+M86.17,Acute osteomyelitis of foot,53
+M86.19,Acute osteomyelitis,11
+M86.27,Subacute osteomyelitis ankle& foot,6
+M86.47,Chr osteomyeli w sinus ankle& foot,2
+M86.49,Chronic osteomyelitis w sinus,1
+M86.54,Chron hematogen osteomyelitis hand,1
+M86.66,Chron osteomyelitis lower leg,16
+M86.67,Chr osteomyelit-ankle,25
+M86.67,Chronic osteomyelitis of foot,71
+M86.69,Chronic osteomyelitis,28
+M86.94,"Osteomyelitis, hand",1
+M86.95,Osteomyelitis Femur,13
+M86.96,"Osteomyelitis, lower leg",8
+M86.97,Bone infect - ankle,1
+M86.99,Osteomyelitis,184
+M87.92,Aseptic necrosis head of humerus,1
+M87.95,AVN medial femoral condyle,3
+M87.95,Aseptic necrosis head femur,14
+M87.95,Avascular necrosis of hip,169
+M87.99,Osteonecrosis,2
+M88.99,Paget's disease of bone,141
+M89.00,Reflex sympat dystrophy upper limb,1
+M89.59,Osteolysis,4
+M89.89,Bone pain,49
+M89.99,Bone & cartilage disorder,20
+M94.09,Costochondritis,186
+M95.0,Acq nose deformity,33
+M95.2,Acquired skull defect,3
+M95.2,Spcf deformity head,1
+M96.1,Failed back syndrome,19
+M96.8,Patellar clunk syndrome,24
+M99.11,Subluxation complex cervical spine,10
+M99.63,Osse+ sublux stenos lumbar foramen,24
+N01.9,Acute rapid progress glomeruloneph,40
+N02.8,IgA glomerulonephritis,1497
+N02.8,Primary IgA nephropathy,98
+N03.1,Chr membranous glomerulonephritis,6
+N03.5,Chr membranoprolif glomerulonephri,14
+N03.8,Chr proliferat nephritis,64
+N03.9,Chronic glomerulonephritis,195
+N03.9,Chronic nephritis,5
+N04.0,Nephrotic syndrome w min change GN,52
+N04.1,Neph synd focal+ seg glomer lesion,19
+N04.2,Nephrotic syndrome w membranous GN,43
+N04.5,Nephrotic synd w membranoprolif GN,1
+N04.8,Nephrotic synd w proliferative GN,28
+N04.9,Nephrosis,46
+N04.9,Nephrotic syndrome,1678
+N05.0,"GN, minimal change",37
+N05.1,Focal Glomerulosclerosis,14
+N05.1,Focal Segmental GN,90
+N05.1,Focal proliferative GN,28
+N05.2,Membranous glomerulonephritis,231
+N05.2,Membranous nephritis,35
+N05.3,"GN, mesangio-proliferati",40
+N05.5,Membranoproliferative nephritis,5
+N05.7,Crescentic GN,29
+N05.8,Diffuse proliferative GN,17
+N05.8,Necrotizing glomerulonephritis,10
+N05.9,Glomerulonephritis,138
+N05.9,Idiopathic glomerulonephritis,2
+N05.9,Nephritic syndrome,6
+N05.9,Nephritis,44
+N05.9,Nephritis and nephropathy,5
+N08.8,Chronic glomeruloneph in other dis,5
+N08.8,Nephritis in oth dis,10179
+N08.8,Nephrotic syn in oth dis,1091
+N08.8,"Nephrotic syndrome, systemic dis",9
+N10,Acute interstitial nephritis,28
+N10,Acute pyelonephritis,103
+N11.9,Chronic tubulointerstiti nephritis,13
+N11.9,Xanthogranulomatous pyelonephritis,1
+N12,Pyelonephritis,234
+N13.3,Bilateral hydronephrosis,117
+N13.3,Hydronephrosis,212
+N13.3,"Hydronephrosis, Lt",345
+N13.3,"Hydronephrosis, Rt",432
+N13.3,Hydroureteronephrosis,14
+N13.3,Obstructive hydronephrosis,11
+N13.4,Hydroureter,4
+N13.5,Obstructed ureter,11
+N13.5,Retroperitoneal fibrosis,12
+N13.5,Stricture / kinking of ureter,1
+N13.5,Stricture of ureter,248
+N13.5,UVJ obstruction,5
+N13.5,Ureteric stricture,25
+N13.5,VUJ stricture,27
+N13.6,Pyonephrosis,110
+N13.7,Bil VUR w reflux nephro,9
+N13.7,Uni VUR w/ reflux nephro,1
+N13.7,Vesicoureteric reflux,34
+N13.8,Obstructive nephropathy,5
+N13.9,Obstructive uropathy,136
+N15.1,Renal Abscess,29
+N17.0,Acute ren fail w tubular necrosis,7
+N17.2,Renal papillary necrosis,16
+N17.9,Acute non-traumatic renal injury,30
+N17.9,Acute renal failure,2084
+N18.3,"Chronic kidney disease, stage 3",165
+N18.4,"Chronic kidney disease, stage 4",175
+N18.5,"Chronic kidney disease, stage 5",118
+N18.9,Chronic kidney disease,8363
+N18.9,Chronic renal failure,7780
+N18.9,Chronic renal impairment,5667
+N18.9,Chronic renal parenchymal disease,1
+N19,Bilateral renal impairment,236
+N19,Impaired renal function,4909
+N19,Non-functioning kidney,167
+N19,Renal failure,1237
+N19,Uremia,32
+N20,Renal/ureteral calculus,1
+N20.0,"Kidney stone, Lt",19
+N20.0,"Kidney stone, Rt",7
+N20.0,Renal calculi,1590
+N20.1,Calculus of ureter,1702
+N20.1,"Ureteric stones, Lt",9
+N20.2,PUJ stone,10
+N20.9,Urinary calculus,694
+N21.0,Bladder stone,351
+N21.0,Stone diverticulum urin bladder,43
+N21.1,Urethral calculus,13
+N21.9,Lower urinary tract stone,38
+N23,Renal colic,557
+N23,Ureteric Colic,1
+N25.0,Renal osteodystrophy,24
+N25.1,Nephrogenic diabetes insipidus,47
+N25.8,Hyperparathyroid due to renal dise,5
+N25.8,Impaired renal funct,1
+N25.8,Renal Tubular Acidosis,174
+N25.9,Impaired renal funct,620
+N26,Chronic renal interstitia fibrosis,3
+N26,Focal segmental glomerulosclerosis,344
+N26,Nodular GS,3
+N27.0,"Small kidney, Lt",11
+N27.9,Small kidney,7
+N28,Renal & ureteral dis,2
+N28.1,Renal cyst,583
+N28.1,"Renal cyst, acquired",24
+N28.1,Simple renal cyst,1
+N28.8,Renal haemorrhage,6
+N28.8,Renal mass,386
+N28.8,Renal vascular disorder,16
+N28.8,Salt losing nephropathy,2
+N28.9,Disorder of kidney and ureter,19
+N28.9,Disorder of ureter,27
+N28.9,Kidney disease,125
+N28.9,Single functioning kidney,126
+N30,Inflammation of urinary bladder,1
+N30.0,Acute cystitis,1
+N30.2,Chronic cystitis,4
+N30.8,Cystitis cystica,1
+N30.9,Cystitis,183
+N30.9,Mild cystitis,6
+N30.9,Post TURP cystitis,1
+N31.8,Detrusr sphinc dyssnrgia,2
+N31.8,Low bladder compliance,24
+N31.9,Detrusor instability,437
+N31.9,Neurogenic bladder,124
+N32.0,Bladder Outflow Obstruct,116
+N32.0,Bladder neck stenosis,29
+N32.0,Bladder neck stricture,23
+N32.1,Intestinovesical fistula,16
+N32.3,Diverticulum urinary bladder,30
+N32.8,Bladder Mass,91
+N32.8,Bladder neck mass,24
+N32.8,Bladder wall hemorrhage,29
+N32.8,Contracted Bladder,1
+N32.8,Hypocontractile bladder,217
+N32.9,Bladder disorder,56
+N34.0,Urethral carbuncle,9
+N34.2,Urethritis,3
+N35.9,Bulbous urethral stricture,93
+N35.9,Meatal stenosis,66
+N35.9,Meatal stricture,1
+N35.9,Penile urethral stricture,39
+N35.9,Urethral stricture,66
+N35.9,"Urethral stricture, membranous",3
+N36.0,Urethral false passage,18
+N36.0,Urethral fistula,10
+N36.2,Polyp of urethra,1
+N36.2,Urethral caruncle,8
+N36.8,Urethral bleeding,12
+N36.8,Urethral mass,11
+N36.8,Urethral obstruction,2
+N36.9,Disorder of urethra,1
+N39.0,Asymptomatic bacteriuria,17
+N39.0,Bacteriuria,21
+N39.0,UTI,27
+N39.0,Urinary tract infection,11367
+N39.1,Persistent proteinuria,12
+N39.2,Postural proteinuria,80
+N39.3,Fem stress incontinence,102
+N39.3,"Genuine stress incontine, female",21
+N39.3,Stress incontinence male,53
+N39.4,"Mixed incontinence, urge & stress",16
+N39.4,Urge incontinence,88
+N39.8,Urinary tract pain,4
+N39.9,Disease of urinary tract,287
+N40,BPH,4958
+N40,BPH with AROU,19
+N40,Enlarged Prostate,20
+N40,Hyperplasia of prostate,659
+N40,Minimally enlarged prostate,6
+N40,Prostatic nodule,12
+N40,Prostatism,11
+N41.0,Acute prostatitis,1
+N41.2,Abscess of prostate,3
+N41.9,Prostatitis,10
+N42.1,Bleeding from prostate,8
+N42.9,Prostatic disorder,55
+N43.0,Encysted hydrocele,37
+N43.3,Hydrocele,128
+N43.3,Hydrocele of tunica vaginalis,1
+N45.9,Acute Epididymo-orchitis,70
+N45.9,Epididymitis,65
+N45.9,Orchitis,13
+N45.9,"Orchitis, epididymi, epidid-orchi",8
+N45.9,Orchitis/epididymitis,123
+N46,Azoospermia,5
+N46,Male subfertility,2
+N47,Paraphimosis,50
+N47,Phimosis,105
+N47,Redun prepuce & phimosis,6
+N48.0,Balanitis xerotica obliterans,7
+N48.0,Penile plaque,24
+N48.1,Balanitis,53
+N48.1,Balanoposthitis,1
+N48.4,Impotence organic orign,10
+N48.5,Penile ulcer,38
+N48.8,Edema of penis,1
+N48.8,Pain in penis,6
+N48.9,Disorder of penis,12
+N49.2,Groin scrotal abscess,31
+N49.2,Scrotal abscess,124
+N49.8,Fournier gangrene,6
+N50.1,Hematocele,5
+N50.1,Hemospermia,24
+N50.1,Scrotal hematoma,30
+N50.8,Edema of male genital organ,1
+N50.8,Epididymal cyst,9
+N50.8,Epididymal mass,23
+N50.8,Pain in scrotum,125
+N50.8,Painful retractile testis,1
+N50.8,Scrotal mass,40
+N50.8,Scrotal swelling,196
+N50.8,Scrotal ulcer,48
+N50.8,Testicular mass,39
+N50.8,Testicular pain,171
+N60.0,Breast cyst,8
+N60.1,Breast fibrocystic disease,1
+N61,Breast abscess,99
+N61,Mastitis,1
+N62,Gynecomastia,14
+N63,Bilateral breast lumps,14
+N63,"Breast lump, left",130
+N63,"Breast lump, right",180
+N63,Breast mass,178
+N63,"Breast mass, female",1
+N64.4,"Breast pain, female",29
+N64.4,Mastodynia,33
+N64.5,Nipple discharge,63
+N64.5,Nipple lump,3
+N64.5,Symptoms in breast,7
+N64.8,Breast disorders,72
+N70.0,Ac salpingo-oophoritis,1
+N70.1,Hydrosalpinx,54
+N71.1,Acute on chronic endometritis,3
+N71.9,Atrophic endometritis,1
+N71.9,Pyometra,77
+N72,Cervicitis,1
+N72,Chronic cervicitis,1
+N72,Infected cervix uteri,5
+N73,Female pelvic inflam dis,1
+N73.6,"Pelvic adhesion, female",28
+N73.6,"Pelvic peritoneal adhesion, female",6
+N73.9,Female pelvic inflammation,17
+N75.0,Bartholin's cyst,25
+N75.1,Bartholin's gland abscess,8
+N76.0,Vaginitis,26
+N76.0,Vaginitis & vulvovaginitis,6
+N76.4,Vulval abscess,54
+N76.5,Vaginal ulcer,11
+N76.6,Vulval ulcer,18
+N76.8,"Female inflam, cerv, vag, vulva",9
+N80.0,Adenomyosis of uterus,42
+N80.9,Endometriosis,58
+N81.1,"Cystocele, female",151
+N81.1,Vaginal prolapse,18
+N81.2,1st Degree UV Prolapse,8
+N81.2,2nd Degree UV Prolapse,93
+N81.3,Uterovaginal prolapse - complete,31
+N81.4,Ut prolaps w cyst/rect/enter ocele,71
+N81.4,Uterine prolapse,421
+N81.4,Uterine prolapse with cystocele,33
+N81.4,Uterovaginal prolapse,107
+N81.9,Genital prolapse in female,79
+N82.1,Uteroureteric fistula,1
+N82.3,Rectovaginal fistula,13
+N82.9,Vaginal fistula,1
+N83.2,Benign ovarian cyst,26
+N83.2,Ovarian cyst,427
+N83.9,NonInflam dsdr ovary,1
+N84.0,Endometrial polyp,51
+N84.0,Polyp of corpus uteri,209
+N84.1,Cervical polyp,26
+N84.1,Endocervical Polyp,34
+N85.0,Endometrial cystic hyperplasia,31
+N85.0,Endometrial hyperplasia,17
+N85.0,Simple endometrial hyperplasia,2
+N85.1,Complex atypical endo hyperplasia,61
+N85.1,Complex endometrial hyperplasia,5
+N85.1,Endometrial adeno hyperplasia,15
+N85.6,Asherman's syndrome,2
+N85.6,Intrauterine synechiae,3
+N85.8,Disorders of uterus,32
+N85.8,Thickened endometrium,35
+N85.9,Disorder of uterus,1
+N87.0,Cervix intraepithelial neoplasia I,12
+N87.1,Cervix intraepithelia neoplasia II,6
+N87.9,Cervix intra-epithelial neoplasia,7
+N87.9,Dysplasia of cervix,1
+N87.9,SIL cervix uteri,1
+N88.2,Cervical stenosis,8
+N88.8,Atrophy of cervix,27
+N88.8,Nabothian Cyst,39
+N88.8,Noninflam dis cervix,14
+N89.0,Vagina intraepithel neoplasia I,3
+N89.1,Vagina intraepithel neoplasia II,28
+N89.3,Dysplasia of vagina,1
+N89.3,Vaginal intraepithelial neoplasia,1
+N89.4,Leukoplakia of vagina,9
+N89.7,Haematocolpos,79
+N89.8,Noninflam dis vagina,1
+N89.8,Vaginal Discharge,71
+N89.8,Vaginal mass,2
+N89.9,Noninflammatory disorder vagina,2
+N90.1,Vulva intraepithelial neoplasia II,43
+N90.2,Severe vulvar dysplasia,1
+N90.3,Vulval intra-epithelial neoplasia,5
+N90.4,Dystrophy of vulva,1
+N90.4,Leukoplakia of Vulva,92
+N90.4,Lichen sclerosus of vulva,29
+N90.4,"Lichen sclerosus, vulva / perineum",12
+N90.6,Squamous cell hyperplasia of vulva,5
+N90.8,Acquired adhesion vulval labium,3
+N90.8,Hematoma of vulva,2
+N90.9,Noninflam disorder vulva& perineum,11
+N91.1,Secondary amenorrhea,9
+N91.5,Oligomenorrhea,1
+N92.0,Excessive or frequent menstruation,45
+N92.0,Menorrhagia,324
+N92.1,Irregular intermenstrual bleeding,2
+N92.4,Premenopause menorrhagia,2
+N92.5,Post-menstrual spotting,18
+N92.6,Irregular menstruation,109
+N93,Disorder of menstruation,5
+N93.8,Dysfunctional uterine bleeding,301
+N93.8,Menstrual disorder,2
+N93.9,Hemorrhage of vagina,11
+N93.9,Menstrual disorder / abn bleeding,67
+N94,Female genital dis,1
+N94.6,Dysmenorrhea,50
+N94.8,Pelvic congestion synd,8
+N94.8,"Perineal mass, female",1
+N94.8,Vulval mass,64
+N95.0,Postmenopausal bleeding,1030
+N95.0,Postmenopausal spotting,10
+N95.2,Postmenopausal atrophic vaginitis,31
+N95.9,Postmenopausal Symptoms,14
+N95.9,Problem related to menopause,16
+N97.9,Female infertility,1
+N99.1,Postop urethral stricture,1
+N99.3,Postop vaginal prolapse,16
+O00.9,Ectopic pregnancy,5
+O02.1,Missed miscarriage,28
+O03.4,Spontaneous incomplete abortion,20
+O03.9,"Spontaneous abortion, complete",22
+O04,Legally induced abortion,1
+O04.9,Legally induced abortion,8
+O06.4,Incomplete abortion,19
+O13,Pregnancy induced HT - severe,12
+O15.9,Eclampsia for postpartum care,18
+O20.0,"Threatened miscarriage, antepartum",4
+O20.8,PV bleeding Cx early pregnancy,2
+O26,Complications of pregnancy,6
+O26.8,Admission test - patient in labor,13
+O26.9,Complication of pregnancy,59
+O34.2,Delivered with uterin scar not C/S,29
+O34.4,"OBS intervention, unfavour cervix",9
+O35.9,Fetal complication affects mother,5
+O35.9,Suspected fetal abno affect mother,2
+O41.0,Delivered with oligohydramnios,2
+O43.8,Oth placent cond-antepar,1
+O44.0,Delivered with placenta praevia,11
+O72.1,Primary PPH with uterine atony,1
+O73.0,Delivered with retained placenta,2
+O75.9,Complic labor,6
+O80.0,Normal delivery,9
+O91.0,Infect nipple-antepartum,3
+O98.5,Oth viral dis- antepartum,3
+P54.3,GI bleeding of newborn,1
+Q05.9,"Myelomeningocele, spinal",17
+Q14.0,Vitreous anomalies,2
+Q14.2,Congenital coloboma of optic disc,9
+Q17.2,Microtia,9
+Q18.1,Pre-auricular sinus,11
+Q18.5,Microstomia,2
+Q20.8,LVOT obstruction,10
+Q21.0,Ventricular septal defect,25
+Q21.1,Atrial septal defect,74
+Q21.1,Ostium secundum type ASD,43
+Q21.1,Patent foramen ovale,13
+Q21.3,Tetrology of Fallot,3
+Q23.1,Bicuspid aortic valve,43
+Q24.0,Dextrocardia,18
+Q24.3,Infundib pulmon stenosis,1
+Q24.5,Coronary fistula to pulm trunk,24
+Q24.9,Congenital heart anomaly,1
+Q24.9,Cyanotic congenital heart disease,1
+Q25.0,Patent ductus arteriosus,17
+Q25.3,Congenital stenosis of aorta,1
+Q25.4,"Sinus of Valsalva aneurysm, NCC",1
+Q25.4,"Sinus of Valsalva aneurysm, RCC",7
+Q27.3,AVM peripheral vessel,2
+Q27.3,"Arteriovenous fistula, congenital",1
+Q27.8,Gastrointestinal vessel,7
+Q27.9,"Vascular malformation, peripheral",21
+Q27.9,Venous malformation,36
+Q28.2,Cerebellar AVM,5
+Q28.2,Dural AVM,6
+Q28.2,Occipital AVM,7
+Q28.2,Parietal AVM,2
+Q28.3,Cerebrovascular anomaly,2
+Q33.2,Extralobar bronchopulm sequestrat,3
+Q39.6,Congenital esophageal diverticulum,19
+Q40.3,Stomach dysplasia,39
+Q43.0,Meckel's diverticulitis,3
+Q43.0,Meckel's diverticulum,3
+Q44.5,Dilate CBD congenital,2
+Q44.6,Cong cystic liver disease,27
+Q44.6,Polycystic liver disease,125
+Q45.3,Ectopic pancreas,5
+Q50.5,Paraovarian cyst,1
+Q54.1,"Hypospadias, penile",19
+Q54.9,Hypospadias,4
+Q61.1,Polycyst kidney autosom recessive,2
+Q61.2,Polycyst kidney autosom dominant,139
+Q61.3,Polycystic kidney,547
+Q61.4,Renal dysplasia,1
+Q61.5,Medullary sponge kidney,19
+Q61.9,Cong cystic kidney disease,31
+Q63.0,Duplex Kidney,1
+Q64.4,Urachus,1
+Q67.5,Congenital scoliosis,2
+Q74.2,Anomaly of toe,2
+Q76.2,Congenital spondylolisthesis,46
+Q79.1,Anomalies of diaphragm,4
+Q82.2,Mastocytosis,16
+Q82.8,Dieulafoy's vascular malformation,19
+Q85.1,Tuberous sclerosis,4
+Q85.8,Von Hippel-Lindau syndrome,13
+Q87.4,Marfan syndrome,8
+Q87.8,Alport's syndrome,1
+Q87.8,Hereditary nephritis,4
+Q89.3,Situs inversus,2
+Q90.9,Down syndrome,14
+Q96.9,Turner syndrome,2
+Q99.9,Chromosome anomaly,7
+R00.0,Sinus tachycardia,45
+R00.0,Tachycardia,80
+R00.1,Asymptomatic bradycardia,298
+R00.1,Bradycardia,1016
+R00.1,Symptomatic sinus bradycardia,282
+R00.2,Palpitations,2324
+R00.8,Bigeminy,15
+R00.8,Irregular heartbeat,6
+R01.1,Arterial murmur,4
+R01.1,Cardiac murmur,15
+R01.1,Undiag cardiac murmurs,52
+R02,Gangrene,496
+R02,Gangrene of leg or foot,503
+R02,Necrosis,3
+R02,Necrosis of skin/subcutaneo tissue,2
+R02,"Nontrau wd necrosis, no infe/dehis",8
+R03.0,Elevate bld pressu not hypertensio,83
+R03.1,Low blood pressure reading,11
+R04.0,Epistaxis,1849
+R04.2,Blood stained sputum,259
+R04.2,Hemoptysis,1405
+R04.8,Pulmonary hemorrhage,11
+R05,Cough,2526
+R05,Dry cough,69
+R05,Productive cough,96
+R06.0,Dyspnea,1838
+R06.0,Orthopnea,3
+R06.1,Stridor,8
+R06.2,Wheezing,34
+R06.4,Hyperventilation,72
+R06.5,Snoring,284
+R06.6,Hiccough,43
+R06.6,Hiccup,85
+R06.8,Apnea,8
+R06.8,Nocturnal hypoventilation,6
+R06.8,Problem in breathing,14
+R07.0,Throat pain,564
+R07.2,Heart pain,1
+R07.3,Diaphragmatic pain,2
+R07.3,Musculoskeletal chest pain,2313
+R07.4,Atypical chest pain,1528
+R07.4,Chest pain,12120
+R07.4,Pain in thorax,10
+R07.4,Retrosternal chest pain,7
+R09,Cardiovascular sys symp,1
+R09.0,Hypoxia,1
+R09.2,Respiratory arrest,1
+R09.3,Abnormal sputum,18
+R09.3,Sputum Retention,246
+R09.8,Carotid bruit,14
+R09.8,Chest discomfort,961
+R09.8,Nasal congestion,4
+R09.8,Symptom relating to nasal sinus,6
+R09.8,Symptom relating to nose,59
+R09.8,Symptom relating to throat,183
+R10.1,Abdo pain rt upper quad,1
+R10.1,"Abdom pain, right upper quadrant",366
+R10.1,"Abdomin tender, epigastric",5
+R10.1,"Abdomin tender, left up quadrant",1
+R10.1,"Abdomin tender, right up quadrant",8
+R10.1,"Abdominal pain, epigastric",3709
+R10.1,"Abdominal pain, left up quadrant",8
+R10.1,Upper abdominal pain,73
+R10.2,Abdominal or pelvic pain,15
+R10.2,"Chronic pelvic pain, female",17
+R10.2,"Pelvic pain, male",12
+R10.2,"Perineal pain, female",5
+R10.2,"Perineal pain, male",1
+R10.3,"Abdominal pain, left low quadrant",59
+R10.3,"Abdominal pain, periumbilical",19
+R10.3,"Abdominal pain, right low quadrant",182
+R10.3,Lower abdominal pain,95
+R10.3,RLQ pain,3
+R10.4,Abdominal pain,9817
+R10.4,"Abdominal pain, generalized",18
+R10.4,"Abdominal pain, localized",17
+R10.4,"Abdominal pain, paroxysmal",1
+R10.4,Central abdominal pain,55
+R10.4,Colicky abdominal pain,99
+R10.4,Nonspecific abdominal pain,7
+R11,Nausea alone,79
+R11,Nausea and vomiting,506
+R11,Persistent vomiting,244
+R11,Vomiting alone,754
+R12,Heartburn,28
+R13,Dysphagia,668
+R13,Problem w swallowing,12
+R14,Abdominal distension,250
+R14,Bloating,35
+R14,Eructation,17
+R15,Fecal incontinence,2
+R16.0,Hepatomegaly,34
+R16.1,Splenomegaly,75
+R17,"Jaundice, not newborn",79
+R18,Ascites,798
+R18,Blood stained ascites,2
+R18,Chronic ascites,11
+R19,Abdomen/ pelvis symptom,4
+R19,GI system symptoms,17
+R19.0,"Abdom/pelvic swelling, epigastric",12
+R19.0,"Abdom/pelvic swelling, left lower",3
+R19.0,Abdominal mass,77
+R19.0,Groin mass,77
+R19.0,Pelvic Mass,43
+R19.0,Umbilical mass,1
+R19.4,Change in bowel habit,281
+R19.5,"Abnormal findings, stool contents",47
+R19.5,Positive fecal occult blood,25
+R19.8,Intraabdominal loculation,11
+R19.8,Odynophagia,6
+R19.8,Rectal tenesmus,4
+R19.8,Symptom relating to gum,11
+R19.8,Symptom relating to lip,4
+R19.8,Symptom relating to tongue,20
+R19.8,Umbilical Discharge,7
+R20.2,Paresthesia,23
+R20.2,Paresthesia of lower limb,32
+R20.8,Numbness,1038
+R21,Generalized rash,11
+R21,Rash,1283
+R22.0,Buccal mass,22
+R22.0,Eyelid swelling,6
+R22.0,Facial mass,66
+R22.0,Gum mass,16
+R22.0,Hard palate mass,24
+R22.0,Lip mass,12
+R22.0,Lip swelling,20
+R22.0,Palatal mass,1
+R22.0,Preauricular mass,2
+R22.0,Scalp mass,43
+R22.0,Skin nodule of nose,22
+R22.0,Swelling in head & neck,133
+R22.0,Swollen face,33
+R22.1,Cervical neck mass,2
+R22.1,Neck mass,175
+R22.1,Neck nodule,3
+R22.1,Submandibular mass,38
+R22.2,Axillary mass of skin,3
+R22.2,Buttock mass,43
+R22.2,Chest swelling/mass/lump,5
+R22.2,Chest wall mass,14
+R22.2,Chest wall nodule,6
+R22.2,Umbilical nodule,2
+R22.2,Vulval nodule,50
+R22.3,Arm nodule,3
+R22.3,Forearm mass,33
+R22.4,Lesser toe mass,10
+R22.7,Local skin swell/ mass multi site,1
+R22.9,Local superficial mass,39
+R22.9,Local superficial swelling,48
+R22.9,Skin lump,100
+R22.9,Skin nodule,229
+R22.9,Subcutaneous Nodule,50
+R23.0,Cyanosis,1
+R23.2,Flushing,4
+R23.3,"Non-trau hematoma, skin/subcut tis",219
+R23.3,Petechiae of skin,2
+R23.3,Spontaneous ecchymosis,313
+R23.4,Changes in skin texture,18
+R23.8,Dry skin,3
+R23.8,"Skin blister, non traumatic",10
+R23.8,Symptom relating to nail,7
+R25.1,Tremor,203
+R25.2,Cramp in limb,19
+R25.2,Cramp in lower limb,13
+R25.2,Muscle cramp,52
+R25.2,Night cramp,32
+R25.2,Spasm,8
+R25.2,Spasm of muscle,172
+R25.3,Twitching,26
+R25.8,Abn involuntary movement,49
+R26.2,"Difficult walk, pelvis",4
+R26.8,Abnormality of gait,82
+R26.8,Loss of balance,3
+R27.0,Ataxia,33
+R29,Nerv/musculskel sys symp,18
+R29.6,Tendency to fall,140
+R29.8,Falls,1085
+R29.8,Motor problems w limbs,3
+R29.8,Musculoskeletal symptom in limb,6
+R29.8,Symptom relate neurological system,6
+R29.8,Symptom relating to elbow,16
+R29.8,Symptom relating to finger,2
+R29.8,Symptom relating to hand,11
+R29.8,Symptom relating to knee,27
+R29.8,Symptom relating to leg,1
+R29.8,Symptom relating to low back,93
+R29.8,Symptom relating to neck,3
+R29.8,Symptom relating to toe,25
+R29.8,Symptom relating to wrist,22
+R30.0,Dysuria,551
+R30.9,Painful micturition,2
+R31,Hematuria,5018
+R31,Microscopic hematuria,84
+R32,Incontinence,15
+R32,Incontinence of urine,244
+R32,Nocturnal enuresis,3
+R33,Acute retention of urine,5114
+R33,Chronic urinary retention,66
+R33,Incomplete bladder emptying,3
+R33,Retention of urine,1961
+R34,Anuria,1
+R34,Oliguria,70
+R34,Oliguria & anuria,2
+R35,Nocturia,39
+R35,Polyuria,19
+R35,Urinary frequency,51
+R36,"Urethral discharge, male",3
+R39,Urinary system symptoms,8
+R39.0,Extravasation of urine,3
+R39.1,Difficulty with micturition,5
+R39.8,Lower urinary tract symptoms,3144
+R39.8,"Sensory urgency, urinary",2
+R39.8,Symptom relating to kidney,165
+R39.8,Symptom relating to urine,30
+R39.8,Urinary problem,10
+R39.8,Urinary system symptoms,25
+R39.8,Urinary urgency,41
+R40.0,Drowsiness,12
+R40.2,Coma,1
+R40.2,LOC,2047
+R41.0,Confusion,181
+R41.3,Amnesia,24
+R41.3,Memory disturbance,21
+R41.3,Memory impairment,30
+R41.8,Impaired cognition,64
+R42,Dizziness,16109
+R42,Dizziness and giddiness,223
+R42,Vertigo,3014
+R43.1,Disturbance of smell sensation,1
+R43.8,Smell & taste disturb,4
+R44.0,Auditory hallucination,36
+R44.3,Hallucinations,53
+R45.3,Demoralization and apathy,4
+R45.6,Physical violence,10
+R45.8,Depressed mood,11
+R45.8,Emotional state symptom & sign,10
+R45.8,Feeling depressed,26
+R45.8,Mood swings,3
+R45.8,Suicidal thoughts,49
+R46.4,Slowness & poor responsiveness,2
+R46.8,Behavioral problems,55
+R47.0,Aphasia,21
+R47.0,Dysphasia,63
+R47.1,Dysarthria and anarthria,9
+R47.8,Speech disturbance,3
+R49.0,Dysphonia,15
+R49.0,Hoarseness,55
+R49.8,Voice disturbance,10
+R50.9,Fever,5670
+R50.9,"Fever, unknown origin",132
+R50.9,Neutropenic fever,3
+R51,Facial pain,134
+R51,Headache,2008
+R52.0,Acute pain,7
+R52.9,Cancer pain,17
+R52.9,Generalized pain,5
+R53,Feeling ill,6
+R53,General tiredness,3
+R53,General weakness,55
+R53,LL weakness,571
+R53,Malaise and fatigue,133
+R53,Weakness,142
+R55,Syncope,1864
+R55,Syncope and collapse,104
+R55,Vasovagal attack,698
+R56.8,Convulsion,587
+R57.0,Cardiogenic shock,99
+R57.1,Hypovolaemic shock,53
+R57.2,Septic shock,220
+R57.9,Shock,38
+R58,Hemorrhage,251
+R58,Spontaneous hemorrhage,2
+R59.0,Axillary lymphadenopathy,33
+R59.0,Cervical lymphadenopathy,139
+R59.0,"Enlarged, multiple cervical LNs",14
+R59.0,Femoral lymph node,3
+R59.0,Groin LN (lymph node),23
+R59.0,"Lymphadenopathy, Submandibular LN",22
+R59.0,"Lymphadenopathy, groin",16
+R59.1,Generalized lymphadenopathy,17
+R59.1,Lymphadenopathy,227
+R59.9,Enlargement lymph nodes,6
+R60.0,Edema of LL,1797
+R60.0,Localized edema,3
+R60.1,Generalized edema,7
+R60.9,Ankle edema,235
+R60.9,Body fluid retention,15
+R60.9,Edema,1187
+R63.0,Anorexia,10
+R63.0,Decrease in appetite,72
+R63.3,Feeding prob-not newborn,107
+R63.3,Feeding problem of adult,310
+R63.3,Feeding problem of child,1
+R63.4,Abnormal loss of weight,118
+R63.4,Weight loss,126
+R63.5,Abnormal weight gain,1
+R63.6,Self neglect poor fd/ water intake,13
+R64,Decreased general condition,1030
+R68,General symptoms,35
+R68.0,Hypothermia,109
+R68.2,Dry mouth,5
+R68.8,Abn clinical findings,1
+R68.8,Abnormal eye appearance,6
+R68.8,Abnormal eye sensation,9
+R68.8,Abnormal finding in investigation,210
+R68.8,Abnormal findings,55
+R68.8,Chills,58
+R68.8,Dementia due to multiple causes,33
+R68.8,General symptoms,9
+R68.8,Rigor,28
+R68.8,Sweating problem,5
+R68.8,Swelling,139
+R68.8,"Symptom in nipple, female",3
+R68.8,Symptom related to eye,54
+R68.8,Symptom relating to ear,49
+R68.8,Symptom relating to eyelid,13
+R68.8,Symptom relating to penis,1
+R68.8,Symptom relating to prostate,172
+R68.8,Symptom relating to scrotum,2
+R68.8,Symptom relating to voice,35
+R68.8,Symptoms invol head/neck,60
+R70.0,Raised ESR,28
+R71,Abnorm red blood cell,4
+R71,Haemolysis,1
+R72,Abnormal white blood cell,7
+R72,Eosinophil count raised,46
+R73.0,Abn glucose tolerance test,55
+R73.0,IFG,897
+R73.0,IGT,253
+R73.9,Hyperglycemia,1510
+R74.8,Abn serum enzyme level,14
+R74.8,Elevated liver enzyme level,27
+R74.9,Abnormal level of serum enzyme,4
+R74.9,High enzyme level in serum,1
+R76.8,Anti-TP for syphilis - positive,2
+R76.8,EIA test for syphilis +ve,13
+R77.0,Abnormality of albumin,2
+R77.1,Abnormal globulin level,9
+R77.8,Elevated PSA,1043
+R79.8,Abnorm. coag. profile,58
+R79.8,"Clotting time, prolonged",80
+R79.9,Abnormal blood chemistry,54
+R80,Hypoalbuminuria,17
+R80,Microalbuminuria,760
+R80,Proteinuria,4324
+R82.8,Abnormal cyto& histo exam of urine,2
+R82.9,Abn urine findings,67
+R86.9,Abn findings - semen,5
+R87.6,Abnormal pap smear - cervix,34
+R87.6,Nonsp abn pap smear not in cervix,1
+R89.4,Abnorma immuno finding in specimen,16
+R89.6,Abnormal cyto finding in specimen,1
+R89.9,Laboratory test result abnormal,17
+R90.0,Intracran space-occupying lesion,2
+R90.8,Mega cisterna magnum,3
+R91,Abn findings-lung field,159
+R91,Abnormal diagnostic image of lung,75
+R91,Abnormal shadow on CXR,1562
+R92,Abnormal findings-breast,1
+R92,Mammographic abnormality,8
+R92,Mammographic lesion of breast,37
+R93.0,Abnormal finding - skull & head,38
+R93.1,Abn finding - intrathoracic organs,1
+R93.4,Abn findings-gu organs,2
+R93.7,Abn find-musculoskel sys,1
+R93.8,Abn find - body struct,1
+R93.8,Imaging result abnormal,30
+R94.0,Abnormal electroencephalogram,10
+R94.3,Abnormal ECG,37
+R94.3,Long QT interval,9
+R94.4,Abnormal renal function,191
+R94.5,Abn liver function study,25
+R94.5,Abnormal liver function,514
+R94.6,Abnormal TFT,25
+R94.6,"Abnormal TFT, assay interference",8
+R99,Death on arrival,1
+S00.2,Periorbital graze,3
+S00.2,Superfic inj periocular,1
+S00.3,Superficial injury of nose,1
+S00.5,Superficial injury of lip & oral,2
+S00.8,Abrasion head,6
+S00.8,Superfic inj face neck scalp,26
+S01.0,"Laceration, scalp",56
+S01.0,Open wound of scalp,3
+S01.1,Lac eyelid skn/perioculr,3
+S01.1,"Laceration,Eyebrow",4
+S01.2,Open wound of nose,3
+S01.5,Laceration of gingivae,3
+S01.5,Laceration of tongue,7
+S01.5,Lip laceration,22
+S01.5,Lower lip laceration,4
+S01.8,Chin laceration,33
+S01.8,Laceration of Forehead,3
+S01.8,Laceration of face,13
+S01.8,Open wound of face,2
+S01.8,Open wound of forehead,6
+S02.20,# nasal bone,39
+S02.20,Nasal bone # - closed,33
+S02.30,Blow-out # orbital floor closed,3
+S02.40,# malar / maxillary - closed,7
+S02.40,"Closed #, zygomatic complex",3
+S02.50,Broken tooth in jaw due to injury,3
+S02.60,Close # mandible condyl process,7
+S02.80,# Orbit,68
+S02.90,# facial bone close,18
+S03.0,Closed dislocation of jaw,4
+S03.0,Dislocation jaw-open,9
+S05.0,Superficial inj cornea,4
+S05.1,Contusion orbital tissue,23
+S05.2,Rupture eye w tissu loss,1
+S07.0,Crush injury ear,2
+S09.9,Head injury,2
+S09.9,Injury of nose,8
+S11.9,FB in neck,2
+S11.9,Laceration of Neck,2
+S13.1,C1C2 subluxation,1
+S13.4,Neck sprain,46
+S14.1,Central cord synd/C1-C4,22
+S14.1,Central cord synd/C5-C7,45
+S16,Injury muscle & tendon at neck,2
+S19.9,Face and neck injury,115
+S19.9,Injury of neck,1
+S20.2,Contusion of chest wall,319
+S20.4,"Contusion of trunk, back",115
+S21.2,Open wound back,10
+S22.00,# vertebral body thoracic,2
+S22.20,Closed # of sternum,20
+S22.30,Closed # of rib,210
+S22.30,Fracture one rib-closed,13
+S22.40,Fracture four ribs-close,59
+S22.40,Fracture six ribs-closed,7
+S22.40,Fracture three ribs-clos,5
+S22.40,Fracture two ribs-closed,30
+S26.90,Heart contusion-closed,1
+S27.10,Traum hemothorax-closed,1
+S28.0,Crushed chest,24
+S29.9,"Injury of trunk, chest, abdomen",15
+S30.0,"Contusion of trunk, buttock",17
+S31.1,"Open wound lat abdomen, complic",1
+S31.2,Open wound of penis,1
+S31.3,"Scrotal wound, uncomplicated",10
+S31.4,Open wound of vagina,2
+S32.00,# vertebral body lumbar,4
+S32.10,Fracture of sacrum,6
+S32.30,Fracture of ilium - closed,1
+S32.40,Fracture acetabulum - closed,7
+S32.50,"Fracture of pubis, closed",5
+S32.80,Closed # pelvis,88
+S32.81,Open # pelvis w ring disruption,1
+S33.5,Lumbar sprain,2
+S35.3,Injury portal vein,14
+S37.30,Injury of urethra,2
+S39.8,Penile injury,1
+S39.9,"Abdo wall hematoma, traumatic",7
+S39.9,Back injury,158
+S39.9,"Extraperitoneal hematoma, trauma",10
+S39.9,Scrotal injury,5
+S40.0,Contusion of upper arm,2
+S40.0,Contusion shoulder,12
+S42.00,"# clavicl, stern end-cl",2
+S42.00,# clavicle closed,109
+S42.10,# scapula closed,40
+S42.80,Closed # shoulder & upper arm,5
+S43.0,Closed ant dislocation shoulder,32
+S43.0,Dislocation shoulder-closed,22
+S43.0,Subluxation shoulder,5
+S43.1,Close dislocat acromioclavicula jt,14
+S43.4,Sprain of shoulder,10
+S43.7,Sprain shoulder + upper arm,3
+S46.0,Rotator cuff tear shoulder,21
+S47,Crush inj shoulder reg,11
+S49.8,Labrum tear shoulder,22
+S49.9,Injury to shoulder+ upper arm,25
+S50.0,Contusion of elbow,33
+S50.8,Abrasion to elbow,5
+S50.8,Abrasion to forearm,3
+S50.9,"Laceration Elbow, Superficial",1
+S51.0,Open wound elbow,6
+S51.9,Open wound forearm,8
+S52.30,"# Radius Shaft, Closed",1
+S52.60,Closed # lower end radius + ulna,1
+S52.80,# upper forearm closed,25
+S53.1,Closed dislocation of elbow,31
+S53.1,Post disloc elbow-closed,1
+S53.4,Sprain of elbow,1
+S55.0,Cut injury of ulnar artery,3
+S57.0,Crushing injury elbow,3
+S59.9,"Elbow, forearm & wrist injury",79
+S59.9,Injury of elbow,5
+S60.0,Contusion of finger,4
+S60.2,Contusion of hand(s),12
+S60.2,Contusion of wrist,26
+S60.8,Abrasion finger,1
+S60.8,Abrasion hand,8
+S60.8,Insect bite hand,1
+S60.8,Superficial foreign body finger,3
+S60.9,"Laceration Wrist, Superficial",10
+S60.9,Superficial injury finger,1
+S60.9,Superficial injury hand,9
+S61.0,Deep laceration of finger,4
+S61.0,Lacerate finger+ thumb w tendon,6
+S61.0,Open wound finger,34
+S61.0,Open wound finger - complic,2
+S61.1,"Deep laceration finger,thumb, nail",6
+S61.1,"Laceration of Nail Bed, Finger",17
+S61.1,"Superf lacerate finger,thumb, nail",51
+S61.9,Open wound hand,1
+S61.9,Superficial laceration of hand,13
+S62.60,"# distal phalanx of finger, closed",10
+S62.61,"# distal phalanx, hand-open",2
+S63.1,Closed dislocation of finger,5
+S63.1,Open dislocation of finger,1
+S63.1,Subluxation finger,2
+S63.5,Sprain wrist,62
+S63.6,Sprain of finger,1
+S63.7,Hand sprain,2
+S64.4,Injury digital nerve,2
+S67.0,Crushing injury finger,2
+S67.8,Crushing injury of hand,37
+S67.8,Crushing injury of wrist,8
+S69.9,Finger injury,301
+S69.9,"Hand injury, not involve finger",123
+S70.0,Contusion of hip,74
+S70.1,Contusion of thigh,3
+S72.00,Fracture neck of femur,4
+S73.1,Sprain of hip,3
+S77.0,Crushing injury hip,18
+S79.9,Hip and thigh injury,53
+S80.0,Contusion of knee,190
+S80.1,Contusion of lower leg,20
+S80.7,"Laceration of knee, leg, ankle",12
+S80.9,Superficial injury of lower leg,3
+S81.7,"Deep laceration knee, leg, ankle",1
+S81.9,Open wound knee/ leg/ ankl,5
+S83.1,Closed dislocation of knee,1
+S83.2,Knee lateral meniscus acute tear,51
+S83.6,Sprain of knee,55
+S87.0,Crushing injury knee,136
+S87.8,Crushing inj lower leg,14
+S88.0,Unilateral trauma at / AKA leg,5
+S89.9,Injury of knee,1
+S89.9,"Knee, ankle & foot injury",157
+S90.0,Contusion of ankle,2
+S90.1,Contusion of toe,9
+S90.3,Contusion of foot,9
+S90.8,Abrasion foot & toe,8
+S90.8,Blister foot & toe,10
+S90.8,Foreign body foot & toe,2
+S90.8,Insect bite foot/toe,1
+S90.9,Superficial injury foot + toes,36
+S91.1,Open wound toe,24
+S91.2,"Laceration of Nail Bed, Toe",2
+S91.3,Open wound foot,2
+S91.3,Superficial laceration of foot,2
+S92.00,Fracture calcaneus - closed,3
+S92.50,"# phalanx of toe, closed",32
+S93.4,Sprain ankle,226
+S93.6,Sprain foot,22
+S97.1,Crushing injury toe,28
+S97.8,Crushing injury foot,24
+S99.9,Injury of ankle and foot,12
+T00.0,Contusion face/ scalp/ neck no eye,38
+T00.2,"Abrasion forearm, elbow, wrist",1
+T00.2,Superficial injury forearm,37
+T00.3,Abrasion lower limb infe,1
+T00.3,Superfi injury hip/leg/thigh/ankle,26
+T00.3,Superfical injury hip/ leg infect,12
+T00.6,Superficial injury in multi limbs,1
+T04.1,Crushing injury back,6
+T04.3,Crushing injury LL,20
+T04.3,Leg crushing injury,6
+T07,Multiple injuries,28
+T08.0,# vertebral body,6
+T09.0,Abrasion trunk,3
+T09.2,Sprain of back,127
+T09.2,Sprain of spine,3
+T09.3,Spinal cord injury,4
+T11.9,Injury of upper limb,18
+T13.0,Abrasion lower limb,53
+T13.9,Injury of lower limb,58
+T14.0,Abrasion,100
+T14.0,Blister,8
+T14.0,Contusion,131
+T14.0,Subcutaneous hematoma,1
+T14.0,Superficial foreign body,2
+T14.1,Laceration,308
+T14.6,Injury to musculoskeletal system,19
+T14.9,Injury,1195
+T19.0,FB bladder & urethra,4
+T30.0,Burn,4
+T67.1,Heat syncope,4
+T68,"Hypothermia, environment",3
+T78.2,Anaphylaxis,13
+T78.3,Angioedema,60
+T79.3,Posttrauma wound infection,14
+T80.9,Transfusion reaction,1
+T81.0,Hematoma complicating procedure,7
+T81.0,Wound hematoma,63
+T81.4,Postoperative infection,1
+T81.8,Post-thoracotomy pain syndrome,1
+T85.9,Cx due to prosthesis,3
+T86.8,Corneal graft rejection,14
+T88.7,Drug allergy,3
+T94.1,Late effect fracture,1
+U04.9,Severe acute respiratory syndrome,2
+U09.9,Post COVID-19 condition,45
+V09.0,Vehicle accident-pedestrian,1
+V09.3,MV traffic accident-pedestrian,16
+V19.9,Pedal cycle accident-pedal cyclist,1
+V26.9,Vehicle collision-motorcyclist,32
+V29.9,MV traffic accident-motorcyclist,15
+V49.4,MV traffic accident-driver,6
+V49.5,MV traffic accident-passenger,42
+V87.9,Pedal cycle accident,32
+V87.9,Road vehicle accident,1
+V89.2,Motor vehicle accident,444
+W01,Slip/ trip/ stumble on same level,6971
+W01,Slipped and fell,4244
+W02,Sports injury,2
+W03,Fall after collision w obj/person,3
+W06,Fall involving bed,1
+W07,Fall from chair or bed,433
+W10,Fall on stairs or steps,92
+W11,Fall from ladder,58
+W17,Accidental fall from height,41
+W17,Fall - one level to another,168
+W18,Fall - on same level,4
+W19,Accidental fall,4803
+W19,Fall,1291
+W19,Tripped and fell,414
+W22,Struck by object/person,1
+W23,Caught in/between objects,143
+W44,Foreign body enter digestive tract,19
+W44,Foreign body entering eye,221
+W44,Foreign body in orifice,1653
+W49,Accident - cutting instrument,5
+W49,Accidental cut,493
+W53,Rat bite,2
+W54,Dog bite,369
+W55,Animal bite,105
+W55,Injury caused by animal,5
+W57,Non-venomous arthropod bite,122
+W59,Non-venomous snake bite,11
+W80,Foreign body in respiratory tract,333
+W88,Radioactive isotope exposure,33
+W91,Radiation exposure,26
+X08,Fire accident,26
+X09,Fire accident,19
+X10,Accident - hot liquid & steam,430
+X19,Hot substance accident,37
+X19,"Scald, accident",26
+X20,Accident poison-venom snake lizard,22
+X23,"Accid poison,hornet/wasp/bee sting",140
+X24,"Accid poison, centipede/millipede",57
+X29,"Accidental poison, animal & plant",6
+X30,Excessive heat,16
+X39,Exposure to weather conditions,43
+X40,Accidental poisoning - analgesics,6
+X40,Accidental poisoning - salicylates,3
+X41,Accidental poison-antidepressants,2
+X41,Accidental poisoning-sedatives,3
+X42,Accidental poisoning - heroin,2
+X43,Accidental poison - sympatholytics,6
+X44,Accidental poisoning - hormones,4
+X44,Accidental poisoning by drug,965
+X44,Accidental poisoning by drugs,444
+X44,Accidental poisoning-blood agents,524
+X49,Accident - caustic/corrosive subs,82
+X49,Accidental poisoning by lead,13
+X49,Accidental poisoning-food & plants,3
+X49,Accidental poisoning-solid/liquid,9
+X49,Food allergy,3
+X50,Overexertion from weight lifting,11
+X58,Accidents,3
+X59,Accidents,1
+X59.0,Fracture - external cause,1221
+X59.9,Accident,16232
+X59.9,Unknown cause of allergy,145
+X60,Suicide - analgesics,11
+X61,Suicide - psychotropic agents,16
+X61,Suicide - sedatives / hypnotics,28
+X64,Suicide - drugs / medicines,125
+X67,Suicide - CO,1
+X69,Suicide - solids / liquids,71
+X77,Suicide - scald,7
+X80,Suicide - jumping,15
+X84,Self harm,1
+X84,Suicide / self-harm,21
+X85,Assault - poisoning w medicine,18
+X98,Assault by hot liquid,1
+X99,Assault - cutting / piercing,33
+Y00,Assault - striking w object,20
+Y07.8,Battering/maltreatment - by child,2
+Y07.9,Adult abuse,10
+Y07.9,Child / adult abuse,1
+Y07.9,Elderly abuse,7
+Y08,Assault,22
+Y09,Assault,408
+Y10,Aspirin induced,260
+Y14,NSAID induced,147
+Y14,Unknown intent poisoning by drugs,551
+Y34,Unknown intent - injury,2
+Y43.3,Adverse effect antineoplastic,16
+Y44.2,Adverse effect anticoagulants,1377
+Y47.9,Adverse effect sedatives/hypnotics,24
+Y49.5,Adverse effect antipsychotics,24
+Y51.3,Adverse effect sympatholytics,1
+Y52.0,Adverse effect cardiotonics,20
+Y54.5,Adverse effect diuretics,5
+Y54.5,Adverse effect purine diuretics,5
+Y55.5,Adverse effect anti-common cold,2
+Y57.8,Adverse effect medicines,99
+Y57.9,Adverse effect medicines,194
+Y60.0,Accidental cut/bleed in surgery,33
+Y60.6,Accidental cut/bleed in catheteriz,44
+Y65.8,Medical misadventure,1
+Y69,Medical misadventure,12
+Y83.0,Abnormal reaction-organ transplant,307
+Y83.0,Cx of kidney transplant,30
+Y83.0,Cx of liver transplant,31
+Y83.1,Abnorm reaction-artificial implant,889
+Y83.1,Cx of cardiac pacemaker,6
+Y83.1,Cx of implant / prosthesis,31
+Y83.2,Abnorm reaction-anastomosis/graft,317
+Y83.3,Abnormal reaction - external stoma,147
+Y83.5,Abnormal reaction-limb amputation,62
+Y83.6,Abnormal reaction-organ removal,1
+Y83.8,Abnorm reaction-surgical procedure,2437
+Y83.8,Surgical complication,219
+Y83.9,Surgery causing abnormal reaction,32
+Y84.0,Cx of cardiac catheterization,7
+Y84.1,Abnormal reaction-kidney dialysis,307
+Y84.2,Abnormal reaction - radiotherapy,1065
+Y84.6,Cx of urinary catheterization,1372
+Y84.8,Abnormal reaction - procedure,390
+Y84.9,Iatrogenic complication,13
+Y86,Late effects of accident,53
+Y87.2,"Injury late effect, intent unknown",180
+Z00.0,For general medical examination,873
+Z00.0,Person for routine genera med exam,25
+Z00.4,Person for genera psychiatric exam,94
+Z00.5,Encounter exam potent renal donor,6
+Z00.6,Person exam for clinical research,1
+Z01.0,Eye & vision examination,1529
+Z01.2,Admission for dental examination,5
+Z01.4,Admission for gynae examination,49
+Z01.5,Admit for drug allergy challenge,3
+Z01.6,Radiological examination,38
+Z01.8,Pre-oper cardio exam,14
+Z01.8,Pre-oper resp exam,1
+Z01.8,Pre-operative assessment,2283
+Z01.9,Examination,6
+Z01.9,Pre-procedure examination,18
+Z02.8,Person for med exam- admin purpose,5
+Z02.9,Exam encounter for admin purpose,3
+Z03.1,Examine for suspected cancer,12
+Z03.1,Observe for suspected cancer,41
+Z03.2,No diagnosis,14
+Z03.2,No diagnosis / condition on axis I,9
+Z03.2,Observe- suspect mental condition,552
+Z03.5,Obs-susp cardiovasc dis,1
+Z03.8,G6PD deficiency,15
+Z03.8,NAD on cystoscopy,663
+Z03.8,No CBD stone,83
+Z03.8,No FB,43
+Z03.8,No abnormality detect in bladder,39
+Z03.8,No abnormality detected,9398
+Z03.8,No bladder stone,56
+Z03.8,No foreign body in esophagus,21
+Z03.8,No foreign body in throat,68
+Z03.8,No foreign body seen,100
+Z03.8,No residual stone,4
+Z03.8,No ureteric stone,133
+Z03.8,No ureteric stone seen,56
+Z03.8,No ureteric stricture,47
+Z03.8,No urethral stricture,26
+Z03.8,Normal appendix,1
+Z03.8,Normal bladder,37
+Z03.8,Normal finding,492
+Z03.8,Observation - suspected condition,1524
+Z03.8,Suspected vaccine allergy,2
+Z04.6,Person for psych exam by authority,3
+Z09.0,Follow-up after surgery,331
+Z09.8,Encounter for follow-up exam,1060
+Z09.8,FU exam after high-risk med Rx,8
+Z09.9,Follow-up examination,244
+Z11.8,Screening for COVID-19,67
+Z12.1,Screen malig neo - colon,34
+Z12.1,Screening for rectal cancer,1
+Z12.2,Screening of NPC,414
+Z12.8,Screening for cancer,5
+Z13.1,Screen for diabetes mellitus,87
+Z13.2,Screen for nutritional disorder,1
+Z13.5,Screening for eye conditions,1780
+Z13.5,Screening of diabetic retinopathy,185
+Z13.6,Screen for cardiovascular condit,3
+Z13.8,Screen endoc/ nutri/ metabo/ immun,59
+Z13.8,Screening for gout,3
+Z13.9,Screening,41
+Z21,Asymptom HIV infection status,1
+Z21,HIV antibody positive,6
+Z22.3,Carrier of VRE,38
+Z22.5,Hepatitis antigen positive,2
+Z22.5,Viral hep B carrier,2097
+Z22.5,Viral hep C carrier,89
+Z29.0,Prophylactic isolation,264
+Z30.1,Admit for insert IUCD,22
+Z30.5,Admit for removal of IUCD,1
+Z33,Incidental pregnant state,19
+Z34.8,Encounte supervis normal pregnancy,2
+Z35.2,Supervise pregn previous prim PPH,8
+Z35.2,"Supervise pregnancy, previous VE",13
+Z35.9,Supervise high-risk pregnancy,28
+Z36.0,Antenatal screen for Down syndrome,46
+Z36.4,Ante US- fetal growth retard,25
+Z43.0,Atten to tracheostomy,13
+Z43.2,Atten to ileostomy,2
+Z43.3,Atten to colostomy,2
+Z43.6,Atten to artif open of urinary tra,1
+Z45.0,Fitting heart pacemaker,8
+Z46.3,Fitting dental prosthes,22
+Z46.6,Admit to remove double J catheter,382
+Z46.6,Admit to replace double J catheter,47
+Z47.0,Admit for removal internal fixator,12
+Z47.0,Admit for remove int fixat device,24
+Z47.8,Adm for orthopedic aftercare,7
+Z47.8,Orthopedic aftercare,640
+Z47.8,Post TKR - follow up,16
+Z48.0,Attention to surg dressng+ sutures,35
+Z48.8,Aftercare following surgery,35
+Z48.8,Aftercare management,35
+Z48.8,Encount for plan second stage px,9
+Z48.8,Encounter for aftercare,99
+Z48.8,Encounter for closing wound,22
+Z48.9,AVF ligation post renal transplant,1
+Z49.1,Admitted for HD,4
+Z49.1,Renal dialysis encounter,3654
+Z49.2,Admitted for CAPD,23
+Z49.2,Admitted for CAPD training,5
+Z49.2,Dialysis encounter,2641
+Z50.0,Encounter for cardiac rehabilitat,55
+Z50.1,Encounter for physical therapy,3
+Z50.7,Encounter for occupation therapy,1
+Z50.8,Care involving orthotic training,2
+Z50.8,Encounter for rehab procedure,442
+Z50.8,Rehabilitation proc,695
+Z51.0,Admit for RT,13
+Z51.0,Radiotherapy encounter,46
+Z51.1,Admission for chemotherapy,6049
+Z51.1,Chemo encount 1 day =/>2 cytotoxic,1
+Z51.1,Chemo encounter 1 day 1 cytotoxic,2
+Z51.1,Chemo encounter 2 or 3 days,20
+Z51.1,Chemo encounter 4 to 7 days,12
+Z51.1,Chemo encounter >7 days,3
+Z51.1,Chemotherapy encounter,5
+Z51.1,Orthodontics aftercare,3
+Z51.3,Blood transfusion no dx,1
+Z51.5,Palliative care,1039
+Z51.9,Encounter for medical care,65
+Z52.4,Kidney donor,10
+Z53.8,Procedure not carried out,1
+Z53.9,Procedure not carried out,2
+Z55.8,Borderline intellectual,2
+Z55.8,Educational circumstance,40
+Z59.7,Insuffic social welfare support,1
+Z59.7,Social welfare problem,8
+Z60.0,Phase of life problem,31
+Z60.9,Problem with social environment,4
+Z60.9,Social problem,21
+Z63.4,Bereavement,4
+Z63.4,"Disappear / death, family member",9
+Z63.7,Stressful event affects family,11
+Z64.0,Unwanted pregnancy,7
+Z64.1,Multiparity,20
+Z65.8,Relational problem,1
+Z71.1,Fear of having hypertension,7
+Z71.1,"Person w fear complaint, no Dx",8
+Z71.2,Encounter- explain investig result,21
+Z71.3,Dietary surveillance and counsell,1
+Z71.4,Encount- alcoh abuse counse& surve,2
+Z71.8,Consult reason gynae conditions,1
+Z71.8,Consultation about pregnancy,1
+Z71.8,Counsel on sexually transmit dis,9
+Z71.8,For consultation,8
+Z71.8,"For consultation, misc condition",38
+Z71.9,Counseling,9
+Z72.0,Current smoker,3
+Z72.0,Hx of tobacco use,28
+Z72.1,"Harmful use alcohol, not mental",9
+Z74.9,Problem re care-provider dependent,6
+Z75.8,Compliance problem,3
+Z76.0,Issue repeat prescript,10
+Z76.3,Healthy person accompa sick person,1
+Z76.5,Malingering,16
+Z76.9,Person encounter health service,3
+Z80.0,Family hx - GI malignancy,3
+Z80.3,Family hx - breast malig,4
+Z85.0,Hx of CA tongue,10
+Z85.0,Hx of GI malignancy,18
+Z85.0,Hx of colonic malignancy,657
+Z85.0,Hx of esophageal cancer,32
+Z85.0,Hx of gastric malignancy,103
+Z85.0,Hx of liver malignancy,118
+Z85.0,Hx of pancreatic carcinoma,14
+Z85.0,Hx-oral/ pharynx malignancy,30
+Z85.0,Hx-rectal & anal malign,323
+Z85.1,Hx bronchus+ lung cancer,79
+Z85.1,Hx-tracheal malignancy,28
+Z85.2,Hx of CA larynx,37
+Z85.2,Hx-laryngeal malignancy,138
+Z85.3,Hx of breast malignancy,146
+Z85.4,Hx - prostatic malignancy,62
+Z85.4,Hx female genital malignancy,14
+Z85.4,Hx male genital malignancy,125
+Z85.4,Hx of ovarian malignancy,26
+Z85.4,Hx uteri cervix cancer,75
+Z85.4,Hx-testicular malignancy,2
+Z85.4,Hx-uterus malignancy,68
+Z85.4,Past hx of prostate carcinoma,149
+Z85.5,Hx Ca bladder no recurrence,148
+Z85.5,Hx of CA kidney,34
+Z85.5,Hx of bladder malignancy,397
+Z85.5,Hx of kidney malignancy,58
+Z85.5,Hx of urinary organ malignancy,26
+Z85.5,Hx urinary malignancy,5
+Z85.6,Hx of lymphoid leukemia,108
+Z85.6,Hx of myeloid leukemia,57
+Z85.7,Hx lymphatic+ hematopo cancer,64
+Z85.7,Hx-Hodgkin's disease,14
+Z85.7,Hx-lymphosarcoma,35
+Z85.8,Hx malignant pleura mesothelioma,3
+Z85.8,Hx of CA thyroid,1
+Z85.8,Hx of NPC,624
+Z85.8,Hx of bone malignancy,15
+Z85.8,Hx of malignancy,10
+Z85.8,Hx of thyroid malignancy,55
+Z85.8,Hx of tongue malignancy,16
+Z85.8,Hx-skin malignancy,72
+Z85.9,"Hx Ca, no recurrence",163
+Z86.0,History of meningioma in brain,9
+Z86.1,Hx infectious/parasitic diseases,8
+Z86.1,Hx of poliomyelitis,7
+Z86.1,Hx of tuberculosis,30
+Z86.1,"Old TB, no residual damage",150
+Z86.3,Hx-endocr/meta/immun dis,94
+Z86.4,Hx of alcoholism,66
+Z86.5,Hx mental disorder,2
+Z86.5,Hx of schizophrenia,18
+Z86.6,Hx TIA,256
+Z86.6,Hx-nerv sys/sens org dis,120
+Z87.1,Hx of GI disease,5
+Z87.1,Hx of colon polyp,55
+Z87.1,Hx of peptic ulcer,217
+Z87.2,Hx-skin/subcutan tis dis,2
+Z87.3,Hx musculoskeletal disease,471
+Z87.3,Old collapse of spine,152
+Z87.3,Old osteoporo collapse lumbar,28
+Z87.4,Hx - urinary calculi,9
+Z87.4,Hx-genital/obstetric dis,19
+Z87.4,Post TURBT w no recurrence,47
+Z87.4,Previous ureteric stone,37
+Z89.0,Finger amputation status,13
+Z89.4,Great toe amputation status,1
+Z89.4,Toes amputation status,3
+Z89.5,Below knee amputation status,84
+Z89.6,Above knee amputation status,33
+Z91.0,Hx of allergy,19
+Z91.1,Drug compliance poor,6
+Z91.1,Hx of past noncompliance,1
+Z91.5,Attempt suicide,43
+Z91.6,Hx of injury,10
+Z92.4,Hx of major organ surgery,4
+Z92.4,Hx-major cardiovasc surg,285
+Z92.4,Post hysterectomy,2
+Z93.0,Tracheostomy status,20
+Z93.2,Ileostomy status,232
+Z93.3,Colostomy status,115
+Z93.3,Sigmoid colostomy status,6
+Z93.4,Status w GI tract artifica opening,12
+Z93.6,Artif urinary open statu,6
+Z94.0,Kidney transplant status,2969
+Z94.1,Heart transplant status,178
+Z94.2,Lung transplant status,49
+Z94.4,Liver transplant status,626
+Z94.7,History of corneal transplant,29
+Z95.0,Patient w AICD,35
+Z95.0,Person with pacemaker,99
+Z95.2,Heart valve replace by other mean,151
+Z95.4,Heart valve transplant status,51
+Z95.5,Post PTCA status,20
+Z96.6,Patient with ankle replacement,3
+Z96.6,Patient with hip replacement,56
+Z96.6,Patient with knee replacement,162
+Z97.2,Dental bridge present,1
+Z97.5,IUCD in-situ,20
+Z98.2,CSF drainage device in situ,7
+Z98.8,Double J stent in situ,30
+Z98.8,Post AP Resection,15
+Z98.8,Post Circumcision,1
+Z98.8,Post Colectomy,873
+Z98.8,Post ESWL,2
+Z98.8,Post Hartmann's OP,4
+Z98.8,Post Hemithyroidectomy,9
+Z98.8,Post Hepatectomy,5
+Z98.8,Post Polya gastrectomy,37
+Z98.8,Post Polya with GJ-ostomy,6
+Z98.8,Post Prostatectomy,45
+Z98.8,Post Splenectomy,6
+Z98.8,Post TURBT,13
+Z98.8,Post Whipple's operation,40
+Z98.8,Post esophagectomy,34
+Z98.8,Post gastrectomy,290
+Z98.8,Post thyroidectomy,53
+Z98.8,Postsurgical status,26
+Z98.8,Silico oil eye after previ vitrect,17
+Z98.8,Ureteric stent in situ,15
+Z99.1,Dependence on respirator,5
+Z99.1,Supplemental oxygen dependence,10
