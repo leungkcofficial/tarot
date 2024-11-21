@@ -6,7 +6,7 @@
 ---
 
 ### Project Overview
-This project utilizes data from patients routinely followed up at the three acute hospitals in the New Territories West Cluster, Hong Kong Hospital Authority. A test set was isolated before model creation and training to ensure robustness and generalizability.
+This project utilizes data from patients routinely followed up at the three acute hospitals in the New Territories West Cluster, Hong Kong Hospital Authority. A test set was isolated before model creation and training to ensure robustness and generalizability. (Central IRB Ref, No: CIRB-2024-265-2)
 
 ![Overview](overview.png)
 
