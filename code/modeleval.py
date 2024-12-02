@@ -388,3 +388,82 @@ def combined_test_model(model, df, feature_col, duration_col, event_col, time_gr
         }
     else:
         raise ValueError("Invalid model type. Please choose either 'deepsurv' or 'deephit'.")
+    
+
+def evaluate_cif_predictions(cif, durations, events, time_grid, nam_dagostino_fn):
+    """
+    Evaluate CIF predictions using concordance indices, Brier scores, 
+    negative log-likelihoods, and Nam-D'Agostino Chi2 statistics.
+
+    Args:
+        cif (np.ndarray): CIF predictions array of shape (2, len(time_grid), N).
+        durations (np.ndarray): Array of event durations.
+        events (np.ndarray): Array of event types (competing risks).
+        time_grid (list): List of time points for evaluation.
+        nam_dagostino_fn (function): Function to calculate Nam-D'Agostino Chi2.
+
+    Returns:
+        dict: A dictionary containing evaluation metrics:
+            - 'concordance_indices': Concordance indices for each event.
+            - 'brier_series': Brier score series for each event.
+            - 'integrated_brier_scores': Integrated Brier scores for each event.
+            - 'neg_log_likelihoods': Negative log-likelihoods for each event.
+            - 'nam_dagostino_results': Nam-D'Agostino results as a list of dicts.
+    """
+    metrics = {
+        "concordance_indices": {},
+        "brier_series": {},
+        "integrated_brier_scores": {},
+        "neg_log_likelihoods": {},
+        "nam_dagostino_results": []
+    }
+
+    for i in range(2):  # Assuming 2 competing risks
+        event_interest = i + 1
+
+        # Convert CIF predictions to DataFrame for EvalSurv
+        cif_event = pd.DataFrame(cif[i], index=time_grid)
+        ev = EvalSurv(1 - cif_event, durations, events == event_interest, censor_surv="km")
+
+        # Calculate evaluation metrics
+        metrics["concordance_indices"][f"Event_{event_interest}"] = ev.concordance_td()
+        metrics["brier_series"][f"Event_{event_interest}"] = ev.brier_score(time_grid)
+        metrics["integrated_brier_scores"][f"Event_{event_interest}"] = ev.integrated_brier_score(time_grid)
+        metrics["neg_log_likelihoods"][f"Event_{event_interest}"] = ev.integrated_nbll(time_grid)
+
+        # Nam-D'Agostino Chi2 statistic
+        for time_idx, time in enumerate(time_grid):
+            # Filter data for the current time point
+            mask = durations <= time
+            durations_filtered = durations[mask]
+            events_filtered = events[mask]
+            cif_filterd = cif_event.loc[:, mask]
+
+            if len(durations_filtered) == 0:
+                print(f"Skipping time {time} for event {event_interest} due to empty data.")
+                continue
+
+            try:
+                chi2_stat, p_value, observed_events, expected_events, n, prob_df = nam_dagostino_fn(
+                    df=pd.DataFrame({"durations": durations_filtered, "events": events_filtered}),
+                    duration_col="durations",
+                    event_col="events",
+                    surv=(1 - cif_filterd),
+                    time=time_idx,
+                    event_focus=event_interest
+                )
+
+                metrics["nam_dagostino_results"].append({
+                    "Event": event_interest,
+                    "Year": round(time / 365),
+                    "Chi2_Stat": chi2_stat,
+                    "P_Value": p_value,
+                    "Observed_Events": observed_events.tolist() if isinstance(observed_events, np.ndarray) else observed_events,
+                    "Expected_Events": expected_events.tolist() if isinstance(expected_events, np.ndarray) else expected_events,
+                    "Sample_Size": n if isinstance(n, int) else n.tolist()
+                })
+            except ValueError as e:
+                print(f"Error calculating Nam-D'Agostino Chi² at time {time} for event {event_interest}: {e}")
+
+    return metrics
+
