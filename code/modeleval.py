@@ -7,6 +7,7 @@ from databalancer import df_event_focus
 from lifelines import KaplanMeierFitter, AalenJohansenFitter
 from sklearn.calibration import calibration_curve
 from scipy.stats import chi2
+from scipy.interpolate import interp1d
 import gc
 import torch
 import pandas as pd
@@ -467,3 +468,57 @@ def evaluate_cif_predictions(cif, durations, events, time_grid, nam_dagostino_fn
 
     return metrics
 
+def calculate_null_brier(durations, events, time_grid):
+    """
+    Calculate the null Brier scores for all competing risks in the presence of censoring.
+
+    Args:
+        durations (array-like): Array of durations (time to event or censoring).
+        events (array-like): Array of event indicators (0 for censored, 1 for Event 1, 2 for Event 2, etc.).
+        time_grid (array-like): Array of time points at which to calculate Brier scores.
+
+    Returns:
+        dict: A dictionary where keys are event codes (1, 2, ...) and values are tuples containing:
+              - Integrated Brier score for the event.
+              - Brier scores for each time point in the time grid.
+    """
+
+    # Dictionary to store results for each event
+    null_brier_scores = {}
+
+    for event_of_interest in np.unique(events):
+        if event_of_interest == 0:
+            # Skip the censored group
+            continue
+
+        print(f"Calculating null Brier scores for Event_{event_of_interest}...")
+
+        # Fit Aalen-Johansen estimator
+        ajf = AalenJohansenFitter()
+        ajf.fit(durations, events, event_of_interest=event_of_interest)
+
+        # Extract the CIF at specified time points
+        cif = ajf.cumulative_density_
+        if len(cif) == len(time_grid):
+            surv_probs = 1 - cif.values
+            surv_df = pd.DataFrame(np.tile(surv_probs, len(durations)), index=time_grid)
+        else:
+            cif_values = cif.values.squeeze()
+            cif_times = cif.index.values
+            interpolation_function = interp1d(
+                    cif_times, cif_values, kind="linear", bounds_error=False, fill_value=(cif_values[0], cif_values[-1])
+                )
+            interpolated_cif = interpolation_function(time_grid)
+            surv_probs = 1 - interpolated_cif
+            surv_df = pd.DataFrame(np.tile(surv_probs, (len(durations), 1)).T, index=time_grid)
+            
+        # Evaluate using EvalSurv
+        ev = EvalSurv(surv_df, durations, events == event_of_interest, censor_surv="km")
+
+        # Integrated Brier score
+        integrated_brier = ev.integrated_brier_score(time_grid)
+
+        # Store the results
+        null_brier_scores[event_of_interest] = integrated_brier
+
+    return null_brier_scores

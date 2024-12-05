@@ -6,6 +6,11 @@ import pandas as pd
 from itertools import combinations
 from concurrent.futures import ProcessPoolExecutor
 
+import modeleval
+from modeleval import (
+    dh_test_model, nam_dagostino_chi2, get_baseline_hazard_at_timepoints, combined_test_model, evaluate_cif_predictions
+)
+
 def load_bootstrap_predictions(directory_path):
     """
     Load bootstrap predictions, durations, and events from multiple HDF5 files.
@@ -210,3 +215,28 @@ def process_combination_worker(args):
         return f"KeyError for Combination {combo}: {e}"
     except Exception as e:
         return f"Error in Bootstrap {bootstrap_idx}, Combination {combo}: {e}"
+
+def process_combination(bootstrap_idx, combo, itr_predictions, itr_durations, itr_events, output_dir):
+    """
+    Process a single combination of CIFs and save metrics.
+    """
+    try:
+        cif_arrays = get_cif_for_combination(itr_predictions, combo)
+        final_cif = ensemble_cif_arrays(cif_arrays)
+
+        # Evaluate metrics
+        metrics = evaluate_cif_predictions(
+            final_cif, itr_durations, itr_events, np.array([0, 1, 2, 3, 4, 5]), nam_dagostino_chi2
+        )
+
+        save_metrics_to_individual_json(output_dir, bootstrap_idx, combo, metrics)
+        return f"Processed bootstrap {bootstrap_idx}, combination {combo}"
+    except Exception as e:
+        return f"Error in bootstrap {bootstrap_idx}, combination {combo}: {e}"
+
+def process_combination_worker(task):
+    """
+    Wrapper for multiprocessing.
+    """
+    return process_combination(*task)
+
