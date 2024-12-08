@@ -8,7 +8,7 @@
 ### Project Overview
 This project utilizes data from patients routinely followed up at the three acute hospitals in the New Territories West Cluster, Hong Kong Hospital Authority. A test set was isolated before model creation and training to ensure robustness and generalizability. (Central IRB Ref, No: CIRB-2024-265-2)
 
-![Overview](overview.png)
+![Overview](code/figures/overview.png)
 
 **Data Preprocessing:**
 - The training data preprocessing steps are illustrated in the following Jupyter Notebooks:
@@ -98,6 +98,14 @@ The project uses **DeepSurv** and **DeepHit** models for survival analysis with 
 
 ---
 
+### Description of the dataset
+The descriptive statistical analysis of the dataset in this project is preesented in the following:
+![code/figures/dsa.png](code/figures/dsa.png)
+
+---
+### Performance of models
+The perfomance of the ensembled model is presented in the following:
+![code/figures/9_model_ensemble_risk_comparison.jpeg](code/figures/9_model_ensemble_risk_comparison.jpeg)
 ### References
 1. **Paszke et al.** PyTorch: An Imperative Style, High-Performance Deep Learning Library. [NeurIPS 2019](http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf).
 2. **Katzman et al.** DeepSurv: Personalized Treatment Recommender System Using a Cox Proportional Hazards Deep Neural Network. [BMC Medical Research Methodology 2018](https://doi.org/10.1186/s12874-018-0482-1).
