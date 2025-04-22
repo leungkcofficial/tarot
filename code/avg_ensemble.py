@@ -13,7 +13,7 @@ from modeleval import (
 
 def load_bootstrap_predictions(directory_path):
     """
-    Load bootstrap predictions, durations, and events from multiple HDF5 files.
+    Load bootstrap predictions, durations, events, a_class, and g_class from multiple HDF5 files.
 
     Args:
         directory_path (str): Path to the directory containing HDF5 files.
@@ -23,35 +23,43 @@ def load_bootstrap_predictions(directory_path):
             - "predictions": A dictionary of CIF predictions for each bootstrap iteration.
             - "durations": A list of duration arrays for each iteration.
             - "events": A list of event arrays for each iteration.
+            - "a_class": A list of decoded a_class arrays for each iteration.
+            - "g_class": A list of decoded g_class arrays for each iteration.
     """
     bootstrap_results = {
         "predictions": {},
         "durations": [],
-        "events": []
+        "events": [],
+        "a_class": [],
+        "g_class": []
     }
 
     # Iterate over all HDF5 files in the directory
     for file_name in sorted(os.listdir(directory_path)):
         file_path = os.path.join(directory_path, file_name)
-        
+
         if file_name.endswith(".h5"):
             print(f"Loading {file_path}...")
             with h5py.File(file_path, "r") as hdf:
-                # Extract iteration key from file name or structure
                 iteration_key = file_name.replace("bootstrap_iteration_", "").replace(".h5", "")
-                
+
                 # Load predictions
-                predictions = {}
-                for model_key in hdf["predictions"].keys():
-                    predictions[model_key] = hdf["predictions"][model_key][:]
+                predictions = {
+                    model_key: hdf["predictions"][model_key][:]
+                    for model_key in hdf["predictions"].keys()
+                }
                 bootstrap_results["predictions"][iteration_key] = predictions
 
                 # Load durations and events
-                durations = hdf["durations"][:]
-                events = hdf["events"][:]
-                bootstrap_results["durations"].append(durations)
-                bootstrap_results["events"].append(events)
-    
+                bootstrap_results["durations"].append(hdf["durations"][:])
+                bootstrap_results["events"].append(hdf["events"][:])
+
+                # Load and decode a_class and g_class (as UTF-8 strings)
+                a_class_encoded = hdf["a_class"][:]
+                g_class_encoded = hdf["g_class"][:]
+                bootstrap_results["a_class"].append(np.char.decode(a_class_encoded, encoding='utf-8'))
+                bootstrap_results["g_class"].append(np.char.decode(g_class_encoded, encoding='utf-8'))
+
     print(f"Loaded bootstrap iterations from {directory_path}.")
     return bootstrap_results
 

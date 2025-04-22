@@ -11,6 +11,7 @@ from sklearn.utils import shuffle
 from pycox.preprocessing.label_transforms import LabTransDiscreteTime
 import gc
 from typing import Tuple, List
+from calculator import CKDEstimator, CKDLabelAdder
 import logging
 
 # Configure logging
@@ -129,6 +130,8 @@ def create_pipeline(cat_features: List[str], log_features: List[str], standard_f
         'key': 'int'
     }
 
+    engineered_features =  ['eGFRcr', 'A_class', 'G_class']
+
     pipeline = Pipeline([
         ('impute', ColumnTransformer([
             ('imputer', IterativeImputer(estimator=BayesianRidge(), max_iter=10, random_state=42,
@@ -137,6 +140,8 @@ def create_pipeline(cat_features: List[str], log_features: List[str], standard_f
             ('passthrough', 'passthrough', passthrough_features)
         ], remainder='drop')),
         ('to_df', DataFrameTransformer(impute_features + passthrough_features, dtypes)),
+        ('ckd_estimate', CKDEstimator(cr_col='Cr', gender_col='gender', dob_col='dob', date_col='date', age_col='age')),
+        ('ckd_label', CKDLabelAdder(uacr_col='UACR_mg_g', egfr_col='eGFRcr')),
         ('process', ColumnTransformer([
             ('categorical', Pipeline([
                 ('encode', OrdinalEncoder())
@@ -150,9 +155,9 @@ def create_pipeline(cat_features: List[str], log_features: List[str], standard_f
                 ('standard', StandardScaler()),
                 ('minmax', MinMaxScaler(feature_range=(1e-6, 1)))
             ]), [col for col in standard_features if col not in log_features]),
-            ('passthrough', 'passthrough', passthrough_features)
+            ('passthrough', 'passthrough', passthrough_features + engineered_features)
         ], remainder='drop')),
-        ('to_df2', DataFrameTransformer(impute_features + passthrough_features, dtypes)),
+        ('to_df2', DataFrameTransformer(impute_features + passthrough_features + engineered_features, dtypes)),
         ('row_filter', RowFilter('date_from_sub_60', lambda x: x <= 1825)),
         ('shuffle', DataFrameShuffler())
     ])
@@ -216,7 +221,23 @@ def prepare_labels(df: pd.DataFrame, duration_col: str, event_col: str) -> Tuple
     event = df[event_col].values.astype('int').squeeze()
     return duration, event
 
-def preprocess_data(df: pd.DataFrame, feature_col: List[str], duration_col: str, event_col: str, time_grid: np.ndarray = None, discretize: bool = False) -> Tuple[np.ndarray, Tuple[np.ndarray, np.ndarray]]:
+def prepare_ag_classes(df: pd.DataFrame, a_class_col: str, g_class_col: str) -> Tuple[np.ndarray, np.ndarray]:
+    """
+    Extracts duration and event columns from a DataFrame.
+    
+    Args:
+        df (DataFrame): The DataFrame containing the data.
+        duration_col (str): The column name for the duration.
+        event_col (str): The column name for the event.
+    
+    Returns:
+        tuple: Duration and event arrays.
+    """
+    a_class = df[a_class_col].values.astype('str').squeeze()
+    g_class = df[g_class_col].values.astype('str').squeeze()
+    return a_class, g_class
+
+def preprocess_data(df: pd.DataFrame, feature_col: List[str], duration_col: str, event_col: str, a_class_col: str, g_class_col: str, time_grid: np.ndarray = None, discretize: bool = False) -> Tuple[np.ndarray, Tuple[np.ndarray, np.ndarray]]:
     """
     Prepares the data by extracting and optionally discretizing the duration, event, and feature columns.
     
@@ -233,14 +254,15 @@ def preprocess_data(df: pd.DataFrame, feature_col: List[str], duration_col: str,
     """
     X = prepare_features(df, feature_col)
     duration, event = prepare_labels(df, duration_col, event_col)
+    a_class, g_class = prepare_ag_classes(df, a_class_col, g_class_col)
     
     if discretize and time_grid is not None:
         labtrans = LabTransDiscreteTime(time_grid)
         binary_events = np.where(event > 0, 1, 0)
         durations, events = labtrans.transform(duration.astype('int64'), binary_events)
-        y = (durations.astype('int').squeeze(), event.astype('int').squeeze())
+        y = (durations.astype('int').squeeze(), event.astype('int').squeeze(), a_class, g_class)
     else:
-        y = (duration, event)
+        y = (duration, event, a_class, g_class)
     
     return X, y
 
