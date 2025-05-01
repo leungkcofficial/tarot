@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler, OrdinalEncoder
 from sklearn.utils import shuffle
 from pycox.preprocessing.label_transforms import LabTransDiscreteTime
 import gc
-from typing import Tuple, List
+from typing import Tuple, List, Union
 from calculator import CKDEstimator, CKDLabelAdder
 import logging
 
@@ -237,7 +237,10 @@ def prepare_ag_classes(df: pd.DataFrame, a_class_col: str, g_class_col: str) -> 
     g_class = df[g_class_col].values.astype('str').squeeze()
     return a_class, g_class
 
-def preprocess_data(df: pd.DataFrame, feature_col: List[str], duration_col: str, event_col: str, a_class_col: str, g_class_col: str, time_grid: np.ndarray = None, discretize: bool = False) -> Tuple[np.ndarray, Tuple[np.ndarray, np.ndarray]]:
+def preprocess_data(df: pd.DataFrame, feature_col: List[str], duration_col: str, event_col: str, 
+                    a_class_col: str, g_class_col: str, 
+                    time_grid: np.ndarray = None, discretize: bool = False
+                    ) -> Tuple[np.ndarray, Union[Tuple[np.ndarray, np.ndarray], Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]]]:
     """
     Prepares the data by extracting and optionally discretizing the duration, event, and feature columns.
     
@@ -254,15 +257,25 @@ def preprocess_data(df: pd.DataFrame, feature_col: List[str], duration_col: str,
     """
     X = prepare_features(df, feature_col)
     duration, event = prepare_labels(df, duration_col, event_col)
-    a_class, g_class = prepare_ag_classes(df, a_class_col, g_class_col)
+    has_classes = (a_class_col in df.columns) and (g_class_col in df.columns)
+    if has_classes:
+        a_class, g_class = prepare_ag_classes(df, a_class_col, g_class_col)
     
     if discretize and time_grid is not None:
         labtrans = LabTransDiscreteTime(time_grid)
         binary_events = np.where(event > 0, 1, 0)
         durations, events = labtrans.transform(duration.astype('int64'), binary_events)
-        y = (durations.astype('int').squeeze(), event.astype('int').squeeze(), a_class, g_class)
+        durations = durations.astype('int').squeeze()
+        events = event.astype('int').squeeze()
+        if has_classes:
+            y = (durations, events, a_class, g_class)
+        else:
+            y = (durations, events)
     else:
-        y = (duration, event, a_class, g_class)
+        if has_classes:
+            y = (duration, event, a_class, g_class)
+        else:
+            y = (duration, event)
     
     return X, y
 

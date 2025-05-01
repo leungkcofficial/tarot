@@ -156,7 +156,7 @@ def underbalance_data_general(df, event_col, cluster_col, params, n_jobs=10, ver
         
 
     X = df.drop(columns=[event_col, cluster_col])
-    y = df[event_col]
+    y = df[event_col].astype(int)
 
     if method == 'NearMiss':
         if y.nunique() > 2:  # Multi-class case for DeepHit

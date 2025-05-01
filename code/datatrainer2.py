@@ -10,7 +10,7 @@ from dataloader2 import preprocess_data, stack_sequences, dh_dataset_loader, dh_
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def recursive_clustering(model, df, duration_col, event_col, params, val, callbacks, max_repeats, time_grid=None):
+def recursive_clustering(model, df, duration_col, event_col, a_class_col, g_class_col, params, val, callbacks, max_repeats, time_grid=None):
     """
     Recursively performs clustering on the given dataset and trains the model on each cluster.
 
@@ -46,10 +46,15 @@ def recursive_clustering(model, df, duration_col, event_col, params, val, callba
         logging.info(f"Performing clustering iteration {repeat_count + 1} / {goal}")
         if model_type == 'deepsurv':
             X_cluster, remaining_data = define_medoid_general(df=remaining_data, feature_col=feature_col, event_col=event_col)
-            X_train_cluster, y_train_cluster = preprocess_data(df=X_cluster, feature_col=feature_col, duration_col=duration_col, event_col=event_col)
+            X_train_cluster, y_train_cluster = preprocess_data(df=X_cluster, feature_col=feature_col, duration_col=duration_col, event_col=event_col,
+                                                               a_class_col=a_class_col, g_class_col=g_class_col)
+            y_train_cluster = (y_train_cluster[0], y_train_cluster[1])
         elif  model_type == 'deephit':
             X_cluster, remaining_data = define_medoid_general(df=remaining_data, feature_col=feature_col, event_col=event_col, event_focus=event_focus, model_type=model_type)
-            X_train_cluster, y_train_cluster = preprocess_data(df=X_cluster, feature_col=feature_col, duration_col=duration_col, event_col=event_col, time_grid=time_grid, discretize=True)
+            X_train_cluster, y_train_cluster = preprocess_data(df=X_cluster, feature_col=feature_col, duration_col=duration_col, event_col=event_col, 
+                                                               a_class_col=a_class_col, g_class_col=g_class_col,
+                                                               time_grid=time_grid, discretize=True)
+            y_train_cluster = (y_train_cluster[0], y_train_cluster[1])
         log = model.fit(X_train_cluster, y_train_cluster, params['batch_size'], params['max_epochs'], callbacks, verbose=True, val_data=val)
         logs.append(log)
         gc.collect()
@@ -171,11 +176,19 @@ def lstm_training(model, train_df, val_df, duration_col, event_col, cluster_col,
     gc.collect()
     torch.cuda.empty_cache()
     
+    import numpy as _np
     X_train_tensor = torch.tensor(X_train, dtype=torch.float32)
-    y_train_tensor = (torch.tensor(y_train[0], dtype=torch.float32), torch.tensor(y_train[1], dtype=torch.float32))
+    # Coerce to real numeric arrays before converting
+    durations_train = _np.asarray(y_train[0], dtype=_np.float32)
+    events_train    = _np.asarray(y_train[1], dtype=_np.int64)
+    y_train_tensor  = (torch.from_numpy(durations_train),
+                       torch.from_numpy(events_train))
 
     X_val_tensor = torch.tensor(X_val, dtype=torch.float32)
-    y_val_tensor = (torch.tensor(y_val[0], dtype=torch.float32), torch.tensor(y_val[1], dtype=torch.float32))
+    durations_val = _np.asarray(y_val[0], dtype=_np.float32)
+    events_val    = _np.asarray(y_val[1], dtype=_np.int64)
+    y_val_tensor  = (torch.from_numpy(durations_val),
+                     torch.from_numpy(events_val))
     val_data = (X_val_tensor, y_val_tensor)
     
     dataset_size = X_train_tensor.size()[0]

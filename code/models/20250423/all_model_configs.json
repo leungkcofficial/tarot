@@ -1,0 +1,403 @@
+{
+    "deepsurv_ann_clustering_1": {
+        "model": "deepsurv",
+        "net": "ann",
+        "balance_method": "clustering",
+        "features": [
+            "gender",
+            "dm",
+            "ht",
+            "sprint",
+            "a1c",
+            "po4",
+            "UACR_mg_g",
+            "Cr",
+            "age",
+            "alb",
+            "ca",
+            "hb",
+            "hco3"
+        ],
+        "endpoint": 1,
+        "num_nodes": [
+            8,
+            4
+        ],
+        "batch_norm": false,
+        "dropout": 0.1144793446270997,
+        "lr": 0.1,
+        "max_epochs": 9,
+        "batch_size": 512,
+        "sampling_strategy": 0.05,
+        "seq_length": 1
+    },
+    "deepsurv_ann_smoteenn_1": {
+        "model": "deepsurv",
+        "net": "ann",
+        "balance_method": "enn",
+        "features": [
+            "ht",
+            "sprint",
+            "a1c",
+            "po4",
+            "UACR_mg_g",
+            "Cr",
+            "age",
+            "hb",
+            "hco3"
+        ],
+        "endpoint": 1,
+        "num_nodes": [
+            64,
+            32,
+            16,
+            8
+        ],
+        "batch_norm": true,
+        "dropout": 0.09555033386059111,
+        "lr": 0.1,
+        "max_epochs": 16,
+        "batch_size": 512,
+        "sampling_strategy": 0.3,
+        "seq_length": 1
+    },
+    "deepsurv_ann_smotetomek_1": {
+        "model": "deepsurv",
+        "net": "ann",
+        "balance_method": "tomek",
+        "features": [
+            "gender",
+            "dm",
+            "ht",
+            "sprint",
+            "po4",
+            "UACR_mg_g",
+            "Cr",
+            "age",
+            "hb",
+            "hco3"
+        ],
+        "endpoint": 1,
+        "num_nodes": [
+            32,
+            16,
+            8
+        ],
+        "batch_norm": true,
+        "dropout": 0.23872991564684112,
+        "lr": 0.1,
+        "max_epochs": 14,
+        "batch_size": 512,
+        "sampling_strategy": 0.2,
+        "seq_length": 1
+    },
+    "deepsurv_ann_clustering_2": {
+        "model": "deepsurv",
+        "net": "ann",
+        "balance_method": "clustering",
+        "features": [
+            "gender",
+            "a1c",
+            "po4",
+            "UACR_mg_g",
+            "Cr"
+        ],
+        "endpoint": 2,
+        "num_nodes": [
+            32,
+            16,
+            8
+        ],
+        "batch_norm": false,
+        "dropout": 0.3058921011568742,
+        "lr": 0.1,
+        "max_epochs": 14,
+        "batch_size": 512,
+        "sampling_strategy": 0.05,
+        "seq_length": 1
+    },
+    "deepsurv_ann_smoteenn_2": {
+        "model": "deepsurv",
+        "net": "ann",
+        "balance_method": "enn",
+        "features": [
+            "gender",
+            "dm",
+            "ht",
+            "sprint",
+            "a1c",
+            "po4",
+            "UACR_mg_g",
+            "Cr",
+            "age",
+            "alb",
+            "ca",
+            "hb",
+            "hco3"
+        ],
+        "endpoint": 2,
+        "num_nodes": [
+            8,
+            4
+        ],
+        "batch_norm": false,
+        "dropout": 0.38878203553667456,
+        "lr": 0.01,
+        "max_epochs": 10,
+        "batch_size": 512,
+        "sampling_strategy": 0.1,
+        "seq_length": 1
+    },
+    "deepsurv_ann_smotetomek_2": {
+        "model": "deepsurv",
+        "net": "ann",
+        "balance_method": "tomek",
+        "features": [
+            "ht",
+            "sprint",
+            "a1c",
+            "po4",
+            "UACR_mg_g",
+            "Cr",
+            "age",
+            "alb",
+            "ca",
+            "hb",
+            "hco3"
+        ],
+        "endpoint": 2,
+        "num_nodes": [
+            64,
+            32
+        ],
+        "batch_norm": true,
+        "dropout": 0.3162398297390827,
+        "lr": 0.1,
+        "max_epochs": 11,
+        "batch_size": 512,
+        "sampling_strategy": 0.05,
+        "seq_length": 1
+    },
+    "deepsurv_lstm_clustering_1": {
+        "model": "deepsurv",
+        "net": "lstm",
+        "balance_method": "clustering",
+        "features": [
+            "gender",
+            "a1c",
+            "po4",
+            "UACR_mg_g",
+            "Cr"
+        ],
+        "endpoint": 1,
+        "num_nodes": [
+            8,
+            4,
+            2
+        ],
+        "batch_norm": false,
+        "dropout": 0.2772567071863989,
+        "lr": 0.1,
+        "max_epochs": 13,
+        "batch_size": 512,
+        "sampling_strategy": 0.05,
+        "seq_length": 7
+    },
+    "deepsurv_lstm_nearmiss_1": {
+        "model": "deepsurv",
+        "net": "lstm",
+        "balance_method": "NearMiss",
+        "features": [
+            "gender",
+            "a1c",
+            "po4",
+            "UACR_mg_g",
+            "Cr"
+        ],
+        "endpoint": 1,
+        "num_nodes": [
+            8,
+            4,
+            2
+        ],
+        "batch_norm": false,
+        "dropout": 0.3397308077824205,
+        "lr": 0.001,
+        "max_epochs": 9,
+        "batch_size": 512,
+        "sampling_strategy": 0.05,
+        "seq_length": 8
+    },
+    "deepsurv_lstm_clustering_2": {
+        "model": "deepsurv",
+        "net": "lstm",
+        "balance_method": "clustering",
+        "features": [
+            "gender",
+            "a1c",
+            "po4",
+            "UACR_mg_g",
+            "Cr"
+        ],
+        "endpoint": 2,
+        "num_nodes": [
+            8,
+            4,
+            2
+        ],
+        "batch_norm": false,
+        "dropout": 0.3397308077824205,
+        "lr": 0.001,
+        "max_epochs": 9,
+        "batch_size": 512,
+        "sampling_strategy": 0.05,
+        "seq_length": 8
+    },
+    "deepsurv_lstm_nearmiss_2": {
+        "model": "deepsurv",
+        "net": "lstm",
+        "balance_method": "NearMiss",
+        "features": [
+            "sprint",
+            "a1c",
+            "po4",
+            "UACR_mg_g",
+            "Cr",
+            "age",
+            "alb",
+            "ca",
+            "hb",
+            "hco3"
+        ],
+        "endpoint": 2,
+        "num_nodes": [
+            32,
+            16
+        ],
+        "batch_norm": false,
+        "dropout": 0.35763396978044143,
+        "lr": 0.1,
+        "max_epochs": 10,
+        "batch_size": 512,
+        "sampling_strategy": 0.05,
+        "seq_length": 2
+    },
+    "deephit_ann_clustering_all": {
+        "model": "deephit",
+        "net": "ann",
+        "balance_method": "clustering",
+        "features": [
+            "gender",
+            "dm",
+            "ht",
+            "sprint",
+            "po4",
+            "UACR_mg_g",
+            "Cr",
+            "age",
+            "hb",
+            "hco3"
+        ],
+        "endpoint": "all",
+        "num_nodes": [
+            64,
+            32
+        ],
+        "batch_norm": true,
+        "dropout": 0.26400151710698067,
+        "lr": 0.1,
+        "max_epochs": 8,
+        "batch_size": 512,
+        "sampling_strategy": 0.05,
+        "seq_length": 1
+    },
+    "deephit_ann_nearmiss2_all": {
+        "model": "deephit",
+        "net": "ann",
+        "balance_method": "NearMiss",
+        "version": 2,
+        "features": [
+            "sprint",
+            "a1c",
+            "po4",
+            "UACR_mg_g",
+            "Cr",
+            "age",
+            "alb",
+            "ca",
+            "hb",
+            "hco3"
+        ],
+        "endpoint": "all",
+        "num_nodes": [
+            8,
+            4,
+            2
+        ],
+        "batch_norm": true,
+        "dropout": 0.7346754269827496,
+        "lr": 0.01,
+        "max_epochs": 7,
+        "batch_size": 512,
+        "sampling_strategy": 0.05,
+        "seq_length": 1
+    },
+    "deephit_lstm_clustering_all": {
+        "model": "deephit",
+        "net": "lstm",
+        "balance_method": "clustering",
+        "version": 2,
+        "features": [
+            "ht",
+            "sprint",
+            "a1c",
+            "po4",
+            "UACR_mg_g",
+            "Cr",
+            "age",
+            "alb",
+            "ca",
+            "hb",
+            "hco3"
+        ],
+        "endpoint": "all",
+        "num_nodes": [
+            64,
+            32,
+            16
+        ],
+        "batch_norm": true,
+        "dropout": 0.46132889488306583,
+        "lr": 0.1,
+        "max_epochs": 5,
+        "batch_size": 512,
+        "sampling_strategy": 0.05,
+        "seq_length": 6
+    },
+    "deephit_lstm_nearmiss1_all": {
+        "model": "deephit",
+        "net": "lstm",
+        "balance_method": "NearMiss",
+        "version": 1,
+        "features": [
+            "gender",
+            "a1c",
+            "po4",
+            "UACR_mg_g",
+            "Cr"
+        ],
+        "endpoint": "all",
+        "num_nodes": [
+            32,
+            16,
+            8
+        ],
+        "batch_norm": true,
+        "dropout": 0.18001924589390816,
+        "lr": 0.1,
+        "max_epochs": 9,
+        "batch_size": 512,
+        "sampling_strategy": 0.05,
+        "seq_length": 9
+    }
+}
